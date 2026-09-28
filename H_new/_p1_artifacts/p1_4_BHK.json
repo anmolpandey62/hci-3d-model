@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "stem": "4 BHK ",
+    "image": "C:\\gdrive_dataset\\images\\train\\4 BHK .jpg",
+    "W": 831,
+    "H": 559,
+    "mpp": 0.01,
+    "mpp_source": "default_fallback",
+    "walls": 5,
+    "doors": 0,
+    "windows": 0,
+    "segments": 5,
+    "nodes": 7,
+    "fallback_count": 1,
+    "fallback_pct": 20.0,
+    "fallback_reasons": {
+      "RAW_TOO_THIN": 1
+    },
+    "raw_thickness": {
+      "median": 0.10000259399414063,
+      "min": 0.04999693870544434,
+      "max": 0.16000061035156252
+    },
+    "final_thickness": {
+      "median": 0.1399981689453125,
+      "min": 0.1,
+      "max": 0.23
+    },
+    "zero_length_count": 0,
+    "duplicate_group_count": 1,
+    "snap_group_count": 7,
+    "t_junction_count": 1,
+    "x_junction_count": 2,
+    "collinear_overlap_count": 2,
+    "door_map_pct": null,
+    "window_map_pct": null,
+    "endpoint_host_count": 0,
+    "interior_host_count": 0,
+    "unmapped_count": 0,
+    "unmapped_ids": [],
+    "unmapped_reasons": {},
+    "deterministic": true,
+    "determinism_diff": null,
+    "fingerprint": "a0b890ca0682519f0bb46d1d469d5d98fd7d5e199562c5c018f06830d91b285a",
+    "geo_identity": {
+      "segment_ids": [
+        "w0",
+        "w1",
+        "w2",
+        "w3",
+        "w4"
+      ],
+      "thicknesses": {
+        "w0": 0.160001,
+        "w1": 0.1,
+        "w2": 0.139998,
+        "w3": 0.100003,
+        "w4": 0.23
+      },
+      "lengths": {
+        "w0": 5.070058,
+        "w1": 1.280002,
+        "w2": 4.380071,
+        "w3": 2.790003,
+        "w4": 1.280002
+      },
+      "polylines": {
+        "w0": [
+          [
+            6.989998,
+            0.270002
+          ],
+          [
+            6.964999,
+            5.339998
+          ]
+        ],
+        "w1": [
+          [
+            5.29,
+            4.744999
+          ],
+          [
+            6.570002,
+            4.744999
+          ]
+        ],
+        "w2": [
+          [
+            6.989998,
+            0.959999
+          ],
+          [
+            6.964999,
+            5.339998
+          ]
+        ],
+        "w3": [
+          [
+            1.49,
+            0.419999
+          ],
+          [
+            1.49,
+            3.210001
+          ]
+        ],
+        "w4": [
+          [
+            5.29,
+            4.744999
+          ],
+          [
+            6.570002,
+            4.744999
+          ]
+        ]
+      },
+      "hosts": [],
+      "unmapped": []
+    },
+    "mappings": []
+  },
+  "examples": {}
+}

@@ -1,0 +1,75 @@
+# HCI_2.1 — Git ignore rules
+# Prefer cloning so repo root is HCI_2.1/ (app only). Sibling data/models live under PROJECT_ROOT and stay out of Git.
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ── Editors / IDE ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs / temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.png.tmp
+*.cache
+
+# ── Archives ──────────────────────────────────────────────────────────────────
+*.zip
+*.7z
+*.rar
+web 2.zip
+
+# ── Generated IFC / BIM outputs ───────────────────────────────────────────────
+*.ifc
+
+# ── YOLO / Torch weights (do not commit binaries) ─────────────────────────────
+*.pt
+# Allow tiny documented placeholders under docs/examples/ only (if added later)
+!docs/examples/**/*.pt
+
+# ── Nested trees not part of the live Web UI ──────────────────────────────────
+hci-3d-model/
+IMPROVED_MODEL_1.1/
+IMPROVED_MODEL_1.1v2/
+# Same paths if this ignore file is used from PROJECT_ROOT:
+HCI_2.1/hci-3d-model/
+HCI_2.1/IMPROVED_MODEL_1.1/
+
+# ── Sibling runtime data (PROJECT_ROOT layout; ignored if present in a mono-repo) ─
+gdrive_dataset/images_raw/
+gdrive_dataset/images/
+gdrive_dataset/labels/
+gdrive_dataset/output/
+gdrive_dataset/runs/
+gdrive_dataset/metadata/
+gdrive_dataset/marked/
+gdrive_dataset/dataset.yaml
+
+cubicasa_hqa_500/images/
+cubicasa_hqa_500/labels/
+cubicasa_hqa_500/runs/
+cubicasa_hqa_500/overlays/
+cubicasa_hqa_500/eval/
+
+day3_wall_ifc/
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

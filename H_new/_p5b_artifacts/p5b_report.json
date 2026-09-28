@@ -1,0 +1,4558 @@
+{
+  "results_p5b_on": [
+    {
+      "stem": "cubi_hqa_9333_20260811_140939_043808",
+      "p5b_enabled": true,
+      "walls_gt": 34,
+      "segs": 8,
+      "nodes": 16,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 7,
+      "p5b_activations": 9,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 811,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 34,
+      "avg_len": 2.3299387399431377,
+      "max_len": 5.2700000000000005,
+      "thickness_median": 0.2850030517578125,
+      "global_fallback": 0,
+      "doors": 3,
+      "windows": 9,
+      "door_mapped": 0,
+      "win_mapped": 1,
+      "endpoint_hosts": 1,
+      "interior_hosts": 0,
+      "unmapped": [
+        "c1_0",
+        "c1_1",
+        "c1_2",
+        "c1_4",
+        "c1_5",
+        "c1_6",
+        "c1_7",
+        "c1_8",
+        "c2_0",
+        "c2_1",
+        "c2_2"
+      ],
+      "unmapped_reasons": {
+        "ENDPOINT_ONLY": 11
+      },
+      "door_maps": [],
+      "win_maps": [
+        [
+          "c1_3",
+          "w1",
+          1.0,
+          "endpoint_end",
+          0.2462
+        ]
+      ],
+      "hosts": [
+        [
+          "c1_3",
+          "w1",
+          1.0
+        ]
+      ],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "3 BHK ",
+      "p5b_enabled": true,
+      "walls_gt": 128,
+      "segs": 21,
+      "nodes": 39,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 34,
+      "p5b_activations": 3,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 30,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 128,
+      "avg_len": 0.9119312917459779,
+      "max_len": 1.8900024032592775,
+      "thickness_median": 0.04456634521484375,
+      "global_fallback": 0,
+      "doors": 6,
+      "windows": 0,
+      "door_mapped": 5,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 5,
+      "unmapped": [
+        "c2_0"
+      ],
+      "unmapped_reasons": {
+        "ENDPOINT_ONLY": 1
+      },
+      "door_maps": [
+        [
+          "c2_1",
+          "w41",
+          0.5623,
+          "interior",
+          0.1061
+        ],
+        [
+          "c2_2",
+          "w19",
+          0.8905,
+          "interior",
+          0.245
+        ],
+        [
+          "c2_3",
+          "w19",
+          0.9143,
+          "interior",
+          0.31
+        ],
+        [
+          "c2_4",
+          "w41",
+          0.5434,
+          "interior",
+          0.1457
+        ],
+        [
+          "c2_5",
+          "w119",
+          0.1496,
+          "interior",
+          0.3872
+        ]
+      ],
+      "win_maps": [],
+      "hosts": [
+        [
+          "c2_1",
+          "w41",
+          0.562284
+        ],
+        [
+          "c2_2",
+          "w19",
+          0.890477
+        ],
+        [
+          "c2_3",
+          "w19",
+          0.914285
+        ],
+        [
+          "c2_4",
+          "w41",
+          0.543436
+        ],
+        [
+          "c2_5",
+          "w119",
+          0.149592
+        ]
+      ],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "2 BHK ",
+      "p5b_enabled": true,
+      "walls_gt": 25,
+      "segs": 9,
+      "nodes": 18,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 9,
+      "p5b_activations": 1,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 27,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 25,
+      "avg_len": 0.6476751531614177,
+      "max_len": 1.4900004196166992,
+      "thickness_median": 0.040001220703125,
+      "global_fallback": 0,
+      "doors": 0,
+      "windows": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [],
+      "unmapped_reasons": {},
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "1 BHK ",
+      "p5b_enabled": true,
+      "walls_gt": 6,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 2,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 6,
+      "avg_len": 4.813335520426432,
+      "max_len": 8.250008392333985,
+      "thickness_median": 0.2900030517578125,
+      "global_fallback": 0,
+      "doors": 3,
+      "windows": 1,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [
+        "c1_0",
+        "c2_0",
+        "c2_1",
+        "c2_2"
+      ],
+      "unmapped_reasons": {
+        "TOO_FAR": 4
+      },
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "1 BHK HOUSE ",
+      "p5b_enabled": true,
+      "walls_gt": 4,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 1,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 4,
+      "avg_len": 9.58289326985677,
+      "max_len": 11.899500732421872,
+      "thickness_median": 0.2875152587890625,
+      "global_fallback": 0,
+      "doors": 1,
+      "windows": 1,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [
+        "c1_0",
+        "c2_0"
+      ],
+      "unmapped_reasons": {
+        "TOO_FAR": 2
+      },
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "4 BHK ",
+      "p5b_enabled": true,
+      "walls_gt": 5,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 2,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 5,
+      "avg_len": 3.086667455037435,
+      "max_len": 5.159994964599609,
+      "thickness_median": 0.0900067138671875,
+      "global_fallback": 0,
+      "doors": 0,
+      "windows": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [],
+      "unmapped_reasons": {},
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "1 BHK GROUND FLOOR ",
+      "p5b_enabled": true,
+      "walls_gt": 3,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 0,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 3,
+      "avg_len": 5.8299439349808075,
+      "max_len": 10.509838823985392,
+      "thickness_median": 0.515196533203125,
+      "global_fallback": 0,
+      "doors": 0,
+      "windows": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [],
+      "unmapped_reasons": {},
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    }
+  ],
+  "results_p5b_off": [
+    {
+      "stem": "cubi_hqa_9333_20260811_140939_043808",
+      "p5b_enabled": false,
+      "walls_gt": 34,
+      "segs": 8,
+      "nodes": 16,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 7,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 0,
+      "avg_len": 2.3299387399431377,
+      "max_len": 5.2700000000000005,
+      "thickness_median": 0.2850030517578125,
+      "global_fallback": 0,
+      "doors": 3,
+      "windows": 9,
+      "door_mapped": 0,
+      "win_mapped": 1,
+      "endpoint_hosts": 1,
+      "interior_hosts": 0,
+      "unmapped": [
+        "c1_0",
+        "c1_1",
+        "c1_2",
+        "c1_4",
+        "c1_5",
+        "c1_6",
+        "c1_7",
+        "c1_8",
+        "c2_0",
+        "c2_1",
+        "c2_2"
+      ],
+      "unmapped_reasons": {
+        "ENDPOINT_ONLY": 11
+      },
+      "door_maps": [],
+      "win_maps": [
+        [
+          "c1_3",
+          "w1",
+          1.0,
+          "endpoint_end",
+          0.2462
+        ]
+      ],
+      "hosts": [
+        [
+          "c1_3",
+          "w1",
+          1.0
+        ]
+      ],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "3 BHK ",
+      "p5b_enabled": false,
+      "walls_gt": 128,
+      "segs": 21,
+      "nodes": 39,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 34,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 0,
+      "avg_len": 0.9119312917459779,
+      "max_len": 1.8900024032592775,
+      "thickness_median": 0.04456634521484375,
+      "global_fallback": 0,
+      "doors": 6,
+      "windows": 0,
+      "door_mapped": 5,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 5,
+      "unmapped": [
+        "c2_0"
+      ],
+      "unmapped_reasons": {
+        "ENDPOINT_ONLY": 1
+      },
+      "door_maps": [
+        [
+          "c2_1",
+          "w41",
+          0.5623,
+          "interior",
+          0.1061
+        ],
+        [
+          "c2_2",
+          "w19",
+          0.8905,
+          "interior",
+          0.245
+        ],
+        [
+          "c2_3",
+          "w19",
+          0.9143,
+          "interior",
+          0.31
+        ],
+        [
+          "c2_4",
+          "w41",
+          0.5434,
+          "interior",
+          0.1457
+        ],
+        [
+          "c2_5",
+          "w119",
+          0.1496,
+          "interior",
+          0.3872
+        ]
+      ],
+      "win_maps": [],
+      "hosts": [
+        [
+          "c2_1",
+          "w41",
+          0.562284
+        ],
+        [
+          "c2_2",
+          "w19",
+          0.890477
+        ],
+        [
+          "c2_3",
+          "w19",
+          0.914285
+        ],
+        [
+          "c2_4",
+          "w41",
+          0.543436
+        ],
+        [
+          "c2_5",
+          "w119",
+          0.149592
+        ]
+      ],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "2 BHK ",
+      "p5b_enabled": false,
+      "walls_gt": 25,
+      "segs": 9,
+      "nodes": 18,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 9,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 0,
+      "avg_len": 0.6476751531614177,
+      "max_len": 1.4900004196166992,
+      "thickness_median": 0.040001220703125,
+      "global_fallback": 0,
+      "doors": 0,
+      "windows": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [],
+      "unmapped_reasons": {},
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "1 BHK ",
+      "p5b_enabled": false,
+      "walls_gt": 6,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 2,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 0,
+      "avg_len": 4.813335520426432,
+      "max_len": 8.250008392333985,
+      "thickness_median": 0.2900030517578125,
+      "global_fallback": 0,
+      "doors": 3,
+      "windows": 1,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [
+        "c1_0",
+        "c2_0",
+        "c2_1",
+        "c2_2"
+      ],
+      "unmapped_reasons": {
+        "TOO_FAR": 4
+      },
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "1 BHK HOUSE ",
+      "p5b_enabled": false,
+      "walls_gt": 4,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 1,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 0,
+      "avg_len": 9.58289326985677,
+      "max_len": 11.899500732421872,
+      "thickness_median": 0.2875152587890625,
+      "global_fallback": 0,
+      "doors": 1,
+      "windows": 1,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [
+        "c1_0",
+        "c2_0"
+      ],
+      "unmapped_reasons": {
+        "TOO_FAR": 2
+      },
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "4 BHK ",
+      "p5b_enabled": false,
+      "walls_gt": 5,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 2,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 0,
+      "avg_len": 3.086667455037435,
+      "max_len": 5.159994964599609,
+      "thickness_median": 0.0900067138671875,
+      "global_fallback": 0,
+      "doors": 0,
+      "windows": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [],
+      "unmapped_reasons": {},
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    },
+    {
+      "stem": "1 BHK GROUND FLOOR ",
+      "p5b_enabled": false,
+      "walls_gt": 3,
+      "segs": 3,
+      "nodes": 6,
+      "zero_after": 0,
+      "dup_after": 0,
+      "p5a_merges": 0,
+      "p5b_activations": 0,
+      "p5b_accepted_paths": 0,
+      "p5b_rejected_paths": 0,
+      "p5b_replaced": 0,
+      "p5b_split": 0,
+      "p5b_retained_obb": 0,
+      "avg_len": 5.8299439349808075,
+      "max_len": 10.509838823985392,
+      "thickness_median": 0.515196533203125,
+      "global_fallback": 0,
+      "doors": 0,
+      "windows": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "unmapped": [],
+      "unmapped_reasons": {},
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true,
+      "d_max_check": 0.55
+    }
+  ],
+  "p5b_details": {
+    "cubi_hqa_9333_20260811_140939_043808": {
+      "p5b_version": 1,
+      "enabled": true,
+      "activations": 9,
+      "strip_skipped": 25,
+      "accepted_paths": 0,
+      "rejected_paths": 811,
+      "segments_replaced": 0,
+      "segments_split": 0,
+      "segments_retained_obb": 34,
+      "duplicate_skipped": 5,
+      "per_wall": [
+        {
+          "segment_id": "w0",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.6428449982125573,
+            "n_verts": 25,
+            "area_px": 1351.0243378621526,
+            "length_px": 74.00030517578125,
+            "thickness_px": 19.75042724609375,
+            "compactness": 0.4057015328365515,
+            "vert_density": 0.1222100198472869,
+            "skeleton_junctions": 20,
+            "reasons": [
+              "junctions=20"
+            ]
+          },
+          "action": "p5b_not_longer_keep_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 48,
+            "junctions": 24
+          }
+        },
+        {
+          "segment_id": "w1",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.5115148587210305,
+            "n_verts": 12,
+            "area_px": 1048.516517541837,
+            "length_px": 42.130916595458984,
+            "thickness_px": 27.30615234375,
+            "compactness": 0.7619796979637867,
+            "vert_density": 0.09125577882593484,
+            "skeleton_junctions": 15,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w2",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.89282102032453,
+            "n_verts": 12,
+            "area_px": 1031.0140150240622,
+            "length_px": 52.99945068359375,
+            "thickness_px": 28.0003662109375,
+            "compactness": 0.6431922159921312,
+            "vert_density": 0.08455015722689779,
+            "skeleton_junctions": 8,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w3",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.3928442391793028,
+            "n_verts": 17,
+            "area_px": 917.4832078618929,
+            "length_px": 39.0,
+            "thickness_px": 25.99951171875,
+            "compactness": 0.7278826735586301,
+            "vert_density": 0.13507519960561157,
+            "skeleton_junctions": 27,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w4",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.726028265034272,
+            "n_verts": 13,
+            "area_px": 963.4886476141401,
+            "length_px": 53.00888442993164,
+            "thickness_px": 29.02874755859375,
+            "compactness": 0.5935216627114058,
+            "vert_density": 0.09101928229818845,
+            "skeleton_junctions": 9,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w5",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.900626214755267,
+            "n_verts": 10,
+            "area_px": 3722.470012799371,
+            "length_px": 128.74612426757812,
+            "thickness_px": 32.540283203125,
+            "compactness": 0.495557105188554,
+            "vert_density": 0.032548150668347466,
+            "skeleton_junctions": 70,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w6",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.5666744486372142,
+            "n_verts": 17,
+            "area_px": 862.9870530003682,
+            "length_px": 47.00030517578125,
+            "thickness_px": 26.61370849609375,
+            "compactness": 0.3972614625529375,
+            "vert_density": 0.1028916348556245,
+            "skeleton_junctions": 17,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w7",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.8275871140730544,
+            "n_verts": 20,
+            "area_px": 1346.9793551382609,
+            "length_px": 53.00030517578125,
+            "thickness_px": 26.9993896484375,
+            "compactness": 0.6945642313927413,
+            "vert_density": 0.128115241943432,
+            "skeleton_junctions": 5,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w8",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 1.9677645140902889,
+            "n_verts": 16,
+            "area_px": 1118.4912413118873,
+            "length_px": 61.000579833984375,
+            "thickness_px": 29.5732421875,
+            "compactness": 0.5512056715431489,
+            "vert_density": 0.10019720236135195,
+            "skeleton_junctions": 14,
+            "reasons": [
+              "junctions=14"
+            ]
+          },
+          "action": "skeleton_duplicate_of_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 16,
+            "junctions": 11
+          },
+          "skeleton_duplicate_candidate": true
+        },
+        {
+          "segment_id": "w9",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.6774413221423827,
+            "n_verts": 11,
+            "area_px": 1163.0033491803333,
+            "length_px": 52.000572204589844,
+            "thickness_px": 29.499664306640625,
+            "compactness": 0.6406394506446291,
+            "vert_density": 0.07282896028761134,
+            "skeleton_junctions": 18,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w10",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.1034277918058586,
+            "n_verts": 20,
+            "area_px": 1551.0157166286372,
+            "length_px": 60.99969482421875,
+            "thickness_px": 29.000244140625,
+            "compactness": 0.5955556476802326,
+            "vert_density": 0.11055493614456251,
+            "skeleton_junctions": 42,
+            "reasons": [
+              "junctions=42"
+            ]
+          },
+          "action": "p5b_rejected_keep_obb",
+          "skeleton": {
+            "accepted": 0,
+            "rejected": 91,
+            "junctions": 42
+          }
+        },
+        {
+          "segment_id": "w11",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.620663038599818,
+            "n_verts": 13,
+            "area_px": 1227.5022505726665,
+            "length_px": 46.99945068359375,
+            "thickness_px": 29.000244140625,
+            "compactness": 0.6949585150825305,
+            "vert_density": 0.08725829284775265,
+            "skeleton_junctions": 26,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w12",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.699993095815119,
+            "n_verts": 16,
+            "area_px": 721.5156023746822,
+            "length_px": 47.01093673706055,
+            "thickness_px": 27.65360450744629,
+            "compactness": 0.5667145931776664,
+            "vert_density": 0.1264952987945497,
+            "skeleton_junctions": 8,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w13",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.8788046439828183,
+            "n_verts": 13,
+            "area_px": 3838.9792670542374,
+            "length_px": 127.99945831298828,
+            "thickness_px": 32.383575439453125,
+            "compactness": 0.5116872633296332,
+            "vert_density": 0.042338243895047326,
+            "skeleton_junctions": 117,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w14",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.5999865383549223,
+            "n_verts": 16,
+            "area_px": 4862.971222091466,
+            "length_px": 116.99937438964844,
+            "thickness_px": 42.9998779296875,
+            "compactness": 0.6152773425437849,
+            "vert_density": 0.05076912309680728,
+            "skeleton_junctions": 100,
+            "reasons": [
+              "junctions=100"
+            ]
+          },
+          "action": "skeleton_duplicate_of_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 229,
+            "junctions": 96
+          },
+          "skeleton_duplicate_candidate": true
+        },
+        {
+          "segment_id": "w15",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 1.1086824126643784,
+            "n_verts": 17,
+            "area_px": 1775.9973756298423,
+            "length_px": 51.0,
+            "thickness_px": 41.19964599609375,
+            "compactness": 0.6877760455248263,
+            "vert_density": 0.09437269392021827,
+            "skeleton_junctions": 13,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w16",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 23.117263589290665,
+            "n_verts": 11,
+            "area_px": 6502.115966971498,
+            "length_px": 393.00018310546875,
+            "thickness_px": 17.0003662109375,
+            "compactness": 0.12053772020151356,
+            "vert_density": 0.013360474554077541,
+            "skeleton_junctions": 722,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w17",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.947312617012413,
+            "n_verts": 11,
+            "area_px": 5579.517730630934,
+            "length_px": 149.99905395507812,
+            "thickness_px": 38.00042724609375,
+            "compactness": 0.5171270350199091,
+            "vert_density": 0.029873633155904408,
+            "skeleton_junctions": 218,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w18",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.526310062189117,
+            "n_verts": 10,
+            "area_px": 3380.53503437154,
+            "length_px": 96.00053405761719,
+            "thickness_px": 38.00042724609375,
+            "compactness": 0.6417529091184362,
+            "vert_density": 0.03886746985861769,
+            "skeleton_junctions": 106,
+            "reasons": [
+              "junctions=106"
+            ]
+          },
+          "action": "p5b_rejected_keep_obb",
+          "skeleton": {
+            "accepted": 0,
+            "rejected": 263,
+            "junctions": 106
+          }
+        },
+        {
+          "segment_id": "w19",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.3182011125136985,
+            "n_verts": 9,
+            "area_px": 1078.987022372894,
+            "length_px": 51.0,
+            "thickness_px": 21.9998779296875,
+            "compactness": 0.6440439504323694,
+            "vert_density": 0.06202792019303709,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "junctions=2"
+            ]
+          },
+          "action": "skeleton_duplicate_of_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 2,
+            "junctions": 0
+          },
+          "skeleton_duplicate_candidate": true
+        },
+        {
+          "segment_id": "w20",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.8182192876547196,
+            "n_verts": 13,
+            "area_px": 1010.9839780225884,
+            "length_px": 62.00029754638672,
+            "thickness_px": 21.9998779296875,
+            "compactness": 0.5440992628153388,
+            "vert_density": 0.08507566501436929,
+            "skeleton_junctions": 3,
+            "reasons": [
+              "junctions=3"
+            ]
+          },
+          "action": "skeleton_duplicate_of_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 2,
+            "junctions": 0
+          },
+          "skeleton_duplicate_candidate": true
+        },
+        {
+          "segment_id": "w21",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 6.318262148177947,
+            "n_verts": 10,
+            "area_px": 2834.9771232911153,
+            "length_px": 139.0006103515625,
+            "thickness_px": 21.9998779296875,
+            "compactness": 0.3667899077965501,
+            "vert_density": 0.032086989887900694,
+            "skeleton_junctions": 11,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w22",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.3428105572461178,
+            "n_verts": 14,
+            "area_px": 3943.487884534523,
+            "length_px": 116.9993896484375,
+            "thickness_px": 34.4771728515625,
+            "compactness": 0.5501892610497449,
+            "vert_density": 0.04664863098531034,
+            "skeleton_junctions": 106,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w23",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 10.746705678455145,
+            "n_verts": 9,
+            "area_px": 13614.054306029342,
+            "length_px": 386.9079284667969,
+            "thickness_px": 35.50152587890625,
+            "compactness": 0.24289406276233771,
+            "vert_density": 0.010723888446998755,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w24",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 22.912750860825202,
+            "n_verts": 6,
+            "area_px": 11796.722501601354,
+            "length_px": 527.0,
+            "thickness_px": 22.49957275390625,
+            "compactness": 0.12256080546064632,
+            "vert_density": 0.005455586422384595,
+            "skeleton_junctions": 497,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w25",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 22.82310328199515,
+            "n_verts": 5,
+            "area_px": 6596.113479525782,
+            "length_px": 387.9996337890625,
+            "thickness_px": 17.00042724609375,
+            "compactness": 0.12633623928988144,
+            "vert_density": 0.006172839506172839,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w26",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.590963947342868,
+            "n_verts": 23,
+            "area_px": 772.5178757724352,
+            "length_px": 79.00054931640625,
+            "thickness_px": 14.70098876953125,
+            "compactness": 0.17318550550993195,
+            "vert_density": 0.09714588431556694,
+            "skeleton_junctions": 47,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w27",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.5000430023998113,
+            "n_verts": 10,
+            "area_px": 1643.4916151631624,
+            "length_px": 77.00030517578125,
+            "thickness_px": 21.9998779296875,
+            "compactness": 0.5527238822916302,
+            "vert_density": 0.05173273469667199,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w28",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.990542948515565,
+            "n_verts": 13,
+            "area_px": 1367.995636363281,
+            "length_px": 87.00577545166016,
+            "thickness_px": 21.501373291015625,
+            "compactness": 0.43974817659536986,
+            "vert_density": 0.06575035286763213,
+            "skeleton_junctions": 48,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w29",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 5.727322775895556,
+            "n_verts": 11,
+            "area_px": 2706.476860180497,
+            "length_px": 126.00003051757812,
+            "thickness_px": 21.9998779296875,
+            "compactness": 0.3942852349872619,
+            "vert_density": 0.037453365693724365,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w30",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.1488643696549627,
+            "n_verts": 12,
+            "area_px": 3631.49334705621,
+            "length_px": 92.51670837402344,
+            "thickness_px": 42.475830078125,
+            "compactness": 0.6211935762036461,
+            "vert_density": 0.04427383738675631,
+            "skeleton_junctions": 38,
+            "reasons": [
+              "junctions=38"
+            ]
+          },
+          "action": "p5b_not_longer_keep_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 90,
+            "junctions": 37
+          }
+        },
+        {
+          "segment_id": "w31",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.0930619476751766,
+            "n_verts": 7,
+            "area_px": 5033.5162961781025,
+            "length_px": 133.00088500976562,
+            "thickness_px": 42.5333251953125,
+            "compactness": 0.5482699164519478,
+            "vert_density": 0.020608888847640092,
+            "skeleton_junctions": 100,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w32",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.3170723583273585,
+            "n_verts": 11,
+            "area_px": 3447.5463260207325,
+            "length_px": 95.00065612792969,
+            "thickness_px": 40.562347412109375,
+            "compactness": 0.5979183516830939,
+            "vert_density": 0.040865201005387874,
+            "skeleton_junctions": 32,
+            "reasons": [
+              "junctions=32"
+            ]
+          },
+          "action": "skeleton_duplicate_of_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 70,
+            "junctions": 31
+          },
+          "skeleton_duplicate_candidate": true
+        },
+        {
+          "segment_id": "w33",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.926759846311644,
+            "n_verts": 7,
+            "area_px": 14349.593658447266,
+            "length_px": 365.9998779296875,
+            "thickness_px": 41.00042724609375,
+            "compactness": 0.27971342035519464,
+            "vert_density": 0.00871826284509782,
+            "skeleton_junctions": 10,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        }
+      ],
+      "output_segment_count": 34,
+      "input_segment_count": 34
+    },
+    "3 BHK ": {
+      "p5b_version": 1,
+      "enabled": true,
+      "activations": 3,
+      "strip_skipped": 125,
+      "accepted_paths": 0,
+      "rejected_paths": 30,
+      "segments_replaced": 0,
+      "segments_split": 0,
+      "segments_retained_obb": 128,
+      "duplicate_skipped": 1,
+      "per_wall": [
+        {
+          "segment_id": "w0",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.250003814697266,
+            "n_verts": 5,
+            "area_px": 1168.000244140625,
+            "length_px": 146.00003051757812,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.15472168713484255,
+            "vert_density": 0.016233763016784863,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w1",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.222215440538193,
+            "n_verts": 5,
+            "area_px": 1394.999382019043,
+            "length_px": 154.99993896484375,
+            "thickness_px": 9.0001220703125,
+            "compactness": 0.16294330280938663,
+            "vert_density": 0.015243908112282399,
+            "skeleton_junctions": 296,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w2",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 12.200019416842414,
+            "n_verts": 7,
+            "area_px": 299.000244140625,
+            "length_px": 60.99999237060547,
+            "thickness_px": 5.00006103515625,
+            "compactness": 0.21145566139939867,
+            "vert_density": 0.052513020006393255,
+            "skeleton_junctions": 112,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w3",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.500003814697266,
+            "n_verts": 5,
+            "area_px": 1248.0001831054688,
+            "length_px": 156.00003051757812,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.1457728564757062,
+            "vert_density": 0.015243899602396969,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w4",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 14.799978637695313,
+            "n_verts": 5,
+            "area_px": 369.9994659423828,
+            "length_px": 73.99989318847656,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.1862507205965196,
+            "vert_density": 0.03164561240653255,
+            "skeleton_junctions": 140,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w5",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 14.242806267069636,
+            "n_verts": 6,
+            "area_px": 518.0004272460938,
+            "length_px": 87.99396514892578,
+            "thickness_px": 6.108123779296875,
+            "compactness": 0.19172988520549497,
+            "vert_density": 0.03256313168579331,
+            "skeleton_junctions": 33,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w6",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 7.111100090874566,
+            "n_verts": 8,
+            "area_px": 563.9989547729492,
+            "length_px": 63.999900817871094,
+            "thickness_px": 9.0001220703125,
+            "compactness": 0.31499740093007145,
+            "vert_density": 0.053333414713665844,
+            "skeleton_junctions": 108,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w7",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.714268275669642,
+            "n_verts": 5,
+            "area_px": 805.9992065429688,
+            "length_px": 123.9998779296875,
+            "thickness_px": 6.500091552734375,
+            "compactness": 0.14867941541337884,
+            "vert_density": 0.01915680981239299,
+            "skeleton_junctions": 120,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w8",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 14.000712113042859,
+            "n_verts": 8,
+            "area_px": 486.4762725830078,
+            "length_px": 84.0,
+            "thickness_px": 5.999755859375,
+            "compactness": 0.19887666469254475,
+            "vert_density": 0.04562954493191171,
+            "skeleton_junctions": 158,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w9",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.6,
+            "n_verts": 5,
+            "area_px": 415.0,
+            "length_px": 93.0,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.14672149245639082,
+            "vert_density": 0.026520877648990724,
+            "skeleton_junctions": 165,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w10",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.75041438018452,
+            "n_verts": 9,
+            "area_px": 248.49366760253906,
+            "length_px": 79.0,
+            "thickness_px": 3.2332763671875,
+            "compactness": 0.11332530095681026,
+            "vert_density": 0.05421798273734122,
+            "skeleton_junctions": 54,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w11",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.714311872209823,
+            "n_verts": 6,
+            "area_px": 965.0011520385742,
+            "length_px": 138.00018310546875,
+            "thickness_px": 7.0001220703125,
+            "compactness": 0.14495451491230124,
+            "vert_density": 0.02074427570810727,
+            "skeleton_junctions": 268,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w12",
+          "classifier": {
+            "classifier": "FRAGMENTED",
+            "aspect": 3.0001525956520414,
+            "n_verts": 5,
+            "area_px": 21.000076293945312,
+            "length_px": 9.0,
+            "thickness_px": 2.43756103515625,
+            "compactness": 0.53074796989399,
+            "vert_density": 0.22423262800763627,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "medium_aspect_fragmented_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w13",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 23.00116846960048,
+            "n_verts": 6,
+            "area_px": 199.9908447265625,
+            "length_px": 68.99998474121094,
+            "thickness_px": 2.9998779296875,
+            "compactness": 0.12479215331107987,
+            "vert_density": 0.04227999237227718,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w14",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.12499237060547,
+            "n_verts": 5,
+            "area_px": 1159.99951171875,
+            "length_px": 144.99993896484375,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.1556772545486425,
+            "vert_density": 0.016339875799391324,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w15",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 7.856980132511683,
+            "n_verts": 5,
+            "area_px": 381.5079002380371,
+            "length_px": 54.99999237060547,
+            "thickness_px": 7.000244140625,
+            "compactness": 0.3165187385979899,
+            "vert_density": 0.040626837555544165,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w16",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 14.250271593776535,
+            "n_verts": 5,
+            "area_px": 223.9957275390625,
+            "length_px": 56.99999237060547,
+            "thickness_px": 4.0,
+            "compactness": 0.1939444781567406,
+            "vert_density": 0.04150342279666976,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w17",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.999803956055095,
+            "n_verts": 6,
+            "area_px": 434.00946044921875,
+            "length_px": 62.99999237060547,
+            "thickness_px": 7.000244140625,
+            "compactness": 0.2890739952116725,
+            "vert_density": 0.043681871064083534,
+            "skeleton_junctions": 115,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w18",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.500011444091797,
+            "n_verts": 5,
+            "area_px": 264.00018310546875,
+            "length_px": 66.00004577636719,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.16926121449943987,
+            "vert_density": 0.03571426235901161,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w19",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.999993896484376,
+            "n_verts": 5,
+            "area_px": 449.9998474121094,
+            "length_px": 89.99996948242188,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.15664455656782697,
+            "vert_density": 0.026315797927309675,
+            "skeleton_junctions": 174,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w20",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.0000005722047,
+            "n_verts": 7,
+            "area_px": 246.9982452392578,
+            "length_px": 54.99999237060547,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.2200557859342175,
+            "vert_density": 0.05894033094409893,
+            "skeleton_junctions": 78,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w21",
+          "classifier": {
+            "classifier": "FRAGMENTED",
+            "aspect": 2.9997709766550353,
+            "n_verts": 5,
+            "area_px": 22.50171661376953,
+            "length_px": 8.999998092651367,
+            "thickness_px": 3.00030517578125,
+            "compactness": 0.5715280646022853,
+            "vert_density": 0.2247895031575223,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "medium_aspect_fragmented_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w22",
+          "classifier": {
+            "classifier": "STRIP_NOISY",
+            "aspect": 10.66585292666677,
+            "n_verts": 9,
+            "area_px": 79.50606536865234,
+            "length_px": 32.0,
+            "thickness_px": 3.00030517578125,
+            "compactness": 0.1956819529772921,
+            "vert_density": 0.12595425219077147,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "high_aspect_noisy_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w23",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.375798279356722,
+            "n_verts": 5,
+            "area_px": 1159.0005531311035,
+            "length_px": 155.00314331054688,
+            "thickness_px": 7.500244140625,
+            "compactness": 0.13867685479868097,
+            "vert_density": 0.015428554620348499,
+            "skeleton_junctions": 150,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w24",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 33.4998779296875,
+            "n_verts": 5,
+            "area_px": 130.99966430664062,
+            "length_px": 66.999755859375,
+            "thickness_px": 2.0001220703125,
+            "compactness": 0.08821578263429536,
+            "vert_density": 0.03660185756758893,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w25",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 12.142852783203125,
+            "n_verts": 7,
+            "area_px": 549.0004730224609,
+            "length_px": 84.99996948242188,
+            "thickness_px": 7.0001220703125,
+            "compactness": 0.21125626520047436,
+            "vert_density": 0.0387357123894971,
+            "skeleton_junctions": 146,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w26",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.80005340576172,
+            "n_verts": 7,
+            "area_px": 371.4993667602539,
+            "length_px": 84.0002670288086,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.158074165146613,
+            "vert_density": 0.04073282370004264,
+            "skeleton_junctions": 148,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w27",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 22.750433930090523,
+            "n_verts": 5,
+            "area_px": 355.9932098388672,
+            "length_px": 91.0,
+            "thickness_px": 4.0,
+            "compactness": 0.1270349782942164,
+            "vert_density": 0.02664439564998407,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w28",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.08961385744007,
+            "n_verts": 7,
+            "area_px": 161.49095916748047,
+            "length_px": 57.0087776184082,
+            "thickness_px": 3.10040283203125,
+            "compactness": 0.1441746229940423,
+            "vert_density": 0.059001548952712604,
+            "skeleton_junctions": 29,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w29",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.000024795532227,
+            "n_verts": 8,
+            "area_px": 627.5014724731445,
+            "length_px": 88.00019836425781,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.22226734002730777,
+            "vert_density": 0.04247325122139594,
+            "skeleton_junctions": 21,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w30",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 7.488877764293888,
+            "n_verts": 8,
+            "area_px": 428.49895095825195,
+            "length_px": 59.11360549926758,
+            "thickness_px": 7.31011962890625,
+            "compactness": 0.3057091486233447,
+            "vert_density": 0.06027877130249978,
+            "skeleton_junctions": 59,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w31",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 20.80005340576172,
+            "n_verts": 5,
+            "area_px": 520.001335144043,
+            "length_px": 104.0002670288086,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.13749889489196182,
+            "vert_density": 0.022935723628449957,
+            "skeleton_junctions": 204,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w32",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 15.498817534062647,
+            "n_verts": 5,
+            "area_px": 240.018310546875,
+            "length_px": 62.0,
+            "thickness_px": 4.0003662109375,
+            "compactness": 0.18140383101487467,
+            "vert_density": 0.038776277288782586,
+            "skeleton_junctions": 114,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w33",
+          "classifier": {
+            "classifier": "STRIP_NOISY",
+            "aspect": 5.332926675180211,
+            "n_verts": 6,
+            "area_px": 31.502403259277344,
+            "length_px": 15.999998092651367,
+            "thickness_px": 3.00030517578125,
+            "compactness": 0.30137312230158936,
+            "vert_density": 0.16554906561022564,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "high_aspect_noisy_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w34",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 9.332621310833423,
+            "n_verts": 6,
+            "area_px": 75.00572204589844,
+            "length_px": 28.0,
+            "thickness_px": 3.00030517578125,
+            "compactness": 0.2566099182167889,
+            "vert_density": 0.09900014699063668,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w35",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.2499942779541,
+            "n_verts": 5,
+            "area_px": 1039.9996337890625,
+            "length_px": 129.9999542236328,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.17156360936933718,
+            "vert_density": 0.018115948038277457,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w36",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 22.000020345052082,
+            "n_verts": 5,
+            "area_px": 159.00006103515625,
+            "length_px": 66.00006103515625,
+            "thickness_px": 2.55010986328125,
+            "compactness": 0.11009424588186661,
+            "vert_density": 0.03711493782059686,
+            "skeleton_junctions": 69,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w37",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.111104329427082,
+            "n_verts": 6,
+            "area_px": 1232.4995460510254,
+            "length_px": 144.99993896484375,
+            "thickness_px": 8.507080078125,
+            "compactness": 0.165148423982611,
+            "vert_density": 0.01959251334077429,
+            "skeleton_junctions": 142,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w38",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 21.75041485624039,
+            "n_verts": 5,
+            "area_px": 343.9934387207031,
+            "length_px": 87.0,
+            "thickness_px": 4.0,
+            "compactness": 0.1327212310324687,
+            "vert_density": 0.027705130072327368,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w39",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 15.59996337890625,
+            "n_verts": 5,
+            "area_px": 389.99908447265625,
+            "length_px": 77.99981689453125,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.17785217950172602,
+            "vert_density": 0.030120548376350958,
+            "skeleton_junctions": 148,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w40",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 4.9998910110253245,
+            "n_verts": 6,
+            "area_px": 232.0048828125,
+            "length_px": 35.0,
+            "thickness_px": 7.000244140625,
+            "compactness": 0.44497138411855247,
+            "vert_density": 0.0741248448020458,
+            "skeleton_junctions": 57,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w41",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.428387704299833,
+            "n_verts": 5,
+            "area_px": 395.5086212158203,
+            "length_px": 59.0,
+            "thickness_px": 7.000244140625,
+            "compactness": 0.3005151057267202,
+            "vert_density": 0.03887946217297698,
+            "skeleton_junctions": 103,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w42",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 36.500091552734375,
+            "n_verts": 5,
+            "area_px": 145.0002899169922,
+            "length_px": 73.00018310546875,
+            "thickness_px": 2.0001220703125,
+            "compactness": 0.08181430638844092,
+            "vert_density": 0.033503892263023985,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w43",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 13.761839068236823,
+            "n_verts": 5,
+            "area_px": 36.49969482421875,
+            "length_px": 38.01299285888672,
+            "thickness_px": 2.7622029781341553,
+            "compactness": 0.07806300198220782,
+            "vert_density": 0.06522935435905729,
+            "skeleton_junctions": 16,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w44",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.600036926276573,
+            "n_verts": 7,
+            "area_px": 325.50081634521484,
+            "length_px": 88.00016784667969,
+            "thickness_px": 5.00006103515625,
+            "compactness": 0.12563660152166656,
+            "vert_density": 0.0387949464781385,
+            "skeleton_junctions": 135,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w45",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.714580156582265,
+            "n_verts": 5,
+            "area_px": 423.48569107055664,
+            "length_px": 61.0,
+            "thickness_px": 6.9998779296875,
+            "compactness": 0.2916936432699932,
+            "vert_density": 0.03701767893748908,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w46",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.500011444091797,
+            "n_verts": 7,
+            "area_px": 110.00071716308594,
+            "length_px": 46.00004577636719,
+            "thickness_px": 2.0001220703125,
+            "compactness": 0.1510775395070826,
+            "vert_density": 0.0731804880094343,
+            "skeleton_junctions": 22,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w47",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 21.75002670288086,
+            "n_verts": 7,
+            "area_px": 294.4998092651367,
+            "length_px": 87.00010681152344,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.11515630824912357,
+            "vert_density": 0.03904761079430639,
+            "skeleton_junctions": 23,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w48",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 21.001068964503226,
+            "n_verts": 5,
+            "area_px": 185.99053955078125,
+            "length_px": 62.99999237060547,
+            "thickness_px": 2.9998779296875,
+            "compactness": 0.13701852990054902,
+            "vert_density": 0.038283293855353825,
+            "skeleton_junctions": 122,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w49",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 4.624858860508407,
+            "n_verts": 6,
+            "area_px": 271.50743103027344,
+            "length_px": 37.0,
+            "thickness_px": 7.50030517578125,
+            "compactness": 0.4506237426574303,
+            "vert_density": 0.06895448087960471,
+            "skeleton_junctions": 31,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w50",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.331517912408735,
+            "n_verts": 5,
+            "area_px": 398.00885009765625,
+            "length_px": 58.88778305053711,
+            "thickness_px": 7.0440673828125,
+            "compactness": 0.3045484497362063,
+            "vert_density": 0.03901637388293399,
+            "skeleton_junctions": 8,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w51",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 34.499943077557454,
+            "n_verts": 5,
+            "area_px": 130.9996337890625,
+            "length_px": 68.9998779296875,
+            "thickness_px": 2.00006103515625,
+            "compactness": 0.08365446170058713,
+            "vert_density": 0.0356430275276831,
+            "skeleton_junctions": 9,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w52",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.625011444091797,
+            "n_verts": 5,
+            "area_px": 1256.0007934570312,
+            "length_px": 157.00009155273438,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.1449343796808284,
+            "vert_density": 0.0151515067444735,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w53",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 15.999993896484375,
+            "n_verts": 6,
+            "area_px": 333.9999771118164,
+            "length_px": 79.99996948242188,
+            "thickness_px": 4.4132080078125,
+            "compactness": 0.15275018663333684,
+            "vert_density": 0.036196282961799706,
+            "skeleton_junctions": 81,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w54",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.67331824962895,
+            "n_verts": 5,
+            "area_px": 146.48886108398438,
+            "length_px": 59.00847244262695,
+            "thickness_px": 2.500244140625,
+            "compactness": 0.12318505854609658,
+            "vert_density": 0.04090174042371155,
+            "skeleton_junctions": 58,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w55",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 23.333323160807293,
+            "n_verts": 5,
+            "area_px": 163.99986267089844,
+            "length_px": 69.99996948242188,
+            "thickness_px": 2.40350341796875,
+            "compactness": 0.10161816604861416,
+            "vert_density": 0.035109852624711405,
+            "skeleton_junctions": 73,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w56",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.333379321635455,
+            "n_verts": 5,
+            "area_px": 145.5007553100586,
+            "length_px": 52.00012969970703,
+            "thickness_px": 3.00006103515625,
+            "compactness": 0.1619849446068562,
+            "vert_density": 0.047061934416073134,
+            "skeleton_junctions": 99,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w57",
+          "classifier": {
+            "classifier": "FRAGMENTED",
+            "aspect": 3.75008583265303,
+            "n_verts": 6,
+            "area_px": 40.999755859375,
+            "length_px": 15.0,
+            "thickness_px": 4.0,
+            "compactness": 0.4074354348355329,
+            "vert_density": 0.16872719303254669,
+            "skeleton_junctions": 5,
+            "reasons": [
+              "medium_aspect_fragmented_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w58",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 7.00016010175939,
+            "n_verts": 7,
+            "area_px": 97.99815368652344,
+            "length_px": 27.999996185302734,
+            "thickness_px": 4.0,
+            "compactness": 0.3256164296513729,
+            "vert_density": 0.11382491016904368,
+            "skeleton_junctions": 5,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w59",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 24.333267211914062,
+            "n_verts": 6,
+            "area_px": 182.99954223632812,
+            "length_px": 72.99980163574219,
+            "thickness_px": 3.0001220703125,
+            "compactness": 0.10283104353135995,
+            "vert_density": 0.04012207987862952,
+            "skeleton_junctions": 121,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w60",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 13.866001363222752,
+            "n_verts": 6,
+            "area_px": 410.50041580200195,
+            "length_px": 82.00621032714844,
+            "thickness_px": 5.50048828125,
+            "compactness": 0.18192862374460814,
+            "vert_density": 0.03563198646979759,
+            "skeleton_junctions": 74,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w61",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 20.99999084472656,
+            "n_verts": 6,
+            "area_px": 468.49987030029297,
+            "length_px": 104.99995422363281,
+            "thickness_px": 4.5198974609375,
+            "compactness": 0.1250202484332981,
+            "vert_density": 0.02764914841169946,
+            "skeleton_junctions": 107,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w62",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.0,
+            "n_verts": 5,
+            "area_px": 425.0,
+            "length_px": 85.0,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.16483665157724223,
+            "vert_density": 0.027777777777777776,
+            "skeleton_junctions": 164,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w63",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 12.0,
+            "n_verts": 6,
+            "area_px": 289.49996185302734,
+            "length_px": 60.0,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.22110472693755928,
+            "vert_density": 0.046775784136190594,
+            "skeleton_junctions": 110,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w64",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.4000244140625,
+            "n_verts": 5,
+            "area_px": 460.0006103515625,
+            "length_px": 92.0001220703125,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.15359027535926204,
+            "vert_density": 0.025773163441875097,
+            "skeleton_junctions": 180,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w65",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 15.25029078684052,
+            "n_verts": 6,
+            "area_px": 234.9959945678711,
+            "length_px": 60.99999237060547,
+            "thickness_px": 4.0,
+            "compactness": 0.18350140529894704,
+            "vert_density": 0.047297238603412346,
+            "skeleton_junctions": 3,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w66",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.800054931640624,
+            "n_verts": 5,
+            "area_px": 492.5011444091797,
+            "length_px": 99.00027465820312,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.14429757297523702,
+            "vert_density": 0.024142984945855053,
+            "skeleton_junctions": 193,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w67",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 26.666656494140625,
+            "n_verts": 7,
+            "area_px": 147.0002899169922,
+            "length_px": 79.99996948242188,
+            "thickness_px": 2.5667724609375,
+            "compactness": 0.070545730532838,
+            "vert_density": 0.04325829320262565,
+            "skeleton_junctions": 106,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w68",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.2,
+            "n_verts": 5,
+            "area_px": 184.4984359741211,
+            "length_px": 41.0,
+            "thickness_px": 4.50006103515625,
+            "compactness": 0.27990077319079015,
+            "vert_density": 0.054937738389450604,
+            "skeleton_junctions": 38,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w69",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.865910897638653,
+            "n_verts": 8,
+            "area_px": 314.5012969970703,
+            "length_px": 84.0059585571289,
+            "thickness_px": 4.271759033203125,
+            "compactness": 0.1353433108140324,
+            "vert_density": 0.04681577666506097,
+            "skeleton_junctions": 62,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w70",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 10.0,
+            "n_verts": 5,
+            "area_px": 250.0,
+            "length_px": 50.0,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.2596357564950242,
+            "vert_density": 0.045454545454545456,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w71",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 12.714008123221861,
+            "n_verts": 8,
+            "area_px": 525.0165939331055,
+            "length_px": 88.99998474121094,
+            "thickness_px": 7.000244140625,
+            "compactness": 0.19324871976978258,
+            "vert_density": 0.04329690499374349,
+            "skeleton_junctions": 43,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w72",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 13.49997329711914,
+            "n_verts": 5,
+            "area_px": 182.00009155273438,
+            "length_px": 53.99989318847656,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.18883621963162794,
+            "vert_density": 0.04543305263071238,
+            "skeleton_junctions": 12,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w73",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 14.019464342849972,
+            "n_verts": 4,
+            "area_px": 27.996795654296875,
+            "length_px": 28.017850875854492,
+            "thickness_px": 1.402587890625,
+            "compactness": 0.10445548522927137,
+            "vert_density": 0.06892337268987868,
+            "skeleton_junctions": 31,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w74",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 30.997634908815808,
+            "n_verts": 5,
+            "area_px": 273.0208282470703,
+            "length_px": 92.99998474121094,
+            "thickness_px": 3.000244140625,
+            "compactness": 0.09503788608565551,
+            "vert_density": 0.026315738752045476,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w75",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.400051269844177,
+            "n_verts": 6,
+            "area_px": 203.49842834472656,
+            "length_px": 42.0,
+            "thickness_px": 5.00006103515625,
+            "compactness": 0.30366248510237676,
+            "vert_density": 0.06538247547743817,
+            "skeleton_junctions": 75,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w76",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.501999304563798,
+            "n_verts": 6,
+            "area_px": 495.4998474121094,
+            "length_px": 68.0073471069336,
+            "thickness_px": 7.5008544921875,
+            "compactness": 0.2807122160496321,
+            "vert_density": 0.040286098678733825,
+            "skeleton_junctions": 122,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w77",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.000011444091797,
+            "n_verts": 5,
+            "area_px": 304.00018310546875,
+            "length_px": 76.00004577636719,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.14922557015204077,
+            "vert_density": 0.0312499821186168,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w78",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 15.500295644677061,
+            "n_verts": 11,
+            "area_px": 179.49671936035156,
+            "length_px": 62.0,
+            "thickness_px": 4.0,
+            "compactness": 0.12492098763127449,
+            "vert_density": 0.08186102909953272,
+            "skeleton_junctions": 48,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w79",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 40.61656660781049,
+            "n_verts": 4,
+            "area_px": 73.0,
+            "length_px": 77.0066146850586,
+            "thickness_px": 1.481597900390625,
+            "compactness": 0.03855005531700319,
+            "vert_density": 0.02593021585457559,
+            "skeleton_junctions": 16,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w80",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 22.250424393165456,
+            "n_verts": 9,
+            "area_px": 319.993896484375,
+            "length_px": 89.0,
+            "thickness_px": 4.0,
+            "compactness": 0.11272912603935085,
+            "vert_density": 0.04765240235190241,
+            "skeleton_junctions": 162,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w81",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.200009155273438,
+            "n_verts": 5,
+            "area_px": 455.00022888183594,
+            "length_px": 91.00004577636719,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.15510243199127133,
+            "vert_density": 0.02604165424903826,
+            "skeleton_junctions": 176,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w82",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.895128311518096,
+            "n_verts": 7,
+            "area_px": 354.99866485595703,
+            "length_px": 92.00542449951172,
+            "thickness_px": 4.30029296875,
+            "compactness": 0.12800620716097236,
+            "vert_density": 0.037496891226250766,
+            "skeleton_junctions": 61,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w83",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.500045776367188,
+            "n_verts": 6,
+            "area_px": 273.0006408691406,
+            "length_px": 78.00018310546875,
+            "thickness_px": 3.59100341796875,
+            "compactness": 0.1306405328472685,
+            "vert_density": 0.03702571523497752,
+            "skeleton_junctions": 74,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w84",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 3.999969482421875,
+            "n_verts": 7,
+            "area_px": 250.998046875,
+            "length_px": 31.999755859375,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.4756349999070591,
+            "vert_density": 0.08595968977154389,
+            "skeleton_junctions": 3,
+            "reasons": [
+              "default_strip_like"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w85",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 10.750053405761719,
+            "n_verts": 5,
+            "area_px": 135.50077056884766,
+            "length_px": 43.000213623046875,
+            "thickness_px": 3.52130126953125,
+            "compactness": 0.21122012334602094,
+            "vert_density": 0.055688027573289216,
+            "skeleton_junctions": 41,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w86",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 23.250045776367188,
+            "n_verts": 5,
+            "area_px": 356.0002746582031,
+            "length_px": 93.00018310546875,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.12270022802902139,
+            "vert_density": 0.026185603691620325,
+            "skeleton_junctions": 9,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w87",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 14.250030517578125,
+            "n_verts": 6,
+            "area_px": 197.5002899169922,
+            "length_px": 57.0001220703125,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.18458373985448,
+            "vert_density": 0.0517439013363434,
+            "skeleton_junctions": 21,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w88",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 10.6,
+            "n_verts": 5,
+            "area_px": 260.0,
+            "length_px": 53.0,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.24971452705475622,
+            "vert_density": 0.043711962223996315,
+            "skeleton_junctions": 98,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w89",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.6667378743489585,
+            "n_verts": 6,
+            "area_px": 18.50079345703125,
+            "length_px": 8.000213623046875,
+            "thickness_px": 3.0001220703125,
+            "compactness": 0.4794877852210645,
+            "vert_density": 0.27248331554508104,
+            "skeleton_junctions": 14,
+            "reasons": [
+              "junctions=14"
+            ]
+          },
+          "action": "p5b_rejected_keep_obb",
+          "skeleton": {
+            "accepted": 0,
+            "rejected": 27,
+            "junctions": 14
+          }
+        },
+        {
+          "segment_id": "w90",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 22.666732788085938,
+            "n_verts": 6,
+            "area_px": 187.4999542236328,
+            "length_px": 68.00019836425781,
+            "thickness_px": 3.0001220703125,
+            "compactness": 0.12050413198298654,
+            "vert_density": 0.042908833161023875,
+            "skeleton_junctions": 125,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w91",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.200009155273438,
+            "n_verts": 5,
+            "area_px": 455.00022888183594,
+            "length_px": 91.00004577636719,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.15510243199127133,
+            "vert_density": 0.02604165424903826,
+            "skeleton_junctions": 176,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w92",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.250361926996607,
+            "n_verts": 5,
+            "area_px": 275.9942092895508,
+            "length_px": 69.0,
+            "thickness_px": 4.0,
+            "compactness": 0.16270658171301827,
+            "vert_density": 0.03424661471356555,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w93",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 12.483772385820913,
+            "n_verts": 9,
+            "area_px": 262.49828338623047,
+            "length_px": 62.00806427001953,
+            "thickness_px": 4.5006103515625,
+            "compactness": 0.18641606513746933,
+            "vert_density": 0.06765751023725565,
+            "skeleton_junctions": 57,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w94",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.749988555908203,
+            "n_verts": 8,
+            "area_px": 212.00064086914062,
+            "length_px": 74.99995422363281,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.1110968246941023,
+            "vert_density": 0.051661533240617,
+            "skeleton_junctions": 41,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w95",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 20.333351135253906,
+            "n_verts": 5,
+            "area_px": 178.5003890991211,
+            "length_px": 61.00005340576172,
+            "thickness_px": 3.0001220703125,
+            "compactness": 0.1407459311186836,
+            "vert_density": 0.039606221596163185,
+            "skeleton_junctions": 118,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w96",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 13.200009155273438,
+            "n_verts": 5,
+            "area_px": 330.00022888183594,
+            "length_px": 66.00004577636719,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.20565859113402957,
+            "vert_density": 0.035211244903621465,
+            "skeleton_junctions": 126,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w97",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 20.99993467329894,
+            "n_verts": 6,
+            "area_px": 157.49950408935547,
+            "length_px": 62.999794006347656,
+            "thickness_px": 2.543212890625,
+            "compactness": 0.11705326714827057,
+            "vert_density": 0.046142220802078054,
+            "skeleton_junctions": 66,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w98",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 5.250100137713198,
+            "n_verts": 8,
+            "area_px": 272.494140625,
+            "length_px": 42.0,
+            "thickness_px": 7.99993896484375,
+            "compactness": 0.3880128756845934,
+            "vert_density": 0.08515880127797569,
+            "skeleton_junctions": 63,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w99",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.000152590801063,
+            "n_verts": 6,
+            "area_px": 472.9906921386719,
+            "length_px": 64.0,
+            "thickness_px": 7.99993896484375,
+            "compactness": 0.29598780991967427,
+            "vert_density": 0.04234059276167648,
+            "skeleton_junctions": 112,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w100",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 4.124979019165039,
+            "n_verts": 5,
+            "area_px": 263.9986572265625,
+            "length_px": 32.99983215332031,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.49338669409800595,
+            "vert_density": 0.06097585938037898,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w101",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.200009155273438,
+            "n_verts": 7,
+            "area_px": 448.4997329711914,
+            "length_px": 91.00004577636719,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.15225419988319935,
+            "vert_density": 0.03638284483579393,
+            "skeleton_junctions": 174,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w102",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.000011444091797,
+            "n_verts": 5,
+            "area_px": 300.0006408691406,
+            "length_px": 76.00004577636719,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.15011532422577634,
+            "vert_density": 0.031551244591490106,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w103",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.99999491373698,
+            "n_verts": 5,
+            "area_px": 179.9999542236328,
+            "length_px": 59.99998474121094,
+            "thickness_px": 3.0001220703125,
+            "compactness": 0.14247589008834327,
+            "vert_density": 0.039682549293772205,
+            "skeleton_junctions": 118,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w104",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 29.999989827473957,
+            "n_verts": 7,
+            "area_px": 239.49966430664062,
+            "length_px": 89.99996948242188,
+            "thickness_px": 3.0001220703125,
+            "compactness": 0.08927939018339615,
+            "vert_density": 0.038125562601190564,
+            "skeleton_junctions": 155,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w105",
+          "classifier": {
+            "classifier": "FRAGMENTED",
+            "aspect": 2.5000476846253323,
+            "n_verts": 6,
+            "area_px": 31.99958038330078,
+            "length_px": 10.0,
+            "thickness_px": 4.0,
+            "compactness": 0.6802243283963413,
+            "vert_density": 0.24677448654029724,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "medium_aspect_fragmented_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w106",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.00030518163851,
+            "n_verts": 5,
+            "area_px": 249.99523162841797,
+            "length_px": 63.99999237060547,
+            "thickness_px": 4.0,
+            "compactness": 0.1749576281820767,
+            "vert_density": 0.0373134710763094,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w107",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 15.999993896484375,
+            "n_verts": 5,
+            "area_px": 399.9998474121094,
+            "length_px": 79.99996948242188,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.1739290635859796,
+            "vert_density": 0.029411775265601757,
+            "skeleton_junctions": 154,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w108",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 9.750148775463494,
+            "n_verts": 5,
+            "area_px": 147.99774169921875,
+            "length_px": 39.0,
+            "thickness_px": 4.0,
+            "compactness": 0.265743697459893,
+            "vert_density": 0.0597680400913992,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w109",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 23.000030517578125,
+            "n_verts": 5,
+            "area_px": 92.0001220703125,
+            "length_px": 46.00006103515625,
+            "thickness_px": 2.0001220703125,
+            "compactness": 0.1254453874103402,
+            "vert_density": 0.05208326710603446,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w110",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 20.4000244140625,
+            "n_verts": 6,
+            "area_px": 451.5009307861328,
+            "length_px": 102.0001220703125,
+            "thickness_px": 4.531341552734375,
+            "compactness": 0.12845062798056392,
+            "vert_density": 0.02854861930289336,
+            "skeleton_junctions": 102,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w111",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 26.666656494140625,
+            "n_verts": 5,
+            "area_px": 239.99990844726562,
+            "length_px": 79.99996948242188,
+            "thickness_px": 3.0001220703125,
+            "compactness": 0.10944730783729628,
+            "vert_density": 0.030120493002463836,
+            "skeleton_junctions": 158,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w112",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.250045776367188,
+            "n_verts": 6,
+            "area_px": 202.00042724609375,
+            "length_px": 73.00018310546875,
+            "thickness_px": 3.421234130859375,
+            "compactness": 0.11314951824832849,
+            "vert_density": 0.040058670269389265,
+            "skeleton_junctions": 59,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w113",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.5,
+            "n_verts": 5,
+            "area_px": 250.0,
+            "length_px": 25.0,
+            "thickness_px": 10.0001220703125,
+            "compactness": 0.6411413578754679,
+            "vert_density": 0.07142857142857142,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "junctions=2"
+            ]
+          },
+          "action": "skeleton_duplicate_of_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 0,
+            "junctions": 0
+          },
+          "skeleton_duplicate_candidate": true
+        },
+        {
+          "segment_id": "w114",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.999984741210938,
+            "n_verts": 5,
+            "area_px": 832.9992523193359,
+            "length_px": 118.99989318847656,
+            "thickness_px": 7.0001220703125,
+            "compactness": 0.16483678309147468,
+            "vert_density": 0.019841286660936947,
+            "skeleton_junctions": 228,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w115",
+          "classifier": {
+            "classifier": "FRAGMENTED",
+            "aspect": 3.2692814733671027,
+            "n_verts": 5,
+            "area_px": 39.50053405761719,
+            "length_px": 13.03838062286377,
+            "thickness_px": 3.610748291015625,
+            "compactness": 0.5152440527687313,
+            "vert_density": 0.1610905567187238,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "medium_aspect_fragmented_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w116",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.25030995006466,
+            "n_verts": 5,
+            "area_px": 259.9950408935547,
+            "length_px": 65.0,
+            "thickness_px": 4.0,
+            "compactness": 0.17156066303874587,
+            "vert_density": 0.03623192411994837,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w117",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 24.498179689911947,
+            "n_verts": 10,
+            "area_px": 318.02388763427734,
+            "length_px": 97.99998474121094,
+            "thickness_px": 3.35919189453125,
+            "compactness": 0.09692248346027692,
+            "vert_density": 0.04924673739149553,
+            "skeleton_junctions": 90,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w118",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 6.499814038828693,
+            "n_verts": 5,
+            "area_px": 416.01190185546875,
+            "length_px": 52.0,
+            "thickness_px": 8.000244140625,
+            "compactness": 0.3630361009921454,
+            "vert_density": 0.04166650772155359,
+            "skeleton_junctions": 90,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w119",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 19.000043710079783,
+            "n_verts": 5,
+            "area_px": 684.0015563964844,
+            "length_px": 114.000244140625,
+            "thickness_px": 6.0001220703125,
+            "compactness": 0.149225345448404,
+            "vert_density": 0.020833288298810187,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w120",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.500045776367188,
+            "n_verts": 5,
+            "area_px": 377.0013198852539,
+            "length_px": 69.00027465820312,
+            "thickness_px": 5.5074462890625,
+            "compactness": 0.21602187556672856,
+            "vert_density": 0.033763114626716946,
+            "skeleton_junctions": 65,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w121",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.2857230050223216,
+            "n_verts": 6,
+            "area_px": 82.49933624267578,
+            "length_px": 16.00006103515625,
+            "thickness_px": 6.01544189453125,
+            "compactness": 0.5767901579482446,
+            "vert_density": 0.14152397292051488,
+            "skeleton_junctions": 8,
+            "reasons": [
+              "junctions=8"
+            ]
+          },
+          "action": "p5b_not_longer_keep_obb",
+          "skeleton": {
+            "accepted": 1,
+            "rejected": 3,
+            "junctions": 3
+          }
+        },
+        {
+          "segment_id": "w122",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 9.749977111816406,
+            "n_verts": 9,
+            "area_px": 541.9991455078125,
+            "length_px": 77.99981689453125,
+            "thickness_px": 8.0001220703125,
+            "compactness": 0.25068188948780085,
+            "vert_density": 0.05460089433011071,
+            "skeleton_junctions": 14,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w123",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.388763013475215,
+            "n_verts": 5,
+            "area_px": 49.49993133544922,
+            "length_px": 32.01536178588867,
+            "thickness_px": 2.32672119140625,
+            "compactness": 0.14531087221556657,
+            "vert_density": 0.07642084384171317,
+            "skeleton_junctions": 39,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w124",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.058387974999041,
+            "n_verts": 6,
+            "area_px": 343.99937438964844,
+            "length_px": 66.00762176513672,
+            "thickness_px": 5.500732421875,
+            "compactness": 0.22608500824861244,
+            "vert_density": 0.043391371218404605,
+            "skeleton_junctions": 56,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w125",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 14.500053405761719,
+            "n_verts": 8,
+            "area_px": 192.5007095336914,
+            "length_px": 58.000213623046875,
+            "thickness_px": 3.50006103515625,
+            "compactness": 0.15916892120534912,
+            "vert_density": 0.06489302570595601,
+            "skeleton_junctions": 44,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w126",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 20.200006103515626,
+            "n_verts": 6,
+            "area_px": 503.00038146972656,
+            "length_px": 101.00003051757812,
+            "thickness_px": 5.0001220703125,
+            "compactness": 0.14220645613526517,
+            "vert_density": 0.0284591430081734,
+            "skeleton_junctions": 196,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w127",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 31.668277398549325,
+            "n_verts": 5,
+            "area_px": 281.98565673828125,
+            "length_px": 95.0,
+            "thickness_px": 2.9998779296875,
+            "compactness": 0.09356807190307674,
+            "vert_density": 0.0256930346918916,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        }
+      ],
+      "output_segment_count": 128,
+      "input_segment_count": 128
+    },
+    "2 BHK ": {
+      "p5b_version": 1,
+      "enabled": true,
+      "activations": 1,
+      "strip_skipped": 24,
+      "accepted_paths": 0,
+      "rejected_paths": 27,
+      "segments_replaced": 0,
+      "segments_split": 0,
+      "segments_retained_obb": 25,
+      "duplicate_skipped": 0,
+      "per_wall": [
+        {
+          "segment_id": "w0",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 9.199688425511267,
+            "n_verts": 5,
+            "area_px": 227.50677369371078,
+            "length_px": 45.999916076660156,
+            "thickness_px": 5.000244140625,
+            "compactness": 0.2797108497928495,
+            "vert_density": 0.049456407122312,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w1",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.499775173531226,
+            "n_verts": 5,
+            "area_px": 280.00201033751364,
+            "length_px": 69.99980163574219,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.1606384262966075,
+            "vert_density": 0.03378385605837984,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w2",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 21.800087471291924,
+            "n_verts": 5,
+            "area_px": 544.9988327011233,
+            "length_px": 109.00008392333984,
+            "thickness_px": 5.00006103515625,
+            "compactness": 0.13174529148544348,
+            "vert_density": 0.02192980841734417,
+            "skeleton_junctions": 214,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w3",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 5.166637208876501,
+            "n_verts": 5,
+            "area_px": 186.00083160342183,
+            "length_px": 30.999980926513672,
+            "thickness_px": 6.0001220703125,
+            "compactness": 0.4268360004786843,
+            "vert_density": 0.06756754666894037,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w4",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 7.749915541003681,
+            "n_verts": 5,
+            "area_px": 122.00136184881558,
+            "length_px": 30.999950408935547,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.32086802966364186,
+            "vert_density": 0.07233457877298652,
+            "skeleton_junctions": 56,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w5",
+          "classifier": {
+            "classifier": "SHORT_STRIP",
+            "aspect": 2.0000095366522155,
+            "n_verts": 5,
+            "area_px": 24.0003433238453,
+            "length_px": 8.000114440917969,
+            "thickness_px": 4.00006103515625,
+            "compactness": 0.6430234366500651,
+            "vert_density": 0.23087119254723865,
+            "skeleton_junctions": 7,
+            "reasons": [
+              "short_relative_to_thickness"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w6",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 9.80012878575178,
+            "n_verts": 5,
+            "area_px": 244.99723696430738,
+            "length_px": 49.00004577636719,
+            "thickness_px": 5.0,
+            "compactness": 0.2639512876457897,
+            "vert_density": 0.04629630937825221,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w7",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.600063553062515,
+            "n_verts": 5,
+            "area_px": 287.4995040881913,
+            "length_px": 58.00012969970703,
+            "thickness_px": 5.00006103515625,
+            "compactness": 0.23085439250283601,
+            "vert_density": 0.03996829236620466,
+            "skeleton_junctions": 110,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w8",
+          "classifier": {
+            "classifier": "STRIP_NOISY",
+            "aspect": 6.582023026279162,
+            "n_verts": 5,
+            "area_px": 39.49964714028465,
+            "length_px": 19.026412963867188,
+            "thickness_px": 2.527862548828125,
+            "compactness": 0.30996354273097104,
+            "vert_density": 0.12494640711933898,
+            "skeleton_junctions": 4,
+            "reasons": [
+              "high_aspect_noisy_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w9",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 28.749689224494116,
+            "n_verts": 5,
+            "area_px": 460.00424003234366,
+            "length_px": 114.99990844726562,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.10205121050128098,
+            "vert_density": 0.02100841245294036,
+            "skeleton_junctions": 224,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w10",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 21.200051994477448,
+            "n_verts": 7,
+            "area_px": 505.49879289141245,
+            "length_px": 105.99994659423828,
+            "thickness_px": 5.0,
+            "compactness": 0.13236106771569667,
+            "vert_density": 0.03195311316387734,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w11",
+          "classifier": {
+            "classifier": "STRIP_NOISY",
+            "aspect": 6.499991417013006,
+            "n_verts": 5,
+            "area_px": 23.00029563976568,
+            "length_px": 13.000106811523438,
+            "thickness_px": 2.0001220703125,
+            "compactness": 0.3532124073323886,
+            "vert_density": 0.1747899018465394,
+            "skeleton_junctions": 5,
+            "reasons": [
+              "high_aspect_noisy_contour"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w12",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 23.51038812227324,
+            "n_verts": 4,
+            "area_px": 47.000402450124966,
+            "length_px": 47.01058578491211,
+            "thickness_px": 1.4010009765625,
+            "compactness": 0.0640585587874348,
+            "vert_density": 0.041657466403711964,
+            "skeleton_junctions": 49,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w13",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 7.9999656678992315,
+            "n_verts": 5,
+            "area_px": 288.0016937267501,
+            "length_px": 48.000038146972656,
+            "thickness_px": 6.0001220703125,
+            "compactness": 0.31028179158197894,
+            "vert_density": 0.046296237427586186,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w14",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 9.600117951879296,
+            "n_verts": 5,
+            "area_px": 239.99709296198853,
+            "length_px": 48.000003814697266,
+            "thickness_px": 5.0,
+            "compactness": 0.26841393099354,
+            "vert_density": 0.04716986224681449,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w15",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 10.399657603744997,
+            "n_verts": 5,
+            "area_px": 257.5079078564304,
+            "length_px": 51.99995422363281,
+            "thickness_px": 5.000244140625,
+            "compactness": 0.2529771550837373,
+            "vert_density": 0.044208974339661394,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w16",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.500346676152972,
+            "n_verts": 5,
+            "area_px": 129.99427985666262,
+            "length_px": 33.99986267089844,
+            "thickness_px": 3.9998779296875,
+            "compactness": 0.3016054881702135,
+            "vert_density": 0.06793953515102638,
+            "skeleton_junctions": 63,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w17",
+          "classifier": {
+            "classifier": "BRANCHED",
+            "aspect": 2.250139957979226,
+            "n_verts": 5,
+            "area_px": 27.999027239544375,
+            "length_px": 9.00015640258789,
+            "thickness_px": 3.9998779296875,
+            "compactness": 0.6286955921355947,
+            "vert_density": 0.21135562399429428,
+            "skeleton_junctions": 14,
+            "reasons": [
+              "junctions=14"
+            ]
+          },
+          "action": "p5b_rejected_keep_obb",
+          "skeleton": {
+            "accepted": 0,
+            "rejected": 27,
+            "junctions": 14
+          }
+        },
+        {
+          "segment_id": "w18",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 32.99973106640753,
+            "n_verts": 7,
+            "area_px": 107.00105094938772,
+            "length_px": 66.00009155273438,
+            "thickness_px": 2.0001220703125,
+            "compactness": 0.07253174410535548,
+            "vert_density": 0.05141183992946494,
+            "skeleton_junctions": 27,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w19",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 8.249932766601882,
+            "n_verts": 5,
+            "area_px": 130.00133133021882,
+            "length_px": 33.00004577636719,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.3055250612982255,
+            "vert_density": 0.06837771635162898,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w20",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 30.250461376847937,
+            "n_verts": 5,
+            "area_px": 483.99261474609375,
+            "length_px": 120.99998474121094,
+            "thickness_px": 4.0,
+            "compactness": 0.09731258417599203,
+            "vert_density": 0.020000009765629767,
+            "skeleton_junctions": 240,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w21",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 10.999511741100719,
+            "n_verts": 5,
+            "area_px": 97.50453186349478,
+            "length_px": 33.00004577636719,
+            "thickness_px": 3.000244140625,
+            "compactness": 0.24195298471691437,
+            "vert_density": 0.07026162073716212,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w22",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 18.857275126706593,
+            "n_verts": 11,
+            "area_px": 761.5012235607865,
+            "length_px": 132.00015258789062,
+            "thickness_px": 6.833343505859375,
+            "compactness": 0.12415141923033635,
+            "vert_density": 0.039621261113259226,
+            "skeleton_junctions": 196,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w23",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 11.749934673932325,
+            "n_verts": 6,
+            "area_px": 177.50216008188545,
+            "length_px": 47.000186920166016,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.21795817872029807,
+            "vert_density": 0.059310431306959795,
+            "skeleton_junctions": 4,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w24",
+          "classifier": {
+            "classifier": "STRIP_NOISY",
+            "aspect": 5.249944210584539,
+            "n_verts": 7,
+            "area_px": 70.00068283095607,
+            "length_px": 20.999977111816406,
+            "thickness_px": 4.0001220703125,
+            "compactness": 0.4011355364882095,
+            "vert_density": 0.14948153147438042,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "high_aspect_noisy_contour"
+            ]
+          },
+          "action": "keep_obb"
+        }
+      ],
+      "output_segment_count": 25,
+      "input_segment_count": 25
+    },
+    "1 BHK ": {
+      "p5b_version": 1,
+      "enabled": true,
+      "activations": 0,
+      "strip_skipped": 6,
+      "accepted_paths": 0,
+      "rejected_paths": 0,
+      "segments_replaced": 0,
+      "segments_split": 0,
+      "segments_retained_obb": 6,
+      "duplicate_skipped": 0,
+      "per_wall": [
+        {
+          "segment_id": "w0",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 5.025605030823497,
+            "n_verts": 21,
+            "area_px": 7097.043945442885,
+            "length_px": 196.00009155273438,
+            "thickness_px": 39.00042724609375,
+            "compactness": 0.3709887752094123,
+            "vert_density": 0.04283078165963154,
+            "skeleton_junctions": 287,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w1",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.607131958007812,
+            "n_verts": 6,
+            "area_px": 13779.990539726801,
+            "length_px": 492.99969482421875,
+            "thickness_px": 28.0001220703125,
+            "compactness": 0.16071807057314075,
+            "vert_density": 0.005780351037555323,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w2",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 25.49972044964565,
+            "n_verts": 5,
+            "area_px": 22950.310364138335,
+            "length_px": 765.0008544921875,
+            "thickness_px": 30.00048828125,
+            "compactness": 0.1140782134872468,
+            "vert_density": 0.0031446487766656006,
+            "skeleton_junctions": 1474,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w3",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 4.311139202562953,
+            "n_verts": 23,
+            "area_px": 7753.915420597419,
+            "length_px": 193.99981689453125,
+            "thickness_px": 44.999755859375,
+            "compactness": 0.3619489828403471,
+            "vert_density": 0.04432880812730498,
+            "skeleton_junctions": 271,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w4",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.345806513706766,
+            "n_verts": 6,
+            "area_px": 10978.275574229658,
+            "length_px": 425.0009460449219,
+            "thickness_px": 26.000732421875,
+            "compactness": 0.17223597516687492,
+            "vert_density": 0.006704110878719963,
+            "skeleton_junctions": 802,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w5",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 28.19941155669689,
+            "n_verts": 5,
+            "area_px": 6345.125884944573,
+            "length_px": 422.9997253417969,
+            "thickness_px": 15.0003662109375,
+            "compactness": 0.10390625994527374,
+            "vert_density": 0.005707761364015617,
+            "skeleton_junctions": 820,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        }
+      ],
+      "output_segment_count": 6,
+      "input_segment_count": 6
+    },
+    "1 BHK HOUSE ": {
+      "p5b_version": 1,
+      "enabled": true,
+      "activations": 0,
+      "strip_skipped": 4,
+      "accepted_paths": 0,
+      "rejected_paths": 0,
+      "segments_replaced": 0,
+      "segments_split": 0,
+      "segments_retained_obb": 4,
+      "duplicate_skipped": 0,
+      "per_wall": [
+        {
+          "segment_id": "w0",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 16.871919482335354,
+            "n_verts": 8,
+            "area_px": 16819.30474308817,
+            "length_px": 539.9404907226562,
+            "thickness_px": 31.5015869140625,
+            "compactness": 0.1600679089720106,
+            "vert_density": 0.006961986407809681,
+            "skeleton_junctions": 538,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w1",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 44.03520569309769,
+            "n_verts": 5,
+            "area_px": 29745.63568140939,
+            "length_px": 1144.9774169921875,
+            "thickness_px": 26.00146484375,
+            "compactness": 0.06826314378274835,
+            "vert_density": 0.0021367149455641496,
+            "skeleton_junctions": 2234,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w2",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 42.0420103099338,
+            "n_verts": 5,
+            "area_px": 23699.925796458498,
+            "length_px": 1009.0005493164062,
+            "thickness_px": 23.50048828125,
+            "compactness": 0.06990817075907009,
+            "vert_density": 0.0024224540524845945,
+            "skeleton_junctions": 1977,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w3",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 20.16807546783839,
+            "n_verts": 5,
+            "area_px": 70152.34378027543,
+            "length_px": 1189.9500732421875,
+            "thickness_px": 59.00115966796875,
+            "compactness": 0.1415000981458667,
+            "vert_density": 0.0020031909533431685,
+            "skeleton_junctions": 1127,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        }
+      ],
+      "output_segment_count": 4,
+      "input_segment_count": 4
+    },
+    "4 BHK ": {
+      "p5b_version": 1,
+      "enabled": true,
+      "activations": 0,
+      "strip_skipped": 5,
+      "accepted_paths": 0,
+      "rejected_paths": 0,
+      "segments_replaced": 0,
+      "segments_split": 0,
+      "segments_retained_obb": 5,
+      "duplicate_skipped": 0,
+      "per_wall": [
+        {
+          "segment_id": "w0",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 31.124862194586964,
+            "n_verts": 5,
+            "area_px": 7719.101713116164,
+            "length_px": 497.99969482421875,
+            "thickness_px": 15.50030517578125,
+            "compactness": 0.09196764030080054,
+            "vert_density": 0.0048685452662534726,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w1",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 17.857631716732133,
+            "n_verts": 6,
+            "area_px": 839.4754028068855,
+            "length_px": 124.99986267089844,
+            "thickness_px": 6.9998779296875,
+            "compactness": 0.15997594996128434,
+            "vert_density": 0.02336520950417804,
+            "skeleton_junctions": 229,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w2",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 31.92898030718524,
+            "n_verts": 5,
+            "area_px": 6257.916255975724,
+            "length_px": 446.9998779296875,
+            "thickness_px": 13.99993896484375,
+            "compactness": 0.09250779812656415,
+            "vert_density": 0.005422997082358723,
+            "skeleton_junctions": 2,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w3",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 27.899303759515515,
+            "n_verts": 20,
+            "area_px": 2202.6001054192893,
+            "length_px": 279.0002746582031,
+            "thickness_px": 9.00067138671875,
+            "compactness": 0.0828973094451886,
+            "vert_density": 0.03461206043655597,
+            "skeleton_junctions": 184,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w4",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 26.201695774906874,
+            "n_verts": 6,
+            "area_px": 637.4625319065526,
+            "length_px": 131.00045776367188,
+            "thickness_px": 4.999755859375,
+            "compactness": 0.11198451292545851,
+            "vert_density": 0.022433548211608312,
+            "skeleton_junctions": 4,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        }
+      ],
+      "output_segment_count": 5,
+      "input_segment_count": 5
+    },
+    "1 BHK GROUND FLOOR ": {
+      "p5b_version": 1,
+      "enabled": true,
+      "activations": 0,
+      "strip_skipped": 3,
+      "accepted_paths": 0,
+      "rejected_paths": 0,
+      "segments_replaced": 0,
+      "segments_split": 0,
+      "segments_retained_obb": 3,
+      "duplicate_skipped": 0,
+      "per_wall": [
+        {
+          "segment_id": "w0",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 30.873576169947114,
+            "n_verts": 9,
+            "area_px": 34840.90202288516,
+            "length_px": 1057.967041015625,
+            "thickness_px": 34.140106201171875,
+            "compactness": 0.09012599963916086,
+            "vert_density": 0.00408336243986638,
+            "skeleton_junctions": 1484,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w1",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 9.38460445967716,
+            "n_verts": 15,
+            "area_px": 24670.500563545153,
+            "length_px": 487.9991455078125,
+            "thickness_px": 52.00006103515625,
+            "compactness": 0.2683903853556016,
+            "vert_density": 0.013956638294061918,
+            "skeleton_junctions": 9,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        },
+        {
+          "segment_id": "w2",
+          "classifier": {
+            "classifier": "STRIP",
+            "aspect": 4.038466842925346,
+            "n_verts": 18,
+            "area_px": 10368.01550231548,
+            "length_px": 210.00015258789062,
+            "thickness_px": 51.5196533203125,
+            "compactness": 0.4993022338151726,
+            "vert_density": 0.035237209512342695,
+            "skeleton_junctions": 1,
+            "reasons": [
+              "clean_high_aspect"
+            ]
+          },
+          "action": "keep_obb"
+        }
+      ],
+      "output_segment_count": 3,
+      "input_segment_count": 3
+    }
+  },
+  "failures": [],
+  "all_gates_passed": true,
+  "recommendation_default_on": true
+}

@@ -1,0 +1,39 @@
+# HCI_2.1 Web UI — Python dependencies
+# Install: pip install -r requirements.txt
+# Expected: Python 3.11 (conda env improved_model_train recommended)
+#
+# PyTorch: on some platforms install torch (CPU or CUDA) from pytorch.org first,
+# then run: pip install -r requirements.txt
+#
+# Scope: active HCI_2.1 app only (web/, logic/, auto_label.py, scripts/).
+# Nested trees (hci-3d-model/, IMPROVED_MODEL_*) are not part of this install set.
+
+# ── Web UI / FastAPI ──────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ── Vision / arrays ───────────────────────────────────────────────────────────
+numpy
+opencv-python
+pillow
+
+# ── YOLO / training stack ─────────────────────────────────────────────────────
+# ultralytics pulls torch at runtime; pin torch from pytorch.org when needed.
+ultralytics>=8.3
+torch
+# Support packages used by ultralytics train/val (dataset.yaml, progress, HTTP)
+PyYAML
+requests
+tqdm
+packaging
+typing-extensions
+
+# ── IFC generation ────────────────────────────────────────────────────────────
+ifcopenshell
+
+# ── Optional Web UI features ──────────────────────────────────────────────────
+# Google Drive folder download (/api/download)
+gdown
+# SVG preview / thumbnails (/api/raw, /api/raw_thumb) — also needs system Cairo
+cairosvg

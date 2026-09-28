@@ -1,0 +1,765 @@
+{
+  "stem": "cubi_hqa_9333_20260811_140939_043808",
+  "W": 853,
+  "H": 1074,
+  "mpp": 0.01,
+  "mpp_source": "default_fallback",
+  "scale_confidence": "low",
+  "gt_walls": 34,
+  "segment_count": 8,
+  "node_count": 16,
+  "zero_length_after": 0,
+  "duplicate_groups_after": 0,
+  "p5a_merge_count": 7,
+  "p5b": {
+    "enabled": true,
+    "activations": 9,
+    "replaced": 0,
+    "split": 0,
+    "retained_obb": 34
+  },
+  "bbox_m": {
+    "min_x": 0.24949594023831695,
+    "max_x": 7.800002746582032,
+    "min_y": 0.16000534057617188,
+    "max_y": 8.746285226746357
+  },
+  "segments": [
+    {
+      "id": "w0",
+      "source_polygon_id": "c3_0",
+      "source_polygon_ids": [
+        "c3_0",
+        "c3_10",
+        "c3_26",
+        "c3_6"
+      ],
+      "polyline_px": [
+        [
+          696.0002746582031,
+          199.99974060058594
+        ],
+        [
+          780.0002746582031,
+          199.99974060058594
+        ]
+      ],
+      "polyline_m": [
+        [
+          6.960002746582031,
+          8.740002593994141
+        ],
+        [
+          7.800002746582032,
+          8.740002593994141
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          6.960002746582031,
+          8.740002593994141
+        ],
+        [
+          7.800002746582032,
+          8.740002593994141
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 23.18206787109375,
+      "thickness_m": 0.2318206787109375,
+      "thickness_m_writer_clipped": 0.2318206787109375,
+      "length_px": 84.0,
+      "length_m": 0.84,
+      "length_m_from_endpoints": 0.8400000000000007,
+      "length_agree": true,
+      "orientation_deg": 0.0,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w0",
+        "w6",
+        "w10",
+        "w26"
+      ],
+      "centerline_method": null,
+      "classifier": null,
+      "confidence": null,
+      "finite": true
+    },
+    {
+      "id": "w1",
+      "source_polygon_id": "c3_1",
+      "source_polygon_ids": [
+        "c3_1",
+        "c3_11",
+        "c3_19",
+        "c3_27",
+        "c3_3",
+        "c3_7"
+      ],
+      "polyline_px": [
+        [
+          516.9332764546322,
+          201.20358358997765
+        ],
+        [
+          593.8899647149677,
+          199.37147732536437
+        ]
+      ],
+      "polyline_m": [
+        [
+          5.169332764546322,
+          8.727964164100225
+        ],
+        [
+          5.938899647149677,
+          8.746285226746357
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          5.169332764546322,
+          8.727964164100225
+        ],
+        [
+          5.938899647149677,
+          8.746285226746357
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 26.49945068359375,
+      "thickness_m": 0.2649945068359375,
+      "thickness_m_writer_clipped": 0.2649945068359375,
+      "length_px": 76.97849362882666,
+      "length_m": 0.7697849362882666,
+      "length_m_from_endpoints": 0.7697849362882658,
+      "length_agree": true,
+      "orientation_deg": 1.363781809806801,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w1",
+        "w3",
+        "w7",
+        "w11",
+        "w19",
+        "w27"
+      ],
+      "centerline_method": null,
+      "classifier": null,
+      "confidence": null,
+      "finite": true
+    },
+    {
+      "id": "w2",
+      "source_polygon_id": "c3_2",
+      "source_polygon_ids": [
+        "c3_12",
+        "c3_2",
+        "c3_20",
+        "c3_28",
+        "c3_4",
+        "c3_8"
+      ],
+      "polyline_px": [
+        [
+          284.874802000738,
+          199.99974060058594
+        ],
+        [
+          371.8748317883245,
+          199.99974060058594
+        ]
+      ],
+      "polyline_m": [
+        [
+          2.84874802000738,
+          8.740002593994141
+        ],
+        [
+          3.7187483178832452,
+          8.740002593994141
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          2.84874802000738,
+          8.740002593994141
+        ],
+        [
+          3.7187483178832452,
+          8.740002593994141
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 27.826985359191895,
+      "thickness_m": 0.2782698535919189,
+      "thickness_m_writer_clipped": 0.2782698535919189,
+      "length_px": 87.00002978758653,
+      "length_m": 0.8700002978758653,
+      "length_m_from_endpoints": 0.8700002978758654,
+      "length_agree": true,
+      "orientation_deg": 0.0,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w2",
+        "w4",
+        "w8",
+        "w12",
+        "w20",
+        "w28"
+      ],
+      "centerline_method": null,
+      "classifier": null,
+      "confidence": null,
+      "finite": true
+    },
+    {
+      "id": "w5",
+      "source_polygon_id": "c3_5",
+      "source_polygon_ids": [
+        "c3_13",
+        "c3_21",
+        "c3_29",
+        "c3_5",
+        "c3_9"
+      ],
+      "polyline_px": [
+        [
+          24.949594023831693,
+          207.41759836700504
+        ],
+        [
+          170.96443699169225,
+          208.55822879491134
+        ]
+      ],
+      "polyline_m": [
+        [
+          0.24949594023831695,
+          8.66582401632995
+        ],
+        [
+          1.7096443699169226,
+          8.654417712050886
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          0.24949594023831695,
+          8.66582401632995
+        ],
+        [
+          1.7096443699169226,
+          8.654417712050886
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 29.499664306640625,
+      "thickness_m": 0.29499664306640627,
+      "thickness_m_writer_clipped": 0.29499664306640627,
+      "length_px": 146.01929805577768,
+      "length_m": 1.460192980557777,
+      "length_m_from_endpoints": 1.460192980557777,
+      "length_agree": true,
+      "orientation_deg": -0.4475708007812561,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w5",
+        "w9",
+        "w13",
+        "w21",
+        "w29"
+      ],
+      "centerline_method": null,
+      "classifier": null,
+      "confidence": null,
+      "finite": true
+    },
+    {
+      "id": "w14",
+      "source_polygon_id": "c3_14",
+      "source_polygon_ids": [
+        "c3_14",
+        "c3_17",
+        "c3_22",
+        "c3_30",
+        "c3_32"
+      ],
+      "polyline_px": [
+        [
+          754.5001831054688,
+          1057.9994659423828
+        ],
+        [
+          754.5001831054688,
+          905.9995498657227
+        ]
+      ],
+      "polyline_m": [
+        [
+          7.545001831054687,
+          0.16000534057617188
+        ],
+        [
+          7.545001831054687,
+          1.6800045013427736
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          7.545001831054687,
+          0.16000534057617188
+        ],
+        [
+          7.545001831054687,
+          1.6800045013427736
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 40.562347412109375,
+      "thickness_m": 0.4056234741210938,
+      "thickness_m_writer_clipped": 0.4,
+      "length_px": 151.99991607666016,
+      "length_m": 1.5199991607666017,
+      "length_m_from_endpoints": 1.5199991607666017,
+      "length_agree": true,
+      "orientation_deg": 90.0,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w14",
+        "w17",
+        "w22",
+        "w30",
+        "w32"
+      ],
+      "centerline_method": null,
+      "classifier": null,
+      "confidence": null,
+      "finite": true
+    },
+    {
+      "id": "w15",
+      "source_polygon_id": "c3_15",
+      "source_polygon_ids": [
+        "c3_15",
+        "c3_18",
+        "c3_23",
+        "c3_31",
+        "c3_33"
+      ],
+      "polyline_px": [
+        [
+          754.0,
+          779.0001220703125
+        ],
+        [
+          754.0,
+          376.0465014537158
+        ]
+      ],
+      "polyline_m": [
+        [
+          7.54,
+          2.949998779296875
+        ],
+        [
+          7.54,
+          6.979534985462842
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          7.54,
+          2.949998779296875
+        ],
+        [
+          7.54,
+          6.979534985462842
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 41.00042724609375,
+      "thickness_m": 0.4100042724609375,
+      "thickness_m_writer_clipped": 0.4,
+      "length_px": 402.9536206165967,
+      "length_m": 4.029536206165967,
+      "length_m_from_endpoints": 4.029536206165967,
+      "length_agree": true,
+      "orientation_deg": 90.0,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w15",
+        "w18",
+        "w23",
+        "w31",
+        "w33"
+      ],
+      "centerline_method": null,
+      "classifier": null,
+      "confidence": null,
+      "finite": true
+    },
+    {
+      "id": "w16",
+      "source_polygon_id": "c3_16",
+      "source_polygon_ids": [
+        "c3_16",
+        "c3_24"
+      ],
+      "polyline_px": [
+        [
+          65.50016784667966,
+          731.999755859375
+        ],
+        [
+          65.5001678466797,
+          204.999755859375
+        ]
+      ],
+      "polyline_m": [
+        [
+          0.6550016784667966,
+          3.42000244140625
+        ],
+        [
+          0.655001678466797,
+          8.69000244140625
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          0.6550016784667966,
+          3.42000244140625
+        ],
+        [
+          0.655001678466797,
+          8.69000244140625
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 19.749969482421875,
+      "thickness_m": 0.19749969482421875,
+      "thickness_m_writer_clipped": 0.19749969482421875,
+      "length_px": 527.0,
+      "length_m": 5.2700000000000005,
+      "length_m_from_endpoints": 5.27,
+      "length_agree": true,
+      "orientation_deg": 90.0,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w16",
+        "w24"
+      ],
+      "centerline_method": null,
+      "classifier": null,
+      "confidence": null,
+      "finite": true
+    },
+    {
+      "id": "w25",
+      "source_polygon_id": "c3_25",
+      "source_polygon_ids": [
+        "c3_25"
+      ],
+      "polyline_px": [
+        [
+          348.49993896484375,
+          619.999755859375
+        ],
+        [
+          348.49993896484375,
+          232.0001220703125
+        ]
+      ],
+      "polyline_m": [
+        [
+          3.4849993896484377,
+          4.5400024414062505
+        ],
+        [
+          3.4849993896484377,
+          8.419998779296876
+        ]
+      ],
+      "expected_polyline_m_from_px": [
+        [
+          3.4849993896484377,
+          4.5400024414062505
+        ],
+        [
+          3.4849993896484377,
+          8.419998779296876
+        ]
+      ],
+      "px_to_m_consistent": true,
+      "thickness_px": 17.00042724609375,
+      "thickness_m": 0.1700042724609375,
+      "thickness_m_writer_clipped": 0.1700042724609375,
+      "length_px": 387.9996337890625,
+      "length_m": 3.879996337890625,
+      "length_m_from_endpoints": 3.879996337890625,
+      "length_agree": true,
+      "orientation_deg": 90.0,
+      "n_polyline_points": 2,
+      "merged_from": [
+        "w25"
+      ],
+      "centerline_method": null,
+      "classifier": "STRIP",
+      "confidence": null,
+      "finite": true
+    }
+  ],
+  "graph_endpoint_gaps": [
+    {
+      "a": "w2",
+      "b": "w25",
+      "min_endpoint_gap_m": 0.39628399270185427
+    },
+    {
+      "a": "w5",
+      "b": "w16",
+      "min_endpoint_gap_m": 0.40622592233312105
+    },
+    {
+      "a": "w0",
+      "b": "w1",
+      "min_endpoint_gap_m": 1.0211224271088453
+    },
+    {
+      "a": "w2",
+      "b": "w5",
+      "min_endpoint_gap_m": 1.1423142727229856
+    },
+    {
+      "a": "w14",
+      "b": "w15",
+      "min_endpoint_gap_m": 1.2700041276901657
+    },
+    {
+      "a": "w1",
+      "b": "w2",
+      "min_endpoint_gap_m": 1.4506343993905342
+    },
+    {
+      "a": "w1",
+      "b": "w25",
+      "min_endpoint_gap_m": 1.7122562880690415
+    },
+    {
+      "a": "w0",
+      "b": "w15",
+      "min_endpoint_gap_m": 1.779563887281969
+    },
+    {
+      "a": "w5",
+      "b": "w25",
+      "min_endpoint_gap_m": 1.7907645523963829
+    },
+    {
+      "a": "w2",
+      "b": "w16",
+      "min_endpoint_gap_m": 2.194316072556892
+    },
+    {
+      "a": "w1",
+      "b": "w15",
+      "min_endpoint_gap_m": 2.384308863166177
+    },
+    {
+      "a": "w16",
+      "b": "w25",
+      "min_endpoint_gap_m": 2.8428487513136886
+    },
+    {
+      "a": "w0",
+      "b": "w2",
+      "min_endpoint_gap_m": 3.241254428698786
+    },
+    {
+      "a": "w1",
+      "b": "w5",
+      "min_endpoint_gap_m": 3.4604700357816127
+    },
+    {
+      "a": "w0",
+      "b": "w25",
+      "min_endpoint_gap_m": 3.4897064019943778
+    },
+    {
+      "a": "w2",
+      "b": "w15",
+      "min_endpoint_gap_m": 4.207280667933628
+    },
+    {
+      "a": "w15",
+      "b": "w25",
+      "min_endpoint_gap_m": 4.3032506191596935
+    },
+    {
+      "a": "w1",
+      "b": "w16",
+      "min_endpoint_gap_m": 4.514490696317121
+    },
+    {
+      "a": "w14",
+      "b": "w25",
+      "min_endpoint_gap_m": 4.966206604783175
+    },
+    {
+      "a": "w0",
+      "b": "w5",
+      "min_endpoint_gap_m": 5.251055880052574
+    },
+    {
+      "a": "w5",
+      "b": "w15",
+      "min_endpoint_gap_m": 6.066158497852198
+    },
+    {
+      "a": "w0",
+      "b": "w16",
+      "min_endpoint_gap_m": 6.305199321527676
+    },
+    {
+      "a": "w15",
+      "b": "w16",
+      "min_endpoint_gap_m": 6.901022049661285
+    },
+    {
+      "a": "w0",
+      "b": "w14",
+      "min_endpoint_gap_m": 7.064601795937315
+    },
+    {
+      "a": "w14",
+      "b": "w16",
+      "min_endpoint_gap_m": 7.106313737380745
+    },
+    {
+      "a": "w1",
+      "b": "w14",
+      "min_endpoint_gap_m": 7.246508643157382
+    },
+    {
+      "a": "w2",
+      "b": "w14",
+      "min_endpoint_gap_m": 8.030179886857937
+    },
+    {
+      "a": "w5",
+      "b": "w14",
+      "min_endpoint_gap_m": 9.093615141018232
+    }
+  ],
+  "opening_audit": [
+    {
+      "opening_id": "c1_3",
+      "type": "window",
+      "host": "w1",
+      "t": 1.0,
+      "host_exists_in_final_graph": true,
+      "host_polyline_m": [
+        [
+          5.169332764546322,
+          8.727964164100225
+        ],
+        [
+          5.938899647149677,
+          8.746285226746357
+        ]
+      ],
+      "host_length_m": 0.7697849362882666,
+      "distance_to_wall": 0.2461809932099228,
+      "projection_class": "endpoint_end"
+    },
+    {
+      "opening_id": "c2_0",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c2_1",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c2_2",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_0",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_1",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_2",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_4",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_5",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_6",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_7",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    },
+    {
+      "opening_id": "c1_8",
+      "type": "?",
+      "host": null,
+      "unmapped": true
+    }
+  ],
+  "mapping_success_rate": 0.08333333333333333,
+  "mapped": 1,
+  "unmapped_count": 11,
+  "writer_contract": {
+    "uses": [
+      "segments[].id",
+      "segments[].polyline_m[0]",
+      "segments[].polyline_m[-1]",
+      "segments[].thickness_m"
+    ],
+    "ignores_midpoints": true,
+    "assumes_straight_2pt": true,
+    "placement": "IfcLocalPlacement at polyline[0], RefDirection along segment",
+    "profile": "rectangle length x thickness centered on local X axis",
+    "extrusion": "Z up, depth=3.0",
+    "thickness_clip": [
+      0.1,
+      0.4
+    ],
+    "y_convention_in_graph": "py_to_m = (H - y_px) * mpp  (image Y inverted once)"
+  },
+  "ifc_path": "C:\\H\\_p5b_ifc_diagnostic\\cubi_hqa_9333_20260811_140939_043808_diag.ifc"
+}

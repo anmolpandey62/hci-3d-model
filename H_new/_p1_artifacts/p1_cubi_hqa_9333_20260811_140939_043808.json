@@ -1,0 +1,5051 @@
+{
+  "summary": {
+    "stem": "cubi_hqa_9333_20260811_140939_043808",
+    "image": "C:\\gdrive_dataset\\images\\train\\cubi_hqa_9333_20260811_140939_043808.png",
+    "W": 853,
+    "H": 1074,
+    "mpp": 0.01,
+    "mpp_source": "default_fallback",
+    "walls": 34,
+    "doors": 3,
+    "windows": 9,
+    "segments": 34,
+    "nodes": 24,
+    "fallback_count": 0,
+    "fallback_pct": 0.0,
+    "fallback_reasons": {},
+    "raw_thickness": {
+      "median": 0.29000144958496094,
+      "min": 0.17000289916992187,
+      "max": 0.46000549316406253
+    },
+    "final_thickness": {
+      "median": 0.29000144958496094,
+      "min": 0.17000289916992187,
+      "max": 0.4
+    },
+    "zero_length_count": 0,
+    "duplicate_group_count": 6,
+    "snap_group_count": 24,
+    "t_junction_count": 49,
+    "x_junction_count": 55,
+    "collinear_overlap_count": 63,
+    "door_map_pct": 100.0,
+    "window_map_pct": 100.0,
+    "endpoint_host_count": 12,
+    "interior_host_count": 0,
+    "unmapped_count": 0,
+    "unmapped_ids": [],
+    "unmapped_reasons": {},
+    "deterministic": true,
+    "determinism_diff": null,
+    "fingerprint": "e1fa534030f07d8525d04408d46d94614d4a403a6f294465707d5ce56d51a243",
+    "geo_identity": {
+      "segment_ids": [
+        "w0",
+        "w1",
+        "w10",
+        "w11",
+        "w12",
+        "w13",
+        "w14",
+        "w15",
+        "w16",
+        "w17",
+        "w18",
+        "w19",
+        "w2",
+        "w20",
+        "w21",
+        "w22",
+        "w23",
+        "w24",
+        "w25",
+        "w26",
+        "w27",
+        "w28",
+        "w29",
+        "w3",
+        "w30",
+        "w31",
+        "w32",
+        "w33",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9"
+      ],
+      "thicknesses": {
+        "w0": 0.280002,
+        "w1": 0.278733,
+        "w2": 0.280002,
+        "w3": 0.280003,
+        "w4": 0.307115,
+        "w5": 0.330065,
+        "w6": 0.3,
+        "w7": 0.290002,
+        "w8": 0.309999,
+        "w9": 0.309999,
+        "w10": 0.290001,
+        "w11": 0.290001,
+        "w12": 0.276536,
+        "w13": 0.329997,
+        "w14": 0.4,
+        "w15": 0.4,
+        "w16": 0.170003,
+        "w17": 0.380003,
+        "w18": 0.380003,
+        "w19": 0.219998,
+        "w20": 0.219998,
+        "w21": 0.219998,
+        "w22": 0.350003,
+        "w23": 0.360025,
+        "w24": 0.230003,
+        "w25": 0.170003,
+        "w26": 0.219998,
+        "w27": 0.219998,
+        "w28": 0.21803,
+        "w29": 0.219998,
+        "w30": 0.4,
+        "w31": 0.4,
+        "w32": 0.4,
+        "w33": 0.4
+      },
+      "lengths": {
+        "w0": 0.65344,
+        "w1": 0.515253,
+        "w2": 0.605031,
+        "w3": 0.515253,
+        "w4": 0.605031,
+        "w5": 1.300567,
+        "w6": 0.65344,
+        "w7": 0.515253,
+        "w8": 0.605031,
+        "w9": 0.537859,
+        "w10": 0.65344,
+        "w11": 0.515253,
+        "w12": 0.605031,
+        "w13": 1.300567,
+        "w14": 1.192222,
+        "w15": 0.541598,
+        "w16": 3.962557,
+        "w17": 1.491273,
+        "w18": 0.993378,
+        "w19": 0.515253,
+        "w20": 0.605031,
+        "w21": 1.300567,
+        "w22": 1.192222,
+        "w23": 3.953993,
+        "w24": 5.252537,
+        "w25": 3.879996,
+        "w26": 0.65344,
+        "w27": 0.515253,
+        "w28": 0.605031,
+        "w29": 1.300567,
+        "w30": 0.931773,
+        "w31": 1.282338,
+        "w32": 0.931773,
+        "w33": 3.585212
+      },
+      "polylines": {
+        "w0": [
+          [
+            6.9925,
+            8.745002
+          ],
+          [
+            7.645002,
+            8.710002
+          ]
+        ],
+        "w1": [
+          [
+            5.258687,
+            8.699167
+          ],
+          [
+            5.773886,
+            8.706667
+          ]
+        ],
+        "w2": [
+          [
+            2.978789,
+            8.699993
+          ],
+          [
+            3.58378,
+            8.69304
+          ]
+        ],
+        "w3": [
+          [
+            5.258687,
+            8.699167
+          ],
+          [
+            5.773886,
+            8.706667
+          ]
+        ],
+        "w4": [
+          [
+            2.978789,
+            8.699993
+          ],
+          [
+            3.58378,
+            8.69304
+          ]
+        ],
+        "w5": [
+          [
+            0.357823,
+            8.729998
+          ],
+          [
+            1.657744,
+            8.689001
+          ]
+        ],
+        "w6": [
+          [
+            6.9925,
+            8.745002
+          ],
+          [
+            7.645002,
+            8.710002
+          ]
+        ],
+        "w7": [
+          [
+            5.258687,
+            8.699167
+          ],
+          [
+            5.773886,
+            8.706667
+          ]
+        ],
+        "w8": [
+          [
+            2.978789,
+            8.699993
+          ],
+          [
+            3.58378,
+            8.69304
+          ]
+        ],
+        "w9": [
+          [
+            1.119998,
+            8.700001
+          ],
+          [
+            1.657744,
+            8.689001
+          ]
+        ],
+        "w10": [
+          [
+            6.9925,
+            8.745002
+          ],
+          [
+            7.645002,
+            8.710002
+          ]
+        ],
+        "w11": [
+          [
+            5.258687,
+            8.699167
+          ],
+          [
+            5.773886,
+            8.706667
+          ]
+        ],
+        "w12": [
+          [
+            2.978789,
+            8.699993
+          ],
+          [
+            3.58378,
+            8.69304
+          ]
+        ],
+        "w13": [
+          [
+            0.357823,
+            8.729998
+          ],
+          [
+            1.657744,
+            8.689001
+          ]
+        ],
+        "w14": [
+          [
+            7.55,
+            0.460005
+          ],
+          [
+            7.444051,
+            1.64751
+          ]
+        ],
+        "w15": [
+          [
+            7.447999,
+            3.028093
+          ],
+          [
+            7.55,
+            3.559999
+          ]
+        ],
+        "w16": [
+          [
+            0.694999,
+            4.709995
+          ],
+          [
+            0.675,
+            8.672502
+          ]
+        ],
+        "w17": [
+          [
+            7.55,
+            0.160005
+          ],
+          [
+            7.444051,
+            1.64751
+          ]
+        ],
+        "w18": [
+          [
+            7.447999,
+            3.028093
+          ],
+          [
+            7.597682,
+            4.010129
+          ]
+        ],
+        "w19": [
+          [
+            5.258687,
+            8.699167
+          ],
+          [
+            5.773886,
+            8.706667
+          ]
+        ],
+        "w20": [
+          [
+            2.978789,
+            8.699993
+          ],
+          [
+            3.58378,
+            8.69304
+          ]
+        ],
+        "w21": [
+          [
+            0.357823,
+            8.729998
+          ],
+          [
+            1.657744,
+            8.689001
+          ]
+        ],
+        "w22": [
+          [
+            7.55,
+            0.460005
+          ],
+          [
+            7.444051,
+            1.64751
+          ]
+        ],
+        "w23": [
+          [
+            7.589992,
+            6.979535
+          ],
+          [
+            7.447999,
+            3.028093
+          ]
+        ],
+        "w24": [
+          [
+            0.694999,
+            3.420002
+          ],
+          [
+            0.675,
+            8.672502
+          ]
+        ],
+        "w25": [
+          [
+            3.484999,
+            4.540002
+          ],
+          [
+            3.484999,
+            8.419999
+          ]
+        ],
+        "w26": [
+          [
+            6.9925,
+            8.745002
+          ],
+          [
+            7.645002,
+            8.710002
+          ]
+        ],
+        "w27": [
+          [
+            5.258687,
+            8.699167
+          ],
+          [
+            5.773886,
+            8.706667
+          ]
+        ],
+        "w28": [
+          [
+            2.978789,
+            8.699993
+          ],
+          [
+            3.58378,
+            8.69304
+          ]
+        ],
+        "w29": [
+          [
+            0.357823,
+            8.729998
+          ],
+          [
+            1.657744,
+            8.689001
+          ]
+        ],
+        "w30": [
+          [
+            7.545002,
+            0.721222
+          ],
+          [
+            7.444051,
+            1.64751
+          ]
+        ],
+        "w31": [
+          [
+            7.447999,
+            3.028093
+          ],
+          [
+            7.415001,
+            4.310006
+          ]
+        ],
+        "w32": [
+          [
+            7.545002,
+            0.721222
+          ],
+          [
+            7.444051,
+            1.64751
+          ]
+        ],
+        "w33": [
+          [
+            7.447999,
+            3.028093
+          ],
+          [
+            7.590947,
+            6.610453
+          ]
+        ]
+      },
+      "hosts": [
+        [
+          "c1_0",
+          "w5",
+          1.0
+        ],
+        [
+          "c1_1",
+          "w2",
+          0.0
+        ],
+        [
+          "c1_2",
+          "w1",
+          1.0
+        ],
+        [
+          "c1_3",
+          "w1",
+          1.0
+        ],
+        [
+          "c1_4",
+          "w5",
+          1.0
+        ],
+        [
+          "c1_5",
+          "w15",
+          0.0
+        ],
+        [
+          "c1_6",
+          "w5",
+          1.0
+        ],
+        [
+          "c1_7",
+          "w2",
+          0.0
+        ],
+        [
+          "c1_8",
+          "w15",
+          0.0
+        ],
+        [
+          "c2_0",
+          "w2",
+          1.0
+        ],
+        [
+          "c2_1",
+          "w2",
+          1.0
+        ],
+        [
+          "c2_2",
+          "w2",
+          1.0
+        ]
+      ],
+      "unmapped": []
+    },
+    "mappings": [
+      {
+        "opening_id": "c2_0",
+        "opening_type": "door",
+        "host_wall_id": "w2",
+        "distance_to_wall": 0.46207478478700026,
+        "offset_along_wall": 0.6050308250954142,
+        "t": 1.0,
+        "orientation_deg": -0.6584859368542416,
+        "width_m": 0.78999755859375,
+        "wall_length_m": 0.6050308250954142,
+        "wall_thickness_m": 0.28000244140625
+      },
+      {
+        "opening_id": "c2_1",
+        "opening_type": "door",
+        "host_wall_id": "w2",
+        "distance_to_wall": 0.30582055078662745,
+        "offset_along_wall": 0.6050308250954142,
+        "t": 1.0,
+        "orientation_deg": -0.6584859368542416,
+        "width_m": 0.8100003051757813,
+        "wall_length_m": 0.6050308250954142,
+        "wall_thickness_m": 0.28000244140625
+      },
+      {
+        "opening_id": "c2_2",
+        "opening_type": "door",
+        "host_wall_id": "w2",
+        "distance_to_wall": 0.4174691238448323,
+        "offset_along_wall": 0.6050308250954142,
+        "t": 1.0,
+        "orientation_deg": -0.6584859368542416,
+        "width_m": 0.7899972534179688,
+        "wall_length_m": 0.6050308250954142,
+        "wall_thickness_m": 0.28000244140625
+      },
+      {
+        "opening_id": "c1_0",
+        "opening_type": "window",
+        "host_wall_id": "w5",
+        "distance_to_wall": 0.41283528063556485,
+        "offset_along_wall": 1.300566944291007,
+        "t": 1.0,
+        "orientation_deg": -1.8063937832383148,
+        "width_m": 2.4799951171875,
+        "wall_length_m": 1.300566944291007,
+        "wall_thickness_m": 0.33006526947021486
+      },
+      {
+        "opening_id": "c1_1",
+        "opening_type": "window",
+        "host_wall_id": "w2",
+        "distance_to_wall": 0.5577746658447127,
+        "offset_along_wall": 0.0,
+        "t": 0.0,
+        "orientation_deg": -0.6584859368542416,
+        "width_m": 2.020030822753906,
+        "wall_length_m": 0.6050308250954142,
+        "wall_thickness_m": 0.28000244140625
+      },
+      {
+        "opening_id": "c1_2",
+        "opening_type": "window",
+        "host_wall_id": "w1",
+        "distance_to_wall": 0.4639992111154535,
+        "offset_along_wall": 0.5152529952218251,
+        "t": 1.0,
+        "orientation_deg": 0.8340384482535268,
+        "width_m": 2.4086106872558593,
+        "wall_length_m": 0.5152529952218251,
+        "wall_thickness_m": 0.2787330627441406
+      },
+      {
+        "opening_id": "c1_3",
+        "opening_type": "window",
+        "host_wall_id": "w1",
+        "distance_to_wall": 0.41246410866444677,
+        "offset_along_wall": 0.5152529952218251,
+        "t": 1.0,
+        "orientation_deg": 0.8340384482535268,
+        "width_m": 2.40999755859375,
+        "wall_length_m": 0.5152529952218251,
+        "wall_thickness_m": 0.2787330627441406
+      },
+      {
+        "opening_id": "c1_4",
+        "opening_type": "window",
+        "host_wall_id": "w5",
+        "distance_to_wall": 0.46048607302257677,
+        "offset_along_wall": 1.300566944291007,
+        "t": 1.0,
+        "orientation_deg": -1.8063937832383148,
+        "width_m": 2.4399978637695314,
+        "wall_length_m": 1.300566944291007,
+        "wall_thickness_m": 0.33006526947021486
+      },
+      {
+        "opening_id": "c1_5",
+        "opening_type": "window",
+        "host_wall_id": "w15",
+        "distance_to_wall": 0.4986375852155934,
+        "offset_along_wall": 0.0,
+        "t": 0.0,
+        "orientation_deg": 79.1444376852657,
+        "width_m": 2.0399987792968752,
+        "wall_length_m": 0.5415980748889218,
+        "wall_thickness_m": 0.4
+      },
+      {
+        "opening_id": "c1_6",
+        "opening_type": "window",
+        "host_wall_id": "w5",
+        "distance_to_wall": 0.6006230403100593,
+        "offset_along_wall": 1.300566944291007,
+        "t": 1.0,
+        "orientation_deg": -1.8063937832383148,
+        "width_m": 2.2399949645996093,
+        "wall_length_m": 1.300566944291007,
+        "wall_thickness_m": 0.33006526947021486
+      },
+      {
+        "opening_id": "c1_7",
+        "opening_type": "window",
+        "host_wall_id": "w2",
+        "distance_to_wall": 0.47653130087750994,
+        "offset_along_wall": 0.0,
+        "t": 0.0,
+        "orientation_deg": -0.6584859368542416,
+        "width_m": 2.040000762939453,
+        "wall_length_m": 0.6050308250954142,
+        "wall_thickness_m": 0.28000244140625
+      },
+      {
+        "opening_id": "c1_8",
+        "opening_type": "window",
+        "host_wall_id": "w15",
+        "distance_to_wall": 0.5487570064076221,
+        "offset_along_wall": 0.0,
+        "t": 0.0,
+        "orientation_deg": 79.1444376852657,
+        "width_m": 1.9799945068359375,
+        "wall_length_m": 0.5415980748889218,
+        "wall_thickness_m": 0.4
+      }
+    ]
+  },
+  "examples": {
+    "doors_w2_or_t1": [
+      {
+        "opening_id": "c2_0",
+        "class": "door",
+        "centroid_px": [
+          404.5002746582032,
+          207.50002288818357
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.46207478478700026,
+        "distance_px": 46.207478478700025,
+        "d_max": 0.570003662109375,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.6112521949001983,
+            "distance_px": 61.12521949001983,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 1.2141653121248126,
+            "distance_px": 121.41653121248126,
+            "d_max": 0.5680995941162109,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      },
+      {
+        "opening_id": "c2_1",
+        "class": "door",
+        "centroid_px": [
+          388.72589334252575,
+          208.47287894495915
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.30582055078662745,
+        "distance_px": 30.582055078662744,
+        "d_max": 0.570003662109375,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.4660105765618239,
+            "distance_px": 46.601057656182384,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.4660105765618239,
+            "distance_px": 46.601057656182384,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 1.372130603635073,
+            "distance_px": 137.2130603635073,
+            "d_max": 0.5680995941162109,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      },
+      {
+        "opening_id": "c2_2",
+        "class": "door",
+        "centroid_px": [
+          399.4999847412107,
+          197.50000762939464
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.4174691238448323,
+        "distance_px": 41.74691238448323,
+        "d_max": 0.570003662109375,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.6157322929348393,
+            "distance_px": 61.573229293483934,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 1.26540100492621,
+            "distance_px": 126.54010049262101,
+            "d_max": 0.5680995941162109,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      },
+      {
+        "opening_id": "c1_0",
+        "class": "window",
+        "centroid_px": [
+          206.7649718931878,
+          210.00911028245494
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w5",
+        "distance_m": 0.41283528063556485,
+        "distance_px": 41.28352806355648,
+        "d_max": 0.6450979042053223,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w5",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w13",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.6449957656860351,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.32999717712402343,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 13,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w21",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 21,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w29",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 29,
+            "rank_by_distance": 4
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w13",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.6449957656860351,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.32999717712402343,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 13,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w21",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 21,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w29",
+            "distance_m": 0.41283528063556485,
+            "distance_px": 41.28352806355648,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 29,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 0.9131178492839288,
+            "distance_px": 91.31178492839288,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.9131178492839288,
+            "distance_px": 91.31178492839288,
+            "d_max": 0.6106722164154054,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.9131178492839288,
+            "distance_px": 91.31178492839288,
+            "d_max": 0.6149990844726563,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w5",
+          "w13",
+          "w21",
+          "w29"
+        ]
+      },
+      {
+        "opening_id": "c1_1",
+        "class": "window",
+        "centroid_px": [
+          242.26468986024778,
+          208.2656258701906
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.5577746658447127,
+        "distance_px": 55.77746658447127,
+        "d_max": 0.570003662109375,
+        "t": 0.0,
+        "projection_class": "endpoint_start",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.6106722164154054,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.6149990844726563,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.5648040676116943,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.6106722164154054,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.6149990844726563,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.5648040676116943,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.55,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.5577746658447127,
+            "distance_px": 55.77746658447127,
+            "d_max": 0.55,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w5",
+            "distance_m": 0.7655579735748741,
+            "distance_px": 76.5557973574874,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.7655579735748741,
+            "distance_px": 76.5557973574874,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      },
+      {
+        "opening_id": "c1_2",
+        "class": "window",
+        "centroid_px": [
+          623.4999312500653,
+          208.49991571674306
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w1",
+        "distance_m": 0.4639992111154535,
+        "distance_px": 46.399921111545346,
+        "d_max": 0.5680995941162109,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w1",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.5680995941162109,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.570003890991211,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2800025939941406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w7",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.5850022888183594,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.29000152587890626,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 7,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w11",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.5850020599365234,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2900013732910156,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 11,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w19",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 19,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w27",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 27,
+            "rank_by_distance": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w1",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.5680995941162109,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.570003890991211,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2800025939941406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w7",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.5850022888183594,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.29000152587890626,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 7,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w11",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.5850020599365234,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2900013732910156,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 11,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w19",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 19,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w27",
+            "distance_m": 0.4639992111154535,
+            "distance_px": 46.399921111545346,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 27,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 0.7628284821664945,
+            "distance_px": 76.28284821664944,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6534401807579572,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w0",
+              "w6",
+              "w10",
+              "w26"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w6",
+            "distance_m": 0.7628284821664945,
+            "distance_px": 76.28284821664944,
+            "d_max": 0.6000006866455079,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6534401807579572,
+            "wall_thickness_m": 0.3000004577636719,
+            "coincident_group": [
+              "w0",
+              "w6",
+              "w10",
+              "w26"
+            ],
+            "encounter_index": 6,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w1",
+          "w3",
+          "w7",
+          "w11",
+          "w19",
+          "w27"
+        ]
+      },
+      {
+        "opening_id": "c1_3",
+        "class": "window",
+        "centroid_px": [
+          618.5000457763672,
+          199.9997482299805
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w1",
+        "distance_m": 0.41246410866444677,
+        "distance_px": 41.24641086644468,
+        "d_max": 0.5680995941162109,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w1",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.5680995941162109,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.570003890991211,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2800025939941406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w7",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.5850022888183594,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.29000152587890626,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 7,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w11",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.5850020599365234,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2900013732910156,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 11,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w19",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 19,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w27",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 27,
+            "rank_by_distance": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w1",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.5680995941162109,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.570003890991211,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2800025939941406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w7",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.5850022888183594,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.29000152587890626,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 7,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w11",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.5850020599365234,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2900013732910156,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 11,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w19",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 19,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w27",
+            "distance_m": 0.41246410866444677,
+            "distance_px": 41.24641086644468,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 27,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 0.8075148670260183,
+            "distance_px": 80.75148670260182,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6534401807579572,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w0",
+              "w6",
+              "w10",
+              "w26"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w6",
+            "distance_m": 0.8075148670260183,
+            "distance_px": 80.75148670260182,
+            "d_max": 0.6000006866455079,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6534401807579572,
+            "wall_thickness_m": 0.3000004577636719,
+            "coincident_group": [
+              "w0",
+              "w6",
+              "w10",
+              "w26"
+            ],
+            "encounter_index": 6,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w1",
+          "w3",
+          "w7",
+          "w11",
+          "w19",
+          "w27"
+        ]
+      },
+      {
+        "opening_id": "c1_4",
+        "class": "window",
+        "centroid_px": [
+          211.75017101129234,
+          202.51130572103526
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w5",
+        "distance_m": 0.46048607302257677,
+        "distance_px": 46.04860730225768,
+        "d_max": 0.6450979042053223,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w5",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w13",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.6449957656860351,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.32999717712402343,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 13,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w21",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 21,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w29",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 29,
+            "rank_by_distance": 4
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w13",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.6449957656860351,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.32999717712402343,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 13,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w21",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 21,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w29",
+            "distance_m": 0.46048607302257677,
+            "distance_px": 46.04860730225768,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 29,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 0.8614156972843682,
+            "distance_px": 86.14156972843682,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.8614156972843682,
+            "distance_px": 86.14156972843682,
+            "d_max": 0.6106722164154054,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.8614156972843682,
+            "distance_px": 86.14156972843682,
+            "d_max": 0.6149990844726563,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w5",
+          "w13",
+          "w21",
+          "w29"
+        ]
+      },
+      {
+        "opening_id": "c1_5",
+        "class": "window",
+        "centroid_px": [
+          755.0001220703125,
+          820.0000610351562
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w15",
+        "distance_m": 0.4986375852155934,
+        "distance_px": 49.86375852155934,
+        "d_max": 0.7500000000000001,
+        "t": 0.0,
+        "projection_class": "endpoint_start",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w15",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5415980748889218,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 15,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w18",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7200044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.993378006764732,
+            "wall_thickness_m": 0.3800029754638672,
+            "coincident_group": null,
+            "encounter_index": 18,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w23",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.6900370216369629,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.953992817921174,
+            "wall_thickness_m": 0.3600246810913086,
+            "coincident_group": null,
+            "encounter_index": 23,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w31",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.2823377079627565,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 31,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w33",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.5852116208391283,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 33,
+            "rank_by_distance": 4
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w15",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5415980748889218,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 15,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w18",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7200044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.993378006764732,
+            "wall_thickness_m": 0.3800029754638672,
+            "coincident_group": null,
+            "encounter_index": 18,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w23",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.6900370216369629,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.953992817921174,
+            "wall_thickness_m": 0.3600246810913086,
+            "coincident_group": null,
+            "encounter_index": 23,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w31",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.2823377079627565,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 31,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w33",
+            "distance_m": 0.4986375852155934,
+            "distance_px": 49.86375852155934,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.5852116208391283,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 33,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w14",
+            "distance_m": 0.8987561848442084,
+            "distance_px": 89.87561848442084,
+            "d_max": 0.7500000000000001,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.1922221712335803,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w14",
+              "w22"
+            ],
+            "encounter_index": 14,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w22",
+            "distance_m": 0.8987561848442084,
+            "distance_px": 89.87561848442084,
+            "d_max": 0.6750045776367187,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.1922221712335803,
+            "wall_thickness_m": 0.3500030517578125,
+            "coincident_group": [
+              "w14",
+              "w22"
+            ],
+            "encounter_index": 22,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w17",
+            "distance_m": 0.8987561848442086,
+            "distance_px": 89.87561848442085,
+            "d_max": 0.7200044631958008,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.4912731290288799,
+            "wall_thickness_m": 0.3800029754638672,
+            "coincident_group": null,
+            "encounter_index": 17,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": null
+      },
+      {
+        "opening_id": "c1_6",
+        "class": "window",
+        "centroid_px": [
+          225.01472717549373,
+          215.00244161442885
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w5",
+        "distance_m": 0.6006230403100593,
+        "distance_px": 60.06230403100593,
+        "d_max": 0.6450979042053223,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w5",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w13",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.6449957656860351,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.32999717712402343,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 13,
+            "rank_by_distance": 2
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w13",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.6449957656860351,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.32999717712402343,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 13,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w21",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999816894531252,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 21,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w29",
+            "distance_m": 0.6006230403100593,
+            "distance_px": 60.06230403100593,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 29,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 0.7369002879413079,
+            "distance_px": 73.69002879413078,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.7369002879413079,
+            "distance_px": 73.69002879413078,
+            "d_max": 0.6106722164154054,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.7369002879413079,
+            "distance_px": 73.69002879413078,
+            "d_max": 0.6149990844726563,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w5",
+          "w13",
+          "w21",
+          "w29"
+        ]
+      },
+      {
+        "opening_id": "c1_7",
+        "class": "window",
+        "centroid_px": [
+          250.2497454272642,
+          202.48813340538706
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.47653130087750994,
+        "distance_px": 47.653130087750995,
+        "d_max": 0.570003662109375,
+        "t": 0.0,
+        "projection_class": "endpoint_start",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.6106722164154054,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.6149990844726563,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.5648040676116943,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.55,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.55,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.570003662109375,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.6106722164154054,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.6149990844726563,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.5648040676116943,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.55,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.47653130087750994,
+            "distance_px": 47.653130087750995,
+            "d_max": 0.55,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w5",
+            "distance_m": 0.8451573219987155,
+            "distance_px": 84.51573219987155,
+            "d_max": 0.6450979042053223,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.300566944291007,
+            "wall_thickness_m": 0.33006526947021486,
+            "coincident_group": [
+              "w5",
+              "w13",
+              "w21",
+              "w29"
+            ],
+            "encounter_index": 5,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w9",
+            "distance_m": 0.8451573219987155,
+            "distance_px": 84.51573219987155,
+            "d_max": 0.6149990272521972,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5378586640765275,
+            "wall_thickness_m": 0.30999935150146485,
+            "coincident_group": null,
+            "encounter_index": 9,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      },
+      {
+        "opening_id": "c1_8",
+        "class": "window",
+        "centroid_px": [
+          747.5001220703125,
+          825.9999694824212
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w15",
+        "distance_m": 0.5487570064076221,
+        "distance_px": 54.87570064076221,
+        "d_max": 0.7500000000000001,
+        "t": 0.0,
+        "projection_class": "endpoint_start",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w15",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5415980748889218,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 15,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w18",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7200044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.993378006764732,
+            "wall_thickness_m": 0.3800029754638672,
+            "coincident_group": null,
+            "encounter_index": 18,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w23",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.6900370216369629,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.953992817921174,
+            "wall_thickness_m": 0.3600246810913086,
+            "coincident_group": null,
+            "encounter_index": 23,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w31",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.2823377079627565,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 31,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w33",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.5852116208391283,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 33,
+            "rank_by_distance": 4
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w15",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.5415980748889218,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 15,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w18",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7200044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.993378006764732,
+            "wall_thickness_m": 0.3800029754638672,
+            "coincident_group": null,
+            "encounter_index": 18,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w23",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.6900370216369629,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.953992817921174,
+            "wall_thickness_m": 0.3600246810913086,
+            "coincident_group": null,
+            "encounter_index": 23,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w31",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 1.2823377079627565,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 31,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w33",
+            "distance_m": 0.5487570064076221,
+            "distance_px": 54.87570064076221,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.5852116208391283,
+            "wall_thickness_m": 0.4,
+            "coincident_group": null,
+            "encounter_index": 33,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w14",
+            "distance_m": 0.833065377602121,
+            "distance_px": 83.3065377602121,
+            "d_max": 0.7500000000000001,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.1922221712335803,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w14",
+              "w22"
+            ],
+            "encounter_index": 14,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w22",
+            "distance_m": 0.833065377602121,
+            "distance_px": 83.3065377602121,
+            "d_max": 0.6750045776367187,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.1922221712335803,
+            "wall_thickness_m": 0.3500030517578125,
+            "coincident_group": [
+              "w14",
+              "w22"
+            ],
+            "encounter_index": 22,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w17",
+            "distance_m": 0.8330653776021212,
+            "distance_px": 83.30653776021212,
+            "d_max": 0.7200044631958008,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.4912731290288799,
+            "wall_thickness_m": 0.3800029754638672,
+            "coincident_group": null,
+            "encounter_index": 17,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": null
+      }
+    ],
+    "all_door_mappings": [
+      {
+        "opening_id": "c2_0",
+        "class": "door",
+        "centroid_px": [
+          404.5002746582032,
+          207.50002288818357
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.46207478478700026,
+        "distance_px": 46.207478478700025,
+        "d_max": 0.570003662109375,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.46207478478700026,
+            "distance_px": 46.207478478700025,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.6112521949001983,
+            "distance_px": 61.12521949001983,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 1.2141653121248126,
+            "distance_px": 121.41653121248126,
+            "d_max": 0.5680995941162109,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      },
+      {
+        "opening_id": "c2_1",
+        "class": "door",
+        "centroid_px": [
+          388.72589334252575,
+          208.47287894495915
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.30582055078662745,
+        "distance_px": 30.582055078662744,
+        "d_max": 0.570003662109375,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.4660105765618239,
+            "distance_px": 46.601057656182384,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.30582055078662745,
+            "distance_px": 30.582055078662744,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.4660105765618239,
+            "distance_px": 46.601057656182384,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 1.372130603635073,
+            "distance_px": 137.2130603635073,
+            "d_max": 0.5680995941162109,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      },
+      {
+        "opening_id": "c2_2",
+        "class": "door",
+        "centroid_px": [
+          399.4999847412107,
+          197.50000762939464
+        ],
+        "accepted": true,
+        "rejection_reason": null,
+        "host_wall_id": "w2",
+        "distance_m": 0.4174691238448323,
+        "distance_px": 41.74691238448323,
+        "d_max": 0.570003662109375,
+        "t": 1.0,
+        "projection_class": "endpoint_end",
+        "candidate_count": 34,
+        "candidates_within_d_max": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          }
+        ],
+        "top_candidates": [
+          {
+            "wall_id": "w2",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.570003662109375,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.28000244140625,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 2,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6106722164154054,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.30711481094360354,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 4,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w8",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.6149990844726563,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.3099993896484375,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 8,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w12",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.5648040676116943,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2765360450744629,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 12,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w20",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.21999813079833985,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 20,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w28",
+            "distance_m": 0.4174691238448323,
+            "distance_px": 41.74691238448323,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": true,
+            "wall_length_m": 0.6050308250954142,
+            "wall_thickness_m": 0.2180299186706543,
+            "coincident_group": [
+              "w2",
+              "w4",
+              "w8",
+              "w12",
+              "w20",
+              "w28"
+            ],
+            "encounter_index": 28,
+            "rank_by_distance": 5
+          },
+          {
+            "wall_id": "w25",
+            "distance_m": 0.6157322929348393,
+            "distance_px": 61.573229293483934,
+            "d_max": 0.55,
+            "t": 1.0,
+            "projection_class": "endpoint_end",
+            "accepted_by_threshold": false,
+            "wall_length_m": 3.879996337890625,
+            "wall_thickness_m": 0.17000301361083986,
+            "coincident_group": null,
+            "encounter_index": 25,
+            "rank_by_distance": 6
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 1.26540100492621,
+            "distance_px": 126.54010049262101,
+            "d_max": 0.5680995941162109,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 0.5152529952218251,
+            "wall_thickness_m": 0.2787330627441406,
+            "coincident_group": [
+              "w1",
+              "w3",
+              "w7",
+              "w11",
+              "w19",
+              "w27"
+            ],
+            "encounter_index": 1,
+            "rank_by_distance": 7
+          }
+        ],
+        "coincident_group": [
+          "w2",
+          "w4",
+          "w8",
+          "w12",
+          "w20",
+          "w28"
+        ]
+      }
+    ]
+  }
+}

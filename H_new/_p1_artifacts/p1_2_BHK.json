@@ -1,0 +1,819 @@
+{
+  "summary": {
+    "stem": "2 BHK ",
+    "image": "C:\\gdrive_dataset\\images\\train\\2 BHK .jpg",
+    "W": 229,
+    "H": 220,
+    "mpp": 0.01,
+    "mpp_source": "default_fallback",
+    "walls": 25,
+    "doors": 0,
+    "windows": 0,
+    "segments": 25,
+    "nodes": 15,
+    "fallback_count": 20,
+    "fallback_pct": 80.0,
+    "fallback_reasons": {
+      "RAW_TOO_THIN": 20
+    },
+    "raw_thickness": {
+      "median": 0.040000381469726565,
+      "min": 0.02,
+      "max": 0.06999958992004394
+    },
+    "final_thickness": {
+      "median": 0.23,
+      "min": 0.1,
+      "max": 0.23
+    },
+    "zero_length_count": 5,
+    "duplicate_group_count": 7,
+    "snap_group_count": 15,
+    "t_junction_count": 23,
+    "x_junction_count": 18,
+    "collinear_overlap_count": 76,
+    "door_map_pct": null,
+    "window_map_pct": null,
+    "endpoint_host_count": 0,
+    "interior_host_count": 0,
+    "unmapped_count": 0,
+    "unmapped_ids": [],
+    "unmapped_reasons": {},
+    "deterministic": true,
+    "determinism_diff": null,
+    "fingerprint": "f3bad26cd2b14fe93065b8728fba8d1b0c4617a80a8dcedd203a77842695edd2",
+    "geo_identity": {
+      "segment_ids": [
+        "w0",
+        "w1",
+        "w10",
+        "w11",
+        "w12",
+        "w13",
+        "w14",
+        "w15",
+        "w16",
+        "w17",
+        "w18",
+        "w19",
+        "w2",
+        "w20",
+        "w21",
+        "w22",
+        "w23",
+        "w24",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9"
+      ],
+      "thicknesses": {
+        "w0": 0.1,
+        "w1": 0.23,
+        "w2": 0.23,
+        "w3": 0.1,
+        "w4": 0.23,
+        "w5": 0.23,
+        "w6": 0.23,
+        "w7": 0.23,
+        "w8": 0.23,
+        "w9": 0.23,
+        "w10": 0.23,
+        "w11": 0.23,
+        "w12": 0.23,
+        "w13": 0.1,
+        "w14": 0.23,
+        "w15": 0.1,
+        "w16": 0.23,
+        "w17": 0.23,
+        "w18": 0.23,
+        "w19": 0.23,
+        "w20": 0.23,
+        "w21": 0.23,
+        "w22": 0.1,
+        "w23": 0.23,
+        "w24": 0.23
+      },
+      "lengths": {
+        "w0": 0.480084,
+        "w1": 0.647558,
+        "w2": 1.120011,
+        "w3": 0.271667,
+        "w4": 0.598832,
+        "w5": 0.0,
+        "w6": 0.480084,
+        "w7": 0.565001,
+        "w8": 0.0,
+        "w9": 1.092557,
+        "w10": 1.019,
+        "w11": 0.0,
+        "w12": 0.74805,
+        "w13": 0.486693,
+        "w14": 0.480084,
+        "w15": 0.647558,
+        "w16": 0.598832,
+        "w17": 0.0,
+        "w18": 0.74805,
+        "w19": 0.598832,
+        "w20": 1.120011,
+        "w21": 0.598832,
+        "w22": 1.30255,
+        "w23": 0.480084,
+        "w24": 0.0
+      },
+      "polylines": {
+        "w0": [
+          [
+            0.025,
+            1.399
+          ],
+          [
+            0.505,
+            1.39
+          ]
+        ],
+        "w1": [
+          [
+            1.375001,
+            2.115
+          ],
+          [
+            2.0225,
+            2.10625
+          ]
+        ],
+        "w2": [
+          [
+            2.26,
+            0.523333
+          ],
+          [
+            2.255,
+            1.643333
+          ]
+        ],
+        "w3": [
+          [
+            2.255,
+            1.643333
+          ],
+          [
+            2.255,
+            1.915
+          ]
+        ],
+        "w4": [
+          [
+            0.555,
+            1.649375
+          ],
+          [
+            1.152827,
+            1.684057
+          ]
+        ],
+        "w5": [
+          [
+            0.555,
+            1.649375
+          ],
+          [
+            0.555,
+            1.649375
+          ]
+        ],
+        "w6": [
+          [
+            0.025,
+            1.399
+          ],
+          [
+            0.505,
+            1.39
+          ]
+        ],
+        "w7": [
+          [
+            2.255,
+            1.349999
+          ],
+          [
+            2.255,
+            1.915
+          ]
+        ],
+        "w8": [
+          [
+            1.152827,
+            1.684057
+          ],
+          [
+            1.152827,
+            1.684057
+          ]
+        ],
+        "w9": [
+          [
+            0.930001,
+            2.095001
+          ],
+          [
+            2.0225,
+            2.10625
+          ]
+        ],
+        "w10": [
+          [
+            0.025,
+            0.38
+          ],
+          [
+            0.025,
+            1.399
+          ]
+        ],
+        "w11": [
+          [
+            1.897447,
+            1.6125
+          ],
+          [
+            1.897447,
+            1.6125
+          ]
+        ],
+        "w12": [
+          [
+            1.152827,
+            1.684057
+          ],
+          [
+            1.897447,
+            1.6125
+          ]
+        ],
+        "w13": [
+          [
+            2.26,
+            0.523333
+          ],
+          [
+            2.255,
+            1.01
+          ]
+        ],
+        "w14": [
+          [
+            0.025,
+            1.399
+          ],
+          [
+            0.505,
+            1.39
+          ]
+        ],
+        "w15": [
+          [
+            1.375001,
+            2.115
+          ],
+          [
+            2.0225,
+            2.10625
+          ]
+        ],
+        "w16": [
+          [
+            0.555,
+            1.649375
+          ],
+          [
+            1.152827,
+            1.684057
+          ]
+        ],
+        "w17": [
+          [
+            0.555,
+            1.649375
+          ],
+          [
+            0.555,
+            1.649375
+          ]
+        ],
+        "w18": [
+          [
+            1.152827,
+            1.684057
+          ],
+          [
+            1.897447,
+            1.6125
+          ]
+        ],
+        "w19": [
+          [
+            0.555,
+            1.649375
+          ],
+          [
+            1.152827,
+            1.684057
+          ]
+        ],
+        "w20": [
+          [
+            2.26,
+            0.523333
+          ],
+          [
+            2.255,
+            1.643333
+          ]
+        ],
+        "w21": [
+          [
+            0.555,
+            1.649375
+          ],
+          [
+            1.152827,
+            1.684057
+          ]
+        ],
+        "w22": [
+          [
+            0.719999,
+            2.095001
+          ],
+          [
+            2.0225,
+            2.10625
+          ]
+        ],
+        "w23": [
+          [
+            0.025,
+            1.399
+          ],
+          [
+            0.505,
+            1.39
+          ]
+        ],
+        "w24": [
+          [
+            1.152827,
+            1.684057
+          ],
+          [
+            1.152827,
+            1.684057
+          ]
+        ]
+      },
+      "hosts": [],
+      "unmapped": []
+    },
+    "mappings": []
+  },
+  "examples": {
+    "zero_length": [
+      {
+        "segment_id": "w5",
+        "length_m": 0.0,
+        "length_px": 0.0
+      },
+      {
+        "segment_id": "w8",
+        "length_m": 0.0,
+        "length_px": 0.0
+      },
+      {
+        "segment_id": "w11",
+        "length_m": 0.0,
+        "length_px": 0.0
+      },
+      {
+        "segment_id": "w17",
+        "length_m": 0.0,
+        "length_px": 0.0
+      },
+      {
+        "segment_id": "w24",
+        "length_m": 0.0,
+        "length_px": 0.0
+      }
+    ],
+    "duplicate_groups": [
+      {
+        "polyline_key": [
+          0.025,
+          1.399,
+          0.505,
+          1.39
+        ],
+        "segment_ids": [
+          "w0",
+          "w6",
+          "w14",
+          "w23"
+        ],
+        "count": 4
+      },
+      {
+        "polyline_key": [
+          1.375,
+          2.115,
+          2.0225,
+          2.1063
+        ],
+        "segment_ids": [
+          "w1",
+          "w15"
+        ],
+        "count": 2
+      },
+      {
+        "polyline_key": [
+          1.1528,
+          1.6841,
+          1.8974,
+          1.6125
+        ],
+        "segment_ids": [
+          "w12",
+          "w18"
+        ],
+        "count": 2
+      },
+      {
+        "polyline_key": [
+          2.255,
+          1.6433,
+          2.26,
+          0.5233
+        ],
+        "segment_ids": [
+          "w2",
+          "w20"
+        ],
+        "count": 2
+      },
+      {
+        "polyline_key": [
+          0.555,
+          1.6494,
+          1.1528,
+          1.6841
+        ],
+        "segment_ids": [
+          "w4",
+          "w16",
+          "w19",
+          "w21"
+        ],
+        "count": 4
+      },
+      {
+        "polyline_key": [
+          0.555,
+          1.6494,
+          0.555,
+          1.6494
+        ],
+        "segment_ids": [
+          "w5",
+          "w17"
+        ],
+        "count": 2
+      },
+      {
+        "polyline_key": [
+          1.1528,
+          1.6841,
+          1.1528,
+          1.6841
+        ],
+        "segment_ids": [
+          "w8",
+          "w24"
+        ],
+        "count": 2
+      }
+    ],
+    "snap_groups_gt1": [
+      {
+        "node_id": "n0",
+        "endpoint_indices": [
+          0,
+          12,
+          21,
+          28,
+          46
+        ],
+        "segment_ids": [
+          "w0",
+          "w10",
+          "w14",
+          "w23",
+          "w6"
+        ],
+        "size": 5
+      },
+      {
+        "node_id": "n1",
+        "endpoint_indices": [
+          1,
+          13,
+          29,
+          47
+        ],
+        "segment_ids": [
+          "w0",
+          "w14",
+          "w23",
+          "w6"
+        ],
+        "size": 4
+      },
+      {
+        "node_id": "n2",
+        "endpoint_indices": [
+          2,
+          30
+        ],
+        "segment_ids": [
+          "w1",
+          "w15"
+        ],
+        "size": 2
+      },
+      {
+        "node_id": "n3",
+        "endpoint_indices": [
+          3,
+          19,
+          31,
+          45
+        ],
+        "segment_ids": [
+          "w1",
+          "w15",
+          "w22",
+          "w9"
+        ],
+        "size": 4
+      },
+      {
+        "node_id": "n4",
+        "endpoint_indices": [
+          4,
+          26,
+          40
+        ],
+        "segment_ids": [
+          "w13",
+          "w2",
+          "w20"
+        ],
+        "size": 3
+      },
+      {
+        "node_id": "n5",
+        "endpoint_indices": [
+          5,
+          6,
+          41
+        ],
+        "segment_ids": [
+          "w2",
+          "w20",
+          "w3"
+        ],
+        "size": 3
+      },
+      {
+        "node_id": "n6",
+        "endpoint_indices": [
+          7,
+          15
+        ],
+        "segment_ids": [
+          "w3",
+          "w7"
+        ],
+        "size": 2
+      },
+      {
+        "node_id": "n7",
+        "endpoint_indices": [
+          8,
+          10,
+          11,
+          32,
+          34,
+          35,
+          38,
+          42
+        ],
+        "segment_ids": [
+          "w16",
+          "w17",
+          "w19",
+          "w21",
+          "w4",
+          "w5"
+        ],
+        "size": 8
+      },
+      {
+        "node_id": "n8",
+        "endpoint_indices": [
+          9,
+          16,
+          17,
+          24,
+          33,
+          36,
+          39,
+          43,
+          48,
+          49
+        ],
+        "segment_ids": [
+          "w12",
+          "w16",
+          "w18",
+          "w19",
+          "w21",
+          "w24",
+          "w4",
+          "w8"
+        ],
+        "size": 10
+      },
+      {
+        "node_id": "n12",
+        "endpoint_indices": [
+          22,
+          23,
+          25,
+          37
+        ],
+        "segment_ids": [
+          "w11",
+          "w12",
+          "w18"
+        ],
+        "size": 4
+      }
+    ],
+    "t_junctions": [
+      {
+        "endpoint_seg_id": "w0",
+        "endpoint_which": "b",
+        "host_seg_id": "w6",
+        "distance_px": 1.0000076293945312,
+        "t_on_host": 0.8979595904046596
+      },
+      {
+        "endpoint_seg_id": "w1",
+        "endpoint_which": "a",
+        "host_seg_id": "w9",
+        "distance_px": 0.9998998641967773,
+        "t_on_host": 0.32173932023234775
+      },
+      {
+        "endpoint_seg_id": "w1",
+        "endpoint_which": "b",
+        "host_seg_id": "w9",
+        "distance_px": 0.9998998641967773,
+        "t_on_host": 0.930433732087826
+      },
+      {
+        "endpoint_seg_id": "w2",
+        "endpoint_which": "a",
+        "host_seg_id": "w20",
+        "distance_px": 0.5000152587890625,
+        "t_on_host": 0.1322309487373981
+      },
+      {
+        "endpoint_seg_id": "w2",
+        "endpoint_which": "b",
+        "host_seg_id": "w7",
+        "distance_px": 1.52587890625e-05,
+        "t_on_host": 0.5862075587925747
+      },
+      {
+        "endpoint_seg_id": "w3",
+        "endpoint_which": "a",
+        "host_seg_id": "w7",
+        "distance_px": 0.5000152587890625,
+        "t_on_host": 0.41379240832217756
+      },
+      {
+        "endpoint_seg_id": "w3",
+        "endpoint_which": "b",
+        "host_seg_id": "w7",
+        "distance_px": 0.5000152587890625,
+        "t_on_host": 0.9482736428817317
+      },
+      {
+        "endpoint_seg_id": "w4",
+        "endpoint_which": "b",
+        "host_seg_id": "w16",
+        "distance_px": 1.0000076293945312,
+        "t_on_host": 0.9411799916076321
+      },
+      {
+        "endpoint_seg_id": "w5",
+        "endpoint_which": "a",
+        "host_seg_id": "w17",
+        "distance_px": 1.0000076293945312,
+        "t_on_host": 0.11111405449920889
+      },
+      {
+        "endpoint_seg_id": "w6",
+        "endpoint_which": "a",
+        "host_seg_id": "w10",
+        "distance_px": 1.499950170516965,
+        "t_on_host": 0.9481140810983455
+      },
+      {
+        "endpoint_seg_id": "w7",
+        "endpoint_which": "a",
+        "host_seg_id": "w2",
+        "distance_px": 1.52587890625e-05,
+        "t_on_host": 0.6880725847437845
+      },
+      {
+        "endpoint_seg_id": "w8",
+        "endpoint_which": "a",
+        "host_seg_id": "w24",
+        "distance_px": 1.556586605912912,
+        "t_on_host": 0.09161444416900845
+      },
+      {
+        "endpoint_seg_id": "w9",
+        "endpoint_which": "a",
+        "host_seg_id": "w22",
+        "distance_px": 1.4999589920043945,
+        "t_on_host": 0.15909234354152849
+      },
+      {
+        "endpoint_seg_id": "w11",
+        "endpoint_which": "a",
+        "host_seg_id": "w18",
+        "distance_px": 0.9999008178710938,
+        "t_on_host": 0.7727244668794572
+      },
+      {
+        "endpoint_seg_id": "w12",
+        "endpoint_which": "a",
+        "host_seg_id": "w24",
+        "distance_px": 10.999655868121891,
+        "t_on_host": 0.9037462647096891
+      },
+      {
+        "endpoint_seg_id": "w12",
+        "endpoint_which": "b",
+        "host_seg_id": "w18",
+        "distance_px": 0.0004531398504070694,
+        "t_on_host": 0.6966453798381504
+      },
+      {
+        "endpoint_seg_id": "w13",
+        "endpoint_which": "a",
+        "host_seg_id": "w20",
+        "distance_px": 1.0000457763671875,
+        "t_on_host": 0.07437989093117087
+      },
+      {
+        "endpoint_seg_id": "w13",
+        "endpoint_which": "b",
+        "host_seg_id": "w2",
+        "distance_px": 0.500030517578125,
+        "t_on_host": 0.3761470593361354
+      },
+      {
+        "endpoint_seg_id": "w15",
+        "endpoint_which": "a",
+        "host_seg_id": "w1",
+        "distance_px": 0.5000600814819336,
+        "t_on_host": 0.21428566757500314
+      },
+      {
+        "endpoint_seg_id": "w15",
+        "endpoint_which": "b",
+        "host_seg_id": "w9",
+        "distance_px": 1.499959945678711,
+        "t_on_host": 0.9043476835945596
+      }
+    ]
+  }
+}

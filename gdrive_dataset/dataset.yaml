@@ -1,0 +1,25 @@
+path: C:\Users\anmol\OneDrive\project_off\H_new\gdrive_dataset
+train: images/train
+val: images/train
+test: images/train
+
+nc: 17
+
+names:
+  0: Room
+  1: Window
+  2: Door
+  3: Wall
+  4: Slab
+  5: Roof
+  6: Column
+  7: Beam
+  8: Stair
+  9: Railing
+  10: CurtainWall
+  11: Furniture
+  12: Covering
+  13: LightFixture
+  14: ElectricAppliance
+  15: FlowTerminal
+  16: EnergyConversionDevice

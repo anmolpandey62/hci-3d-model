@@ -1,0 +1,19 @@
+{
+  "basename": "floor_plan_3_4bhk_complex",
+  "meters_per_pixel": 0.01420749106404659,
+  "source": "manual_ui",
+  "p1_px": [
+    511.0,
+    0.0
+  ],
+  "p2_px": [
+    379.80311298500953,
+    165.45187472246974
+  ],
+  "distance_m": 3.0,
+  "image_wh": [
+    511,
+    495
+  ],
+  "calibrated_at": "2026-09-02T15:21:39.718669+00:00"
+}

@@ -1,0 +1,1033 @@
+{
+  "summary": {
+    "stem": "1 BHK ",
+    "image": "C:\\gdrive_dataset\\images\\train\\1 BHK .jpg",
+    "W": 893,
+    "H": 1280,
+    "mpp": 0.01,
+    "mpp_source": "default_fallback",
+    "walls": 6,
+    "doors": 3,
+    "windows": 1,
+    "segments": 6,
+    "nodes": 9,
+    "fallback_count": 0,
+    "fallback_pct": 0.0,
+    "fallback_reasons": {},
+    "raw_thickness": {
+      "median": 0.29000181198120123,
+      "min": 0.1500030326843262,
+      "max": 0.44999664306640624
+    },
+    "final_thickness": {
+      "median": 0.29000181198120123,
+      "min": 0.1500030326843262,
+      "max": 0.4
+    },
+    "zero_length_count": 0,
+    "duplicate_group_count": 1,
+    "snap_group_count": 9,
+    "t_junction_count": 5,
+    "x_junction_count": 2,
+    "collinear_overlap_count": 4,
+    "door_map_pct": 0.0,
+    "window_map_pct": 0.0,
+    "endpoint_host_count": 0,
+    "interior_host_count": 0,
+    "unmapped_count": 4,
+    "unmapped_ids": [
+      "c2_0",
+      "c2_1",
+      "c2_2",
+      "c1_0"
+    ],
+    "unmapped_reasons": {
+      "TOO_FAR": 4
+    },
+    "deterministic": true,
+    "determinism_diff": null,
+    "fingerprint": "d672877af4fd6a99327b455c72a77339aa9fd7d180a61e5ff23972aa1dc8dbc7",
+    "geo_identity": {
+      "segment_ids": [
+        "w0",
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5"
+      ],
+      "thicknesses": {
+        "w0": 0.390003,
+        "w1": 0.28,
+        "w2": 0.300004,
+        "w3": 0.4,
+        "w4": 0.260006,
+        "w5": 0.150003
+      },
+      "lengths": {
+        "w0": 1.95,
+        "w1": 4.855308,
+        "w2": 7.650035,
+        "w3": 1.95,
+        "w4": 4.075373,
+        "w5": 4.229997
+      },
+      "polylines": {
+        "w0": [
+          [
+            6.260001,
+            8.819997
+          ],
+          [
+            8.21,
+            8.819997
+          ]
+        ],
+        "w1": [
+          [
+            7.889999,
+            4.030003
+          ],
+          [
+            7.835001,
+            8.884999
+          ]
+        ],
+        "w2": [
+          [
+            7.889999,
+            0.809998
+          ],
+          [
+            7.87,
+            8.460007
+          ]
+        ],
+        "w3": [
+          [
+            6.260001,
+            8.819997
+          ],
+          [
+            8.21,
+            8.819997
+          ]
+        ],
+        "w4": [
+          [
+            7.889999,
+            4.809997
+          ],
+          [
+            7.835001,
+            8.884999
+          ]
+        ],
+        "w5": [
+          [
+            1.999998,
+            10.164998
+          ],
+          [
+            6.229996,
+            10.164998
+          ]
+        ]
+      },
+      "hosts": [],
+      "unmapped": [
+        "c1_0",
+        "c2_0",
+        "c2_1",
+        "c2_2"
+      ]
+    },
+    "mappings": []
+  },
+  "examples": {
+    "unmapped": [
+      {
+        "opening_id": "c2_0",
+        "class": "door",
+        "centroid_px": [
+          345.9999847412108,
+          449.5001525878906
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w5",
+        "nearest_distance_m": 1.8599999999999994,
+        "nearest_distance_px": 185.99999999999994,
+        "nearest_d_max": 0.55,
+        "nearest_t": 0.3451542491426392,
+        "nearest_projection_class": "interior",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 1.8599999999999994,
+            "distance_px": 185.99999999999994,
+            "d_max": 0.55,
+            "t": 0.3451542491426392,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 2.8469683845359555,
+            "distance_px": 284.69683845359555,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 2.8469683845359555,
+            "distance_px": 284.69683845359555,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 4.381290532178957,
+            "distance_px": 438.12905321789566,
+            "d_max": 0.5700000000000001,
+            "t": 0.890757463234372,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 4.3824301340097005,
+            "distance_px": 438.24301340097,
+            "d_max": 0.55,
+            "t": 0.8721818986754489,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 4.410390307139636,
+            "distance_px": 441.0390307139636,
+            "d_max": 0.6000054359436036,
+            "t": 0.9812446531574646,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      },
+      {
+        "opening_id": "c2_1",
+        "class": "door",
+        "centroid_px": [
+          327.99978637695307,
+          453.5001678466799
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w5",
+        "nearest_distance_m": 1.900000152587893,
+        "nearest_distance_px": 190.0000152587893,
+        "nearest_d_max": 0.55,
+        "nearest_t": 0.3026005610764992,
+        "nearest_projection_class": "interior",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 1.900000152587893,
+            "distance_px": 190.0000152587893,
+            "d_max": 0.55,
+            "t": 0.3026005610764992,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 3.0312441685589055,
+            "distance_px": 303.12441685589056,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 3.0312441685589055,
+            "distance_px": 303.12441685589056,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 4.561734061619756,
+            "distance_px": 456.1734061619756,
+            "d_max": 0.5700000000000001,
+            "t": 0.8829394932315209,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 4.562955532145096,
+            "distance_px": 456.29555321450954,
+            "d_max": 0.55,
+            "t": 0.8629637565827383,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 4.5904962444124475,
+            "distance_px": 459.04962444124476,
+            "d_max": 0.6000054359436036,
+            "t": 0.9760774277832178,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      },
+      {
+        "opening_id": "c2_2",
+        "class": "door",
+        "centroid_px": [
+          346.0,
+          464.4998474121094
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w5",
+        "nearest_distance_m": 2.009996948242186,
+        "nearest_distance_px": 200.9996948242186,
+        "nearest_d_max": 0.55,
+        "nearest_t": 0.3451542852154503,
+        "nearest_projection_class": "interior",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 2.009996948242186,
+            "distance_px": 200.9996948242186,
+            "d_max": 0.55,
+            "t": 0.3451542852154503,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 2.8778852672529975,
+            "distance_px": 287.78852672529973,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 2.8778852672529975,
+            "distance_px": 287.78852672529973,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 4.382989441071044,
+            "distance_px": 438.2989441071044,
+            "d_max": 0.5700000000000001,
+            "t": 0.8598660468111402,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 4.384454205075259,
+            "distance_px": 438.44542050752585,
+            "d_max": 0.55,
+            "t": 0.8353795498578751,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 4.410782277723786,
+            "distance_px": 441.0782277723786,
+            "d_max": 0.6000054359436036,
+            "t": 0.9616373647905448,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      },
+      {
+        "opening_id": "c1_0",
+        "class": "window",
+        "centroid_px": [
+          498.06440448069685,
+          453.4923287078502
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w0",
+        "nearest_distance_m": 1.3945215218896558,
+        "nearest_distance_px": 139.45215218896558,
+        "nearest_d_max": 0.7350044631958008,
+        "nearest_t": 0.0,
+        "nearest_projection_class": "endpoint_start",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w0",
+            "distance_m": 1.3945215218896558,
+            "distance_px": 139.45215218896558,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 1.3945215218896558,
+            "distance_px": 139.45215218896558,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w5",
+            "distance_m": 1.8999217611995949,
+            "distance_px": 189.99217611995948,
+            "d_max": 0.55,
+            "t": 0.7046448365575915,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 2.8611960992737857,
+            "distance_px": 286.1196099273786,
+            "d_max": 0.5700000000000001,
+            "t": 0.8789880741334598,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 2.8624631591382896,
+            "distance_px": 286.24631591382894,
+            "d_max": 0.55,
+            "t": 0.8573515082853557,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 2.889855669631046,
+            "distance_px": 288.9855669631046,
+            "d_max": 0.6000054359436036,
+            "t": 0.9755065217236167,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      }
+    ],
+    "all_openings": [
+      {
+        "opening_id": "c2_0",
+        "class": "door",
+        "centroid_px": [
+          345.9999847412108,
+          449.5001525878906
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w5",
+        "nearest_distance_m": 1.8599999999999994,
+        "nearest_distance_px": 185.99999999999994,
+        "nearest_d_max": 0.55,
+        "nearest_t": 0.3451542491426392,
+        "nearest_projection_class": "interior",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 1.8599999999999994,
+            "distance_px": 185.99999999999994,
+            "d_max": 0.55,
+            "t": 0.3451542491426392,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 2.8469683845359555,
+            "distance_px": 284.69683845359555,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 2.8469683845359555,
+            "distance_px": 284.69683845359555,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 4.381290532178957,
+            "distance_px": 438.12905321789566,
+            "d_max": 0.5700000000000001,
+            "t": 0.890757463234372,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 4.3824301340097005,
+            "distance_px": 438.24301340097,
+            "d_max": 0.55,
+            "t": 0.8721818986754489,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 4.410390307139636,
+            "distance_px": 441.0390307139636,
+            "d_max": 0.6000054359436036,
+            "t": 0.9812446531574646,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      },
+      {
+        "opening_id": "c2_1",
+        "class": "door",
+        "centroid_px": [
+          327.99978637695307,
+          453.5001678466799
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w5",
+        "nearest_distance_m": 1.900000152587893,
+        "nearest_distance_px": 190.0000152587893,
+        "nearest_d_max": 0.55,
+        "nearest_t": 0.3026005610764992,
+        "nearest_projection_class": "interior",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 1.900000152587893,
+            "distance_px": 190.0000152587893,
+            "d_max": 0.55,
+            "t": 0.3026005610764992,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 3.0312441685589055,
+            "distance_px": 303.12441685589056,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 3.0312441685589055,
+            "distance_px": 303.12441685589056,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 4.561734061619756,
+            "distance_px": 456.1734061619756,
+            "d_max": 0.5700000000000001,
+            "t": 0.8829394932315209,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 4.562955532145096,
+            "distance_px": 456.29555321450954,
+            "d_max": 0.55,
+            "t": 0.8629637565827383,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 4.5904962444124475,
+            "distance_px": 459.04962444124476,
+            "d_max": 0.6000054359436036,
+            "t": 0.9760774277832178,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      },
+      {
+        "opening_id": "c2_2",
+        "class": "door",
+        "centroid_px": [
+          346.0,
+          464.4998474121094
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w5",
+        "nearest_distance_m": 2.009996948242186,
+        "nearest_distance_px": 200.9996948242186,
+        "nearest_d_max": 0.55,
+        "nearest_t": 0.3451542852154503,
+        "nearest_projection_class": "interior",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w5",
+            "distance_m": 2.009996948242186,
+            "distance_px": 200.9996948242186,
+            "d_max": 0.55,
+            "t": 0.3451542852154503,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w0",
+            "distance_m": 2.8778852672529975,
+            "distance_px": 287.78852672529973,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 2.8778852672529975,
+            "distance_px": 287.78852672529973,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 4.382989441071044,
+            "distance_px": 438.2989441071044,
+            "d_max": 0.5700000000000001,
+            "t": 0.8598660468111402,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 4.384454205075259,
+            "distance_px": 438.44542050752585,
+            "d_max": 0.55,
+            "t": 0.8353795498578751,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 4.410782277723786,
+            "distance_px": 441.0782277723786,
+            "d_max": 0.6000054359436036,
+            "t": 0.9616373647905448,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      },
+      {
+        "opening_id": "c1_0",
+        "class": "window",
+        "centroid_px": [
+          498.06440448069685,
+          453.4923287078502
+        ],
+        "accepted": false,
+        "rejection_reason": "TOO_FAR",
+        "nearest_candidate_wall": "w0",
+        "nearest_distance_m": 1.3945215218896558,
+        "nearest_distance_px": 139.45215218896558,
+        "nearest_d_max": 0.7350044631958008,
+        "nearest_t": 0.0,
+        "nearest_projection_class": "endpoint_start",
+        "candidate_count": 6,
+        "candidates_within_d_max": [],
+        "top_candidates": [
+          {
+            "wall_id": "w0",
+            "distance_m": 1.3945215218896558,
+            "distance_px": 139.45215218896558,
+            "d_max": 0.7350044631958008,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.3900029754638672,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 0,
+            "rank_by_distance": 0
+          },
+          {
+            "wall_id": "w3",
+            "distance_m": 1.3945215218896558,
+            "distance_px": 139.45215218896558,
+            "d_max": 0.7500000000000001,
+            "t": 0.0,
+            "projection_class": "endpoint_start",
+            "accepted_by_threshold": false,
+            "wall_length_m": 1.949999542236328,
+            "wall_thickness_m": 0.4,
+            "coincident_group": [
+              "w0",
+              "w3"
+            ],
+            "encounter_index": 3,
+            "rank_by_distance": 1
+          },
+          {
+            "wall_id": "w5",
+            "distance_m": 1.8999217611995949,
+            "distance_px": 189.99217611995948,
+            "d_max": 0.55,
+            "t": 0.7046448365575915,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.229997253417968,
+            "wall_thickness_m": 0.1500030326843262,
+            "coincident_group": null,
+            "encounter_index": 5,
+            "rank_by_distance": 2
+          },
+          {
+            "wall_id": "w1",
+            "distance_m": 2.8611960992737857,
+            "distance_px": 286.1196099273786,
+            "d_max": 0.5700000000000001,
+            "t": 0.8789880741334598,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.85530752982014,
+            "wall_thickness_m": 0.28,
+            "coincident_group": null,
+            "encounter_index": 1,
+            "rank_by_distance": 3
+          },
+          {
+            "wall_id": "w4",
+            "distance_m": 2.8624631591382896,
+            "distance_px": 286.24631591382894,
+            "d_max": 0.55,
+            "t": 0.8573515082853557,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 4.075372794108348,
+            "wall_thickness_m": 0.26000610351562503,
+            "coincident_group": null,
+            "encounter_index": 4,
+            "rank_by_distance": 4
+          },
+          {
+            "wall_id": "w2",
+            "distance_m": 2.889855669631046,
+            "distance_px": 288.9855669631046,
+            "d_max": 0.6000054359436036,
+            "t": 0.9755065217236167,
+            "projection_class": "interior",
+            "accepted_by_threshold": false,
+            "wall_length_m": 7.650034685447581,
+            "wall_thickness_m": 0.3000036239624024,
+            "coincident_group": null,
+            "encounter_index": 2,
+            "rank_by_distance": 5
+          }
+        ]
+      }
+    ]
+  }
+}

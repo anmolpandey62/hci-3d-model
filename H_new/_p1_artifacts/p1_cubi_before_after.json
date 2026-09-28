@@ -1,0 +1,4 @@
+{
+  "match": true,
+  "note": "geometry identical to pre-P1 cubi debug JSON; segment keys identical; only graph.diagnostics added"
+}

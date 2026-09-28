@@ -1,0 +1,1138 @@
+{
+  "W": 515,
+  "H": 495,
+  "meters_per_pixel": 0.01,
+  "nodes": [
+    {
+      "id": "n0",
+      "x_px": 291.0002899169922,
+      "y_px": 70.50011444091797
+    },
+    {
+      "id": "n1",
+      "x_px": 452.00006103515625,
+      "y_px": 70.50011444091797
+    },
+    {
+      "id": "n2",
+      "x_px": 452.00006103515625,
+      "y_px": 434.00013732910156
+    },
+    {
+      "id": "n3",
+      "x_px": 42.49985885620116,
+      "y_px": 326.9999694824219
+    },
+    {
+      "id": "n4",
+      "x_px": 42.49985885620118,
+      "y_px": 60.999847412109375
+    },
+    {
+      "id": "n5",
+      "x_px": 448.5001220703125,
+      "y_px": 256.7499313354492
+    },
+    {
+      "id": "n6",
+      "x_px": 448.5001220703125,
+      "y_px": 70.50011444091797
+    }
+  ],
+  "segments": [
+    {
+      "id": "w0",
+      "source_polygon_id": "c3_0",
+      "source_polygon_ids": [
+        "c3_0"
+      ],
+      "merged_from": [
+        "w0"
+      ],
+      "polyline_px": [
+        [
+          291.0002899169922,
+          70.50011444091797
+        ],
+        [
+          452.00006103515625,
+          70.50011444091797
+        ]
+      ],
+      "thickness_px": 2.87115478515625,
+      "length_px": 160.99977111816406,
+      "start_node_id": "n0",
+      "end_node_id": "n1",
+      "polyline_m": [
+        [
+          2.910002899169922,
+          4.24499885559082
+        ],
+        [
+          4.520000610351563,
+          4.24499885559082
+        ]
+      ],
+      "thickness_m": 0.0287115478515625,
+      "length_m": 1.6099977111816406,
+      "ext_start_m": 0.0,
+      "ext_end_m": 0.05
+    },
+    {
+      "id": "w1",
+      "source_polygon_id": "c3_1",
+      "source_polygon_ids": [
+        "c3_1",
+        "c3_4",
+        "c3_7"
+      ],
+      "merged_from": [
+        "w1",
+        "w4",
+        "w7"
+      ],
+      "polyline_px": [
+        [
+          452.00006103515625,
+          434.00013732910156
+        ],
+        [
+          452.00006103515625,
+          70.50011444091797
+        ]
+      ],
+      "thickness_px": 8.0001220703125,
+      "length_px": 363.5000228881836,
+      "start_node_id": "n2",
+      "end_node_id": "n1",
+      "polyline_m": [
+        [
+          4.520000610351563,
+          0.6099986267089844
+        ],
+        [
+          4.520000610351563,
+          4.24499885559082
+        ]
+      ],
+      "thickness_m": 0.080001220703125,
+      "length_m": 3.635000228881836,
+      "ext_start_m": 0.0,
+      "ext_end_m": 0.05
+    },
+    {
+      "id": "w2",
+      "source_polygon_id": "c3_2",
+      "source_polygon_ids": [
+        "c3_2",
+        "c3_3",
+        "c3_5",
+        "c3_6"
+      ],
+      "merged_from": [
+        "w2",
+        "w3",
+        "w5",
+        "w6"
+      ],
+      "polyline_px": [
+        [
+          42.49985885620116,
+          326.9999694824219
+        ],
+        [
+          42.49985885620118,
+          60.999847412109375
+        ]
+      ],
+      "thickness_px": 7.0,
+      "length_px": 266.0001220703125,
+      "start_node_id": "n3",
+      "end_node_id": "n4",
+      "polyline_m": [
+        [
+          0.42499858856201156,
+          1.6800003051757812
+        ],
+        [
+          0.4249985885620118,
+          4.340001525878907
+        ]
+      ],
+      "thickness_m": 0.07,
+      "length_m": 2.660001220703125,
+      "ext_start_m": 0.0,
+      "ext_end_m": 0.0
+    },
+    {
+      "id": "w8",
+      "source_polygon_id": "c3_8",
+      "source_polygon_ids": [
+        "c3_8"
+      ],
+      "merged_from": [
+        "w8"
+      ],
+      "polyline_px": [
+        [
+          448.5001220703125,
+          256.7499313354492
+        ],
+        [
+          448.5001220703125,
+          70.50011444091797
+        ]
+      ],
+      "thickness_px": 7.0,
+      "length_px": 186.24981689453125,
+      "start_node_id": "n5",
+      "end_node_id": "n6",
+      "polyline_m": [
+        [
+          4.485001220703125,
+          2.382500686645508
+        ],
+        [
+          4.485001220703125,
+          4.24499885559082
+        ]
+      ],
+      "thickness_m": 0.07,
+      "length_m": 1.8624981689453126,
+      "ext_start_m": 0.0,
+      "ext_end_m": 0.0
+    }
+  ],
+  "junctions": [
+    {
+      "kind": "L",
+      "a": "w0",
+      "a_end": "ATEND",
+      "b": "w1",
+      "b_end": "ATEND",
+      "point_px": [
+        452.00006103515625,
+        70.50011444091797
+      ],
+      "gap_px": 0.0
+    },
+    {
+      "kind": "T",
+      "a": "w8",
+      "a_end": "ATEND",
+      "b": "w0",
+      "b_end": "ATPATH",
+      "point_px": [
+        448.5001220703125,
+        70.50011444091797
+      ],
+      "gap_px": 0.0
+    }
+  ],
+  "gt_wall_count": 9,
+  "diagnostics": {
+    "p1_version": 1,
+    "p2_version": 1,
+    "p3_version": 1,
+    "p5a_version": 1,
+    "p5b_version": 1,
+    "scale_confidence": "low",
+    "plan_median_m": 0.07,
+    "thickness": [
+      {
+        "segment_id": "w0",
+        "source_polygon_id": "c3_0",
+        "thick_px": 2.87115478515625,
+        "raw_m": 0.0287115478515625,
+        "thickness_m": 0.0287115478515625,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 179.99966430664062,
+        "length_px_post_snap": 179.99966430664062,
+        "length_m": 1.7999966430664063,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 2.87115478515625,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 3.000190258026123,
+        "sampled_widths_px": [
+          3.000244140625,
+          3.000244140625,
+          3.000244140625,
+          3.000244140625,
+          3.000244140625,
+          3.000244140625,
+          2.968017578125,
+          2.87115478515625,
+          2.77435302734375,
+          2.67755126953125,
+          2.58074951171875,
+          2.48394775390625,
+          2.38714599609375,
+          2.290283203125,
+          2.1934814453125
+        ],
+        "valid_sample_count": 15,
+        "rejected_sample_count": 2,
+        "median_sample_width_px": 2.87115478515625,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w1",
+        "source_polygon_id": "c3_1",
+        "thick_px": 8.0001220703125,
+        "raw_m": 0.080001220703125,
+        "thickness_m": 0.080001220703125,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 190.00027465820312,
+        "length_px_post_snap": 190.00027465820312,
+        "length_m": 1.9000027465820313,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 8.0001220703125,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 8.000028610229492,
+        "sampled_widths_px": [
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125
+        ],
+        "valid_sample_count": 19,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 8.0001220703125,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w2",
+        "source_polygon_id": "c3_2",
+        "thick_px": 7.0,
+        "raw_m": 0.07,
+        "thickness_m": 0.07,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 178.99989318847656,
+        "length_px_post_snap": 178.99989318847656,
+        "length_m": 1.7899989318847656,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 7.0,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 6.999880790710449,
+        "sampled_widths_px": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "valid_sample_count": 17,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 7.0,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w3",
+        "source_polygon_id": "c3_3",
+        "thick_px": 7.0,
+        "raw_m": 0.07,
+        "thickness_m": 0.07,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 266.0001220703125,
+        "length_px_post_snap": 266.0001220703125,
+        "length_m": 2.660001220703125,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 7.0,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 6.999881744384766,
+        "sampled_widths_px": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "valid_sample_count": 21,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 7.0,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w4",
+        "source_polygon_id": "c3_4",
+        "thick_px": 6.499908447265625,
+        "raw_m": 0.06499908447265625,
+        "thickness_m": 0.06499908447265625,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 180.00027465820312,
+        "length_px_post_snap": 180.00027465820312,
+        "length_m": 1.8000027465820312,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 6.499908447265625,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 6.999907493591309,
+        "sampled_widths_px": [
+          6.89996337890625,
+          6.8529052734375,
+          6.80584716796875,
+          6.7587890625,
+          6.71173095703125,
+          6.6646728515625,
+          6.61761474609375,
+          6.57049560546875,
+          6.5234375,
+          6.47637939453125,
+          6.4293212890625,
+          6.38226318359375,
+          6.335205078125,
+          6.28814697265625,
+          6.2410888671875,
+          6.1939697265625,
+          6.14691162109375,
+          6.099853515625
+        ],
+        "valid_sample_count": 18,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 6.499908447265625,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w5",
+        "source_polygon_id": "c3_5",
+        "thick_px": 6.50201416015625,
+        "raw_m": 0.0650201416015625,
+        "thickness_m": 0.0650201416015625,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 237.00006103515625,
+        "length_px_post_snap": 237.00006103515625,
+        "length_m": 2.3700006103515627,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 6.50201416015625,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 6.999881744384766,
+        "sampled_widths_px": [
+          6.90374755859375,
+          6.86358642578125,
+          6.82342529296875,
+          6.78326416015625,
+          6.74310302734375,
+          6.702880859375,
+          6.6627197265625,
+          6.62255859375,
+          6.5823974609375,
+          6.54217529296875,
+          6.50201416015625,
+          6.46185302734375,
+          6.42169189453125,
+          6.38153076171875,
+          6.34130859375,
+          6.3011474609375,
+          6.260986328125,
+          6.2208251953125,
+          6.18060302734375,
+          6.14044189453125,
+          6.10028076171875
+        ],
+        "valid_sample_count": 21,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 6.50201416015625,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w6",
+        "source_polygon_id": "c3_6",
+        "thick_px": 7.503082275390625,
+        "raw_m": 0.07503082275390625,
+        "thickness_m": 0.07503082275390625,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 180.0002899169922,
+        "length_px_post_snap": 180.0002899169922,
+        "length_m": 1.800002899169922,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 7.503082275390625,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 8.000009536743164,
+        "sampled_widths_px": [
+          7.10101318359375,
+          7.1483154296875,
+          7.19561767578125,
+          7.242919921875,
+          7.29022216796875,
+          7.3375244140625,
+          7.38482666015625,
+          7.43212890625,
+          7.47943115234375,
+          7.5267333984375,
+          7.57403564453125,
+          7.621337890625,
+          7.66864013671875,
+          7.7159423828125,
+          7.76324462890625,
+          7.810546875,
+          7.85784912109375,
+          7.9051513671875
+        ],
+        "valid_sample_count": 18,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 7.503082275390625,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w7",
+        "source_polygon_id": "c3_7",
+        "thick_px": 8.0001220703125,
+        "raw_m": 0.080001220703125,
+        "thickness_m": 0.080001220703125,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 183.99990844726562,
+        "length_px_post_snap": 183.99990844726562,
+        "length_m": 1.8399990844726564,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 8.0001220703125,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 8.0,
+        "sampled_widths_px": [
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125,
+          8.0001220703125
+        ],
+        "valid_sample_count": 18,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 8.0001220703125,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      },
+      {
+        "segment_id": "w8",
+        "source_polygon_id": "c3_8",
+        "thick_px": 7.0,
+        "raw_m": 0.07,
+        "thickness_m": 0.07,
+        "fallback_occurred": false,
+        "fallback_reason": null,
+        "result_kind": "raw",
+        "length_px_pre_snap": 188.99990844726562,
+        "length_px_post_snap": 188.99990844726562,
+        "length_m": 1.8899990844726562,
+        "mpp": 0.01,
+        "image_width": 515,
+        "image_height": 495,
+        "thickness_px": 7.0,
+        "thickness_method": "perpendicular_median",
+        "raw_obb_px": 6.9998779296875,
+        "sampled_widths_px": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "valid_sample_count": 18,
+        "rejected_sample_count": 0,
+        "median_sample_width_px": 7.0,
+        "scale_confidence": "low",
+        "clipped": false,
+        "plan_median_used": false,
+        "global_fallback_used": false,
+        "plan_median_m": 0.07
+      }
+    ],
+    "p5b": {
+      "p5b_version": 1,
+      "enabled": false,
+      "activations": 0
+    },
+    "connect": {
+      "enabled": true,
+      "L": 1,
+      "T": 1,
+      "X": 0,
+      "ends_connected": 3,
+      "max_gap_bridged_px": 0.0
+    },
+    "topology": {
+      "segment_count_pre_snap": 9,
+      "segment_count_post_snap": 4,
+      "old_segment_count": 9,
+      "new_segment_count": 4,
+      "old_node_count": 8,
+      "new_node_count": 7,
+      "node_count": 7,
+      "snap_px": 20.0,
+      "snap_m": 0.2,
+      "snap_policy": {
+        "alpha": 0.75,
+        "snap_m_min": 0.05,
+        "snap_m_max": 0.15,
+        "beta": 0.025,
+        "legacy_SNAP_PX": 20.0
+      },
+      "mpp": 0.01,
+      "image_width": 515,
+      "image_height": 495,
+      "snap_groups": [
+        {
+          "node_id": "n4",
+          "endpoint_indices": [],
+          "segment_ids": [
+            "w2"
+          ],
+          "size": 1
+        },
+        {
+          "node_id": "n3",
+          "endpoint_indices": [],
+          "segment_ids": [
+            "w2"
+          ],
+          "size": 1
+        },
+        {
+          "node_id": "n0",
+          "endpoint_indices": [],
+          "segment_ids": [
+            "w0"
+          ],
+          "size": 1
+        },
+        {
+          "node_id": "n6",
+          "endpoint_indices": [],
+          "segment_ids": [
+            "w8"
+          ],
+          "size": 1
+        },
+        {
+          "node_id": "n5",
+          "endpoint_indices": [],
+          "segment_ids": [
+            "w8"
+          ],
+          "size": 1
+        },
+        {
+          "node_id": "n1",
+          "endpoint_indices": [],
+          "segment_ids": [
+            "w0",
+            "w1"
+          ],
+          "size": 2
+        },
+        {
+          "node_id": "n2",
+          "endpoint_indices": [],
+          "segment_ids": [
+            "w1"
+          ],
+          "size": 1
+        }
+      ],
+      "zero_length_before": 0,
+      "zero_length_after": 0,
+      "zero_length_segments": [],
+      "duplicate_groups_before": 2,
+      "duplicate_groups_after": 0,
+      "duplicate_coincident_groups": [],
+      "duplicate_merge_records": [
+        {
+          "duplicate_group_id": "dup0",
+          "canonical_segment_id": "w1",
+          "merged_from": [
+            "w1",
+            "w7",
+            "w8"
+          ],
+          "count": 3,
+          "action": "DETECTED_PRE_P5A"
+        },
+        {
+          "duplicate_group_id": "dup1",
+          "canonical_segment_id": "w2",
+          "merged_from": [
+            "w2",
+            "w6"
+          ],
+          "count": 2,
+          "action": "DETECTED_PRE_P5A"
+        }
+      ],
+      "collinear_merges": [
+        {
+          "merge_group_id": "run0",
+          "canonical_segment_id": "w1",
+          "merged_from": [
+            "w1",
+            "w4",
+            "w7"
+          ],
+          "member_count": 3,
+          "union_length_px": 364.0002136230469,
+          "topology_type": "P5A_WALL_RUN",
+          "merge_reason": "COLLINEAR_OR_COINCIDENT_UNION",
+          "action": "P5A_MERGED"
+        },
+        {
+          "merge_group_id": "run1",
+          "canonical_segment_id": "w2",
+          "merged_from": [
+            "w2",
+            "w3",
+            "w5",
+            "w6"
+          ],
+          "member_count": 4,
+          "union_length_px": 266.0001220703125,
+          "topology_type": "P5A_WALL_RUN",
+          "merge_reason": "COLLINEAR_OR_COINCIDENT_UNION",
+          "action": "P5A_MERGED"
+        }
+      ],
+      "collinear_overlap_candidates": [
+        {
+          "merge_group_id": "run0",
+          "canonical_segment_id": "w1",
+          "merged_from": [
+            "w1",
+            "w4",
+            "w7"
+          ],
+          "member_count": 3,
+          "union_length_px": 364.0002136230469,
+          "topology_type": "P5A_WALL_RUN",
+          "merge_reason": "COLLINEAR_OR_COINCIDENT_UNION",
+          "action": "P5A_MERGED"
+        },
+        {
+          "merge_group_id": "run1",
+          "canonical_segment_id": "w2",
+          "merged_from": [
+            "w2",
+            "w3",
+            "w5",
+            "w6"
+          ],
+          "member_count": 4,
+          "union_length_px": 266.0001220703125,
+          "topology_type": "P5A_WALL_RUN",
+          "merge_reason": "COLLINEAR_OR_COINCIDENT_UNION",
+          "action": "P5A_MERGED"
+        }
+      ],
+      "t_junction_candidates": [
+        {
+          "endpoint_seg_id": "w1",
+          "endpoint_which": "b",
+          "host_seg_id": "w0",
+          "distance_px": 0.5001907348632812,
+          "t_on_host": 0.8944448409853195,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w2",
+          "endpoint_which": "a",
+          "host_seg_id": "w5",
+          "distance_px": 3.814697265625e-06,
+          "t_on_host": 0.2194104172820614,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w2",
+          "endpoint_which": "b",
+          "host_seg_id": "w3",
+          "distance_px": 1.0001335144042969,
+          "t_on_host": 0.9473681870685379,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w5",
+          "endpoint_which": "a",
+          "host_seg_id": "w3",
+          "distance_px": 1.0001296997070312,
+          "t_on_host": 0.07894687328051883,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w6",
+          "endpoint_which": "a",
+          "host_seg_id": "w5",
+          "distance_px": 1.3060730818566513,
+          "t_on_host": 0.19411554950361726,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w6",
+          "endpoint_which": "b",
+          "host_seg_id": "w3",
+          "distance_px": 1.5002021789550781,
+          "t_on_host": 0.9285712032134765,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w7",
+          "endpoint_which": "b",
+          "host_seg_id": "w0",
+          "distance_px": 0.5001907348632812,
+          "t_on_host": 0.9055544469365296,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w8",
+          "endpoint_which": "b",
+          "host_seg_id": "w0",
+          "distance_px": 0.5001907348632812,
+          "t_on_host": 0.8750006993624696,
+          "topology_type": "T",
+          "snap_px": 20.0
+        }
+      ],
+      "T_snaps": [
+        {
+          "endpoint_seg_id": "w1",
+          "endpoint_which": "b",
+          "host_seg_id": "w0",
+          "distance_px": 0.5001907348632812,
+          "t_on_host": 0.8944448409853195,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w2",
+          "endpoint_which": "a",
+          "host_seg_id": "w5",
+          "distance_px": 3.814697265625e-06,
+          "t_on_host": 0.2194104172820614,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w2",
+          "endpoint_which": "b",
+          "host_seg_id": "w3",
+          "distance_px": 1.0001335144042969,
+          "t_on_host": 0.9473681870685379,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w5",
+          "endpoint_which": "a",
+          "host_seg_id": "w3",
+          "distance_px": 1.0001296997070312,
+          "t_on_host": 0.07894687328051883,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w6",
+          "endpoint_which": "a",
+          "host_seg_id": "w5",
+          "distance_px": 1.3060730818566513,
+          "t_on_host": 0.19411554950361726,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w6",
+          "endpoint_which": "b",
+          "host_seg_id": "w3",
+          "distance_px": 1.5002021789550781,
+          "t_on_host": 0.9285712032134765,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w7",
+          "endpoint_which": "b",
+          "host_seg_id": "w0",
+          "distance_px": 0.5001907348632812,
+          "t_on_host": 0.9055544469365296,
+          "topology_type": "T",
+          "snap_px": 20.0
+        },
+        {
+          "endpoint_seg_id": "w8",
+          "endpoint_which": "b",
+          "host_seg_id": "w0",
+          "distance_px": 0.5001907348632812,
+          "t_on_host": 0.8750006993624696,
+          "topology_type": "T",
+          "snap_px": 20.0
+        }
+      ],
+      "endpoint_snaps": 0,
+      "L_junctions": [
+        {
+          "segment_a": "w0",
+          "segment_b": "w1",
+          "angle_diff_deg": 90.0,
+          "topology_type": "L"
+        }
+      ],
+      "X_intersections": [],
+      "x_junction_candidates": [],
+      "near_misses": [],
+      "culled": [],
+      "culled_count": 0,
+      "segments": [
+        {
+          "original_segment_id": "w0",
+          "canonical_segment_id": "w0",
+          "source_polygon_ids": [
+            "c3_0"
+          ],
+          "topology_status": "ACTIVE",
+          "duplicate_group_id": null,
+          "merged_from": [
+            "w0"
+          ],
+          "snap_px": 20.0,
+          "snap_m": 0.2,
+          "original_length_px": 179.99966430664062,
+          "final_length_px": 160.99977111816406,
+          "final_length_m": 1.6099977111816406,
+          "culled_reason": null
+        },
+        {
+          "original_segment_id": "w1",
+          "canonical_segment_id": "w1",
+          "source_polygon_ids": [
+            "c3_1",
+            "c3_4",
+            "c3_7"
+          ],
+          "topology_status": "P5A_WALL_RUN",
+          "duplicate_group_id": "dup0",
+          "merged_from": [
+            "w1",
+            "w4",
+            "w7"
+          ],
+          "snap_px": 20.0,
+          "snap_m": 0.2,
+          "original_length_px": 554.0004577636719,
+          "final_length_px": 363.5000228881836,
+          "final_length_m": 3.635000228881836,
+          "culled_reason": null
+        },
+        {
+          "original_segment_id": "w2",
+          "canonical_segment_id": "w2",
+          "source_polygon_ids": [
+            "c3_2",
+            "c3_3",
+            "c3_5",
+            "c3_6"
+          ],
+          "topology_status": "P5A_WALL_RUN",
+          "duplicate_group_id": "dup1",
+          "merged_from": [
+            "w2",
+            "w3",
+            "w5",
+            "w6"
+          ],
+          "snap_px": 20.0,
+          "snap_m": 0.2,
+          "original_length_px": 862.0003662109375,
+          "final_length_px": 266.0001220703125,
+          "final_length_m": 2.660001220703125,
+          "culled_reason": null
+        },
+        {
+          "original_segment_id": "w8",
+          "canonical_segment_id": "w8",
+          "source_polygon_ids": [
+            "c3_8"
+          ],
+          "topology_status": "ACTIVE",
+          "duplicate_group_id": "dup0",
+          "merged_from": [
+            "w8"
+          ],
+          "snap_px": 20.0,
+          "snap_m": 0.2,
+          "original_length_px": 188.99990844726562,
+          "final_length_px": 186.24981689453125,
+          "final_length_m": 1.8624981689453126,
+          "culled_reason": null
+        }
+      ],
+      "degree_distribution": {
+        "1": 6,
+        "2": 1
+      },
+      "duplicates_removed": 5,
+      "duplicates_detected": 3,
+      "p5a_wall_runs": [
+        {
+          "merge_group_id": "run0",
+          "canonical_segment_id": "w1",
+          "merged_from": [
+            "w1",
+            "w4",
+            "w7"
+          ],
+          "member_count": 3,
+          "union_length_px": 364.0002136230469,
+          "topology_type": "P5A_WALL_RUN",
+          "merge_reason": "COLLINEAR_OR_COINCIDENT_UNION",
+          "action": "P5A_MERGED"
+        },
+        {
+          "merge_group_id": "run1",
+          "canonical_segment_id": "w2",
+          "merged_from": [
+            "w2",
+            "w3",
+            "w5",
+            "w6"
+          ],
+          "member_count": 4,
+          "union_length_px": 266.0001220703125,
+          "topology_type": "P5A_WALL_RUN",
+          "merge_reason": "COLLINEAR_OR_COINCIDENT_UNION",
+          "action": "P5A_MERGED"
+        }
+      ],
+      "p5a_merge_count": 2
+    }
+  }
+}

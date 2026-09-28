@@ -1,0 +1,180 @@
+{
+  "results": [
+    {
+      "stem": "cubi_hqa_9333_20260811_140939_043808",
+      "walls": 34,
+      "doors": 3,
+      "windows": 9,
+      "segs": 34,
+      "nodes": 24,
+      "zero_after": 0,
+      "thickness_median": 0.2850030517578125,
+      "global_fallback": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "unmapped": [
+        "c1_0",
+        "c1_1",
+        "c1_2",
+        "c1_3",
+        "c1_4",
+        "c1_5",
+        "c1_6",
+        "c1_7",
+        "c1_8",
+        "c2_0",
+        "c2_1",
+        "c2_2"
+      ],
+      "unmapped_reasons": {
+        "ENDPOINT_ONLY": 10,
+        "TOO_FAR": 2
+      },
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true
+    },
+    {
+      "stem": "3 BHK ",
+      "walls": 128,
+      "doors": 6,
+      "windows": 0,
+      "segs": 100,
+      "nodes": 18,
+      "zero_after": 0,
+      "thickness_median": 0.04456634521484375,
+      "global_fallback": 0,
+      "door_mapped": 3,
+      "win_mapped": 0,
+      "unmapped": [
+        "c2_0",
+        "c2_2",
+        "c2_3"
+      ],
+      "unmapped_reasons": {
+        "ENDPOINT_ONLY": 3
+      },
+      "endpoint_hosts": 0,
+      "interior_hosts": 3,
+      "door_maps": [
+        [
+          "c2_1",
+          "w41",
+          0.562284,
+          "interior"
+        ],
+        [
+          "c2_4",
+          "w41",
+          0.543436,
+          "interior"
+        ],
+        [
+          "c2_5",
+          "w0",
+          0.149592,
+          "interior"
+        ]
+      ],
+      "win_maps": [],
+      "hosts": [
+        [
+          "c2_1",
+          "w41",
+          0.562284
+        ],
+        [
+          "c2_4",
+          "w41",
+          0.543436
+        ],
+        [
+          "c2_5",
+          "w0",
+          0.149592
+        ]
+      ],
+      "deterministic": true
+    },
+    {
+      "stem": "2 BHK ",
+      "walls": 25,
+      "doors": 0,
+      "windows": 0,
+      "segs": 25,
+      "nodes": 26,
+      "zero_after": 0,
+      "thickness_median": 0.040001220703125,
+      "global_fallback": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "unmapped": [],
+      "unmapped_reasons": {},
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true
+    },
+    {
+      "stem": "1 BHK ",
+      "walls": 6,
+      "doors": 3,
+      "windows": 1,
+      "segs": 6,
+      "nodes": 9,
+      "zero_after": 0,
+      "thickness_median": 0.2900030517578125,
+      "global_fallback": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "unmapped": [
+        "c1_0",
+        "c2_0",
+        "c2_1",
+        "c2_2"
+      ],
+      "unmapped_reasons": {
+        "TOO_FAR": 4
+      },
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true
+    },
+    {
+      "stem": "1 BHK HOUSE ",
+      "walls": 4,
+      "doors": 1,
+      "windows": 1,
+      "segs": 4,
+      "nodes": 8,
+      "zero_after": 0,
+      "thickness_median": 0.2875152587890625,
+      "global_fallback": 0,
+      "door_mapped": 0,
+      "win_mapped": 0,
+      "unmapped": [
+        "c1_0",
+        "c2_0"
+      ],
+      "unmapped_reasons": {
+        "TOO_FAR": 2
+      },
+      "endpoint_hosts": 0,
+      "interior_hosts": 0,
+      "door_maps": [],
+      "win_maps": [],
+      "hosts": [],
+      "deterministic": true
+    }
+  ],
+  "failures": [],
+  "all_gates_passed": true
+}

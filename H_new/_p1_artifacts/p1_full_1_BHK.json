@@ -1,0 +1,743 @@
+{
+  "thickness": [
+    {
+      "segment_id": "w0",
+      "source_polygon_id": "c3_0",
+      "thick_px": 39.00029754638672,
+      "raw_m": 0.3900029754638672,
+      "thickness_m": 0.3900029754638672,
+      "fallback_occurred": false,
+      "fallback_reason": null,
+      "result_kind": "raw",
+      "length_px_pre_snap": 196.00009155273438,
+      "length_px_post_snap": 194.9999542236328,
+      "length_m": 1.949999542236328,
+      "mpp": 0.01,
+      "image_width": 893,
+      "image_height": 1280
+    },
+    {
+      "segment_id": "w1",
+      "source_polygon_id": "c3_1",
+      "thick_px": 28.0,
+      "raw_m": 0.28,
+      "thickness_m": 0.28,
+      "fallback_occurred": false,
+      "fallback_reason": null,
+      "result_kind": "raw",
+      "length_px_pre_snap": 492.99969482421875,
+      "length_px_post_snap": 485.53075298201395,
+      "length_m": 4.85530752982014,
+      "mpp": 0.01,
+      "image_width": 893,
+      "image_height": 1280
+    },
+    {
+      "segment_id": "w2",
+      "source_polygon_id": "c3_2",
+      "thick_px": 30.000362396240234,
+      "raw_m": 0.3000036239624024,
+      "thickness_m": 0.3000036239624024,
+      "fallback_occurred": false,
+      "fallback_reason": null,
+      "result_kind": "raw",
+      "length_px_pre_snap": 765.0008544921875,
+      "length_px_post_snap": 765.0034685447581,
+      "length_m": 7.650034685447581,
+      "mpp": 0.01,
+      "image_width": 893,
+      "image_height": 1280
+    },
+    {
+      "segment_id": "w3",
+      "source_polygon_id": "c3_3",
+      "thick_px": 44.999664306640625,
+      "raw_m": 0.44999664306640624,
+      "thickness_m": 0.4,
+      "fallback_occurred": false,
+      "fallback_reason": null,
+      "result_kind": "clipped",
+      "length_px_pre_snap": 193.99981689453125,
+      "length_px_post_snap": 194.9999542236328,
+      "length_m": 1.949999542236328,
+      "mpp": 0.01,
+      "image_width": 893,
+      "image_height": 1280
+    },
+    {
+      "segment_id": "w4",
+      "source_polygon_id": "c3_4",
+      "thick_px": 26.0006103515625,
+      "raw_m": 0.26000610351562503,
+      "thickness_m": 0.26000610351562503,
+      "fallback_occurred": false,
+      "fallback_reason": null,
+      "result_kind": "raw",
+      "length_px_pre_snap": 425.0009460449219,
+      "length_px_post_snap": 407.5372794108348,
+      "length_m": 4.075372794108348,
+      "mpp": 0.01,
+      "image_width": 893,
+      "image_height": 1280
+    },
+    {
+      "segment_id": "w5",
+      "source_polygon_id": "c3_5",
+      "thick_px": 15.000303268432617,
+      "raw_m": 0.1500030326843262,
+      "thickness_m": 0.1500030326843262,
+      "fallback_occurred": false,
+      "fallback_reason": null,
+      "result_kind": "raw",
+      "length_px_pre_snap": 422.9997253417969,
+      "length_px_post_snap": 422.9997253417969,
+      "length_m": 4.229997253417968,
+      "mpp": 0.01,
+      "image_width": 893,
+      "image_height": 1280
+    }
+  ],
+  "topology": {
+    "segment_count_pre_snap": 6,
+    "segment_count_post_snap": 6,
+    "node_count": 9,
+    "snap_px": 20.0,
+    "snap_m": 0.2,
+    "mpp": 0.01,
+    "image_width": 893,
+    "image_height": 1280,
+    "snap_groups": [
+      {
+        "node_id": "n0",
+        "endpoint_indices": [
+          0,
+          6
+        ],
+        "segment_ids": [
+          "w0",
+          "w3"
+        ],
+        "size": 2
+      },
+      {
+        "node_id": "n1",
+        "endpoint_indices": [
+          1,
+          7
+        ],
+        "segment_ids": [
+          "w0",
+          "w3"
+        ],
+        "size": 2
+      },
+      {
+        "node_id": "n2",
+        "endpoint_indices": [
+          2
+        ],
+        "segment_ids": [
+          "w1"
+        ],
+        "size": 1
+      },
+      {
+        "node_id": "n3",
+        "endpoint_indices": [
+          3,
+          9
+        ],
+        "segment_ids": [
+          "w1",
+          "w4"
+        ],
+        "size": 2
+      },
+      {
+        "node_id": "n4",
+        "endpoint_indices": [
+          4
+        ],
+        "segment_ids": [
+          "w2"
+        ],
+        "size": 1
+      },
+      {
+        "node_id": "n5",
+        "endpoint_indices": [
+          5
+        ],
+        "segment_ids": [
+          "w2"
+        ],
+        "size": 1
+      },
+      {
+        "node_id": "n6",
+        "endpoint_indices": [
+          8
+        ],
+        "segment_ids": [
+          "w4"
+        ],
+        "size": 1
+      },
+      {
+        "node_id": "n7",
+        "endpoint_indices": [
+          10
+        ],
+        "segment_ids": [
+          "w5"
+        ],
+        "size": 1
+      },
+      {
+        "node_id": "n8",
+        "endpoint_indices": [
+          11
+        ],
+        "segment_ids": [
+          "w5"
+        ],
+        "size": 1
+      }
+    ],
+    "zero_length_segments": [],
+    "duplicate_coincident_groups": [
+      {
+        "polyline_key": [
+          6.26,
+          8.82,
+          8.21,
+          8.82
+        ],
+        "segment_ids": [
+          "w0",
+          "w3"
+        ],
+        "count": 2
+      }
+    ],
+    "collinear_overlap_candidates": [
+      {
+        "segment_a": "w0",
+        "segment_b": "w3",
+        "angle_delta_deg": 0.0,
+        "min_end_dist_m": 0.0
+      },
+      {
+        "segment_a": "w1",
+        "segment_b": "w2",
+        "angle_delta_deg": 0.499,
+        "min_end_dist_m": 0.0084
+      },
+      {
+        "segment_a": "w1",
+        "segment_b": "w4",
+        "angle_delta_deg": 0.124,
+        "min_end_dist_m": 0.0
+      },
+      {
+        "segment_a": "w2",
+        "segment_b": "w4",
+        "angle_delta_deg": 0.623,
+        "min_end_dist_m": 0.0293
+      }
+    ],
+    "t_junction_candidates": [
+      {
+        "endpoint_seg_id": "w1",
+        "endpoint_which": "a",
+        "host_seg_id": "w2",
+        "distance_px": 8.9996337890625,
+        "t_on_host": 0.4209151609084383
+      },
+      {
+        "endpoint_seg_id": "w1",
+        "endpoint_which": "b",
+        "host_seg_id": "w0",
+        "distance_px": 7.500091552734375,
+        "t_on_host": 0.7857147750629775
+      },
+      {
+        "endpoint_seg_id": "w2",
+        "endpoint_which": "b",
+        "host_seg_id": "w4",
+        "distance_px": 1.9998779296875,
+        "t_on_host": 0.858823879571155
+      },
+      {
+        "endpoint_seg_id": "w4",
+        "endpoint_which": "a",
+        "host_seg_id": "w2",
+        "distance_px": 1.9998779296875,
+        "t_on_host": 0.5228750933278357
+      },
+      {
+        "endpoint_seg_id": "w4",
+        "endpoint_which": "b",
+        "host_seg_id": "w0",
+        "distance_px": 17.500778198242188,
+        "t_on_host": 0.8214277984800696
+      }
+    ],
+    "x_junction_candidates": [
+      {
+        "segment_a": "w0",
+        "segment_b": "w3",
+        "mid_dist_a_to_b": 0.0,
+        "mid_dist_b_to_a": 0.0
+      },
+      {
+        "segment_a": "w1",
+        "segment_b": "w4",
+        "mid_dist_a_to_b": 0.0053,
+        "mid_dist_b_to_a": 0.0044
+      }
+    ]
+  },
+  "openings": [
+    {
+      "opening_id": "c2_0",
+      "class": "door",
+      "centroid_px": [
+        345.9999847412108,
+        449.5001525878906
+      ],
+      "accepted": false,
+      "rejection_reason": "TOO_FAR",
+      "nearest_candidate_wall": "w5",
+      "nearest_distance_m": 1.8599999999999994,
+      "nearest_distance_px": 185.99999999999994,
+      "nearest_d_max": 0.55,
+      "nearest_t": 0.3451542491426392,
+      "nearest_projection_class": "interior",
+      "candidate_count": 6,
+      "candidates_within_d_max": [],
+      "top_candidates": [
+        {
+          "wall_id": "w5",
+          "distance_m": 1.8599999999999994,
+          "distance_px": 185.99999999999994,
+          "d_max": 0.55,
+          "t": 0.3451542491426392,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.229997253417968,
+          "wall_thickness_m": 0.1500030326843262,
+          "coincident_group": null,
+          "encounter_index": 5,
+          "rank_by_distance": 0
+        },
+        {
+          "wall_id": "w0",
+          "distance_m": 2.8469683845359555,
+          "distance_px": 284.69683845359555,
+          "d_max": 0.7350044631958008,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.3900029754638672,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 0,
+          "rank_by_distance": 1
+        },
+        {
+          "wall_id": "w3",
+          "distance_m": 2.8469683845359555,
+          "distance_px": 284.69683845359555,
+          "d_max": 0.7500000000000001,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.4,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 3,
+          "rank_by_distance": 2
+        },
+        {
+          "wall_id": "w1",
+          "distance_m": 4.381290532178957,
+          "distance_px": 438.12905321789566,
+          "d_max": 0.5700000000000001,
+          "t": 0.890757463234372,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.85530752982014,
+          "wall_thickness_m": 0.28,
+          "coincident_group": null,
+          "encounter_index": 1,
+          "rank_by_distance": 3
+        },
+        {
+          "wall_id": "w4",
+          "distance_m": 4.3824301340097005,
+          "distance_px": 438.24301340097,
+          "d_max": 0.55,
+          "t": 0.8721818986754489,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.075372794108348,
+          "wall_thickness_m": 0.26000610351562503,
+          "coincident_group": null,
+          "encounter_index": 4,
+          "rank_by_distance": 4
+        },
+        {
+          "wall_id": "w2",
+          "distance_m": 4.410390307139636,
+          "distance_px": 441.0390307139636,
+          "d_max": 0.6000054359436036,
+          "t": 0.9812446531574646,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 7.650034685447581,
+          "wall_thickness_m": 0.3000036239624024,
+          "coincident_group": null,
+          "encounter_index": 2,
+          "rank_by_distance": 5
+        }
+      ]
+    },
+    {
+      "opening_id": "c2_1",
+      "class": "door",
+      "centroid_px": [
+        327.99978637695307,
+        453.5001678466799
+      ],
+      "accepted": false,
+      "rejection_reason": "TOO_FAR",
+      "nearest_candidate_wall": "w5",
+      "nearest_distance_m": 1.900000152587893,
+      "nearest_distance_px": 190.0000152587893,
+      "nearest_d_max": 0.55,
+      "nearest_t": 0.3026005610764992,
+      "nearest_projection_class": "interior",
+      "candidate_count": 6,
+      "candidates_within_d_max": [],
+      "top_candidates": [
+        {
+          "wall_id": "w5",
+          "distance_m": 1.900000152587893,
+          "distance_px": 190.0000152587893,
+          "d_max": 0.55,
+          "t": 0.3026005610764992,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.229997253417968,
+          "wall_thickness_m": 0.1500030326843262,
+          "coincident_group": null,
+          "encounter_index": 5,
+          "rank_by_distance": 0
+        },
+        {
+          "wall_id": "w0",
+          "distance_m": 3.0312441685589055,
+          "distance_px": 303.12441685589056,
+          "d_max": 0.7350044631958008,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.3900029754638672,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 0,
+          "rank_by_distance": 1
+        },
+        {
+          "wall_id": "w3",
+          "distance_m": 3.0312441685589055,
+          "distance_px": 303.12441685589056,
+          "d_max": 0.7500000000000001,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.4,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 3,
+          "rank_by_distance": 2
+        },
+        {
+          "wall_id": "w1",
+          "distance_m": 4.561734061619756,
+          "distance_px": 456.1734061619756,
+          "d_max": 0.5700000000000001,
+          "t": 0.8829394932315209,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.85530752982014,
+          "wall_thickness_m": 0.28,
+          "coincident_group": null,
+          "encounter_index": 1,
+          "rank_by_distance": 3
+        },
+        {
+          "wall_id": "w4",
+          "distance_m": 4.562955532145096,
+          "distance_px": 456.29555321450954,
+          "d_max": 0.55,
+          "t": 0.8629637565827383,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.075372794108348,
+          "wall_thickness_m": 0.26000610351562503,
+          "coincident_group": null,
+          "encounter_index": 4,
+          "rank_by_distance": 4
+        },
+        {
+          "wall_id": "w2",
+          "distance_m": 4.5904962444124475,
+          "distance_px": 459.04962444124476,
+          "d_max": 0.6000054359436036,
+          "t": 0.9760774277832178,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 7.650034685447581,
+          "wall_thickness_m": 0.3000036239624024,
+          "coincident_group": null,
+          "encounter_index": 2,
+          "rank_by_distance": 5
+        }
+      ]
+    },
+    {
+      "opening_id": "c2_2",
+      "class": "door",
+      "centroid_px": [
+        346.0,
+        464.4998474121094
+      ],
+      "accepted": false,
+      "rejection_reason": "TOO_FAR",
+      "nearest_candidate_wall": "w5",
+      "nearest_distance_m": 2.009996948242186,
+      "nearest_distance_px": 200.9996948242186,
+      "nearest_d_max": 0.55,
+      "nearest_t": 0.3451542852154503,
+      "nearest_projection_class": "interior",
+      "candidate_count": 6,
+      "candidates_within_d_max": [],
+      "top_candidates": [
+        {
+          "wall_id": "w5",
+          "distance_m": 2.009996948242186,
+          "distance_px": 200.9996948242186,
+          "d_max": 0.55,
+          "t": 0.3451542852154503,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.229997253417968,
+          "wall_thickness_m": 0.1500030326843262,
+          "coincident_group": null,
+          "encounter_index": 5,
+          "rank_by_distance": 0
+        },
+        {
+          "wall_id": "w0",
+          "distance_m": 2.8778852672529975,
+          "distance_px": 287.78852672529973,
+          "d_max": 0.7350044631958008,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.3900029754638672,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 0,
+          "rank_by_distance": 1
+        },
+        {
+          "wall_id": "w3",
+          "distance_m": 2.8778852672529975,
+          "distance_px": 287.78852672529973,
+          "d_max": 0.7500000000000001,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.4,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 3,
+          "rank_by_distance": 2
+        },
+        {
+          "wall_id": "w1",
+          "distance_m": 4.382989441071044,
+          "distance_px": 438.2989441071044,
+          "d_max": 0.5700000000000001,
+          "t": 0.8598660468111402,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.85530752982014,
+          "wall_thickness_m": 0.28,
+          "coincident_group": null,
+          "encounter_index": 1,
+          "rank_by_distance": 3
+        },
+        {
+          "wall_id": "w4",
+          "distance_m": 4.384454205075259,
+          "distance_px": 438.44542050752585,
+          "d_max": 0.55,
+          "t": 0.8353795498578751,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.075372794108348,
+          "wall_thickness_m": 0.26000610351562503,
+          "coincident_group": null,
+          "encounter_index": 4,
+          "rank_by_distance": 4
+        },
+        {
+          "wall_id": "w2",
+          "distance_m": 4.410782277723786,
+          "distance_px": 441.0782277723786,
+          "d_max": 0.6000054359436036,
+          "t": 0.9616373647905448,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 7.650034685447581,
+          "wall_thickness_m": 0.3000036239624024,
+          "coincident_group": null,
+          "encounter_index": 2,
+          "rank_by_distance": 5
+        }
+      ]
+    },
+    {
+      "opening_id": "c1_0",
+      "class": "window",
+      "centroid_px": [
+        498.06440448069685,
+        453.4923287078502
+      ],
+      "accepted": false,
+      "rejection_reason": "TOO_FAR",
+      "nearest_candidate_wall": "w0",
+      "nearest_distance_m": 1.3945215218896558,
+      "nearest_distance_px": 139.45215218896558,
+      "nearest_d_max": 0.7350044631958008,
+      "nearest_t": 0.0,
+      "nearest_projection_class": "endpoint_start",
+      "candidate_count": 6,
+      "candidates_within_d_max": [],
+      "top_candidates": [
+        {
+          "wall_id": "w0",
+          "distance_m": 1.3945215218896558,
+          "distance_px": 139.45215218896558,
+          "d_max": 0.7350044631958008,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.3900029754638672,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 0,
+          "rank_by_distance": 0
+        },
+        {
+          "wall_id": "w3",
+          "distance_m": 1.3945215218896558,
+          "distance_px": 139.45215218896558,
+          "d_max": 0.7500000000000001,
+          "t": 0.0,
+          "projection_class": "endpoint_start",
+          "accepted_by_threshold": false,
+          "wall_length_m": 1.949999542236328,
+          "wall_thickness_m": 0.4,
+          "coincident_group": [
+            "w0",
+            "w3"
+          ],
+          "encounter_index": 3,
+          "rank_by_distance": 1
+        },
+        {
+          "wall_id": "w5",
+          "distance_m": 1.8999217611995949,
+          "distance_px": 189.99217611995948,
+          "d_max": 0.55,
+          "t": 0.7046448365575915,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.229997253417968,
+          "wall_thickness_m": 0.1500030326843262,
+          "coincident_group": null,
+          "encounter_index": 5,
+          "rank_by_distance": 2
+        },
+        {
+          "wall_id": "w1",
+          "distance_m": 2.8611960992737857,
+          "distance_px": 286.1196099273786,
+          "d_max": 0.5700000000000001,
+          "t": 0.8789880741334598,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.85530752982014,
+          "wall_thickness_m": 0.28,
+          "coincident_group": null,
+          "encounter_index": 1,
+          "rank_by_distance": 3
+        },
+        {
+          "wall_id": "w4",
+          "distance_m": 2.8624631591382896,
+          "distance_px": 286.24631591382894,
+          "d_max": 0.55,
+          "t": 0.8573515082853557,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 4.075372794108348,
+          "wall_thickness_m": 0.26000610351562503,
+          "coincident_group": null,
+          "encounter_index": 4,
+          "rank_by_distance": 4
+        },
+        {
+          "wall_id": "w2",
+          "distance_m": 2.889855669631046,
+          "distance_px": 288.9855669631046,
+          "d_max": 0.6000054359436036,
+          "t": 0.9755065217236167,
+          "projection_class": "interior",
+          "accepted_by_threshold": false,
+          "wall_length_m": 7.650034685447581,
+          "wall_thickness_m": 0.3000036239624024,
+          "coincident_group": null,
+          "encounter_index": 2,
+          "rank_by_distance": 5
+        }
+      ]
+    }
+  ]
+}

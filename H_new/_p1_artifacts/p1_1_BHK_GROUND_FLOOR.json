@@ -1,0 +1,97 @@
+{
+  "summary": {
+    "stem": "1 BHK GROUND FLOOR ",
+    "image": "C:\\gdrive_dataset\\images\\train\\1 BHK GROUND FLOOR .jpg",
+    "W": 1639,
+    "H": 1999,
+    "mpp": 0.01,
+    "mpp_source": "default_fallback",
+    "walls": 3,
+    "doors": 0,
+    "windows": 0,
+    "segments": 3,
+    "nodes": 6,
+    "fallback_count": 0,
+    "fallback_pct": 0.0,
+    "fallback_reasons": {},
+    "raw_thickness": {
+      "median": 0.5199996948242187,
+      "min": 0.3426771926879883,
+      "max": 0.5199996948242187
+    },
+    "final_thickness": {
+      "median": 0.4,
+      "min": 0.3426771926879883,
+      "max": 0.4
+    },
+    "zero_length_count": 0,
+    "duplicate_group_count": 0,
+    "snap_group_count": 6,
+    "t_junction_count": 1,
+    "x_junction_count": 0,
+    "collinear_overlap_count": 0,
+    "door_map_pct": null,
+    "window_map_pct": null,
+    "endpoint_host_count": 0,
+    "interior_host_count": 0,
+    "unmapped_count": 0,
+    "unmapped_ids": [],
+    "unmapped_reasons": {},
+    "deterministic": true,
+    "determinism_diff": null,
+    "fingerprint": "aa874362579b3fa3be225823e0eafa660c776b6ad4241720b0cdb660cd6e31af",
+    "geo_identity": {
+      "segment_ids": [
+        "w0",
+        "w1",
+        "w2"
+      ],
+      "thicknesses": {
+        "w0": 0.342677,
+        "w1": 0.4,
+        "w2": 0.4
+      },
+      "lengths": {
+        "w0": 10.509839,
+        "w1": 4.879991,
+        "w2": 2.100002
+      },
+      "polylines": {
+        "w0": [
+          [
+            14.301327,
+            5.380167
+          ],
+          [
+            14.311335,
+            15.890001
+          ]
+        ],
+        "w1": [
+          [
+            10.420009,
+            15.890001
+          ],
+          [
+            15.300001,
+            15.890001
+          ]
+        ],
+        "w2": [
+          [
+            2.860006,
+            15.890001
+          ],
+          [
+            4.960007,
+            15.890001
+          ]
+        ]
+      },
+      "hosts": [],
+      "unmapped": []
+    },
+    "mappings": []
+  },
+  "examples": {}
+}
